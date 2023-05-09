@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nex:nexml xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tb="http://purl.org/phylo/treebase/2.0/terms#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#S22639" generator="org.nexml.model.impl.DocumentImpl" id="S22639" version="0.9" xml:base="http://purl.org/phylo/treebase/phylows/study/TB2:">
+  <meta content="Generated on Tue May 09 19:26:12 UTC 2023" datatype="xsd:string" id="meta329507" property="skos:changeNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlDocumentWriter@4272021f $Rev$" datatype="xsd:string" id="meta329506" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta329505" property="prism:number" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta329504" property="prism:volume" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mycological Progress" datatype="xsd:string" id="meta329503" property="dc:publisher" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mycological Progress" datatype="xsd:string" id="meta329502" property="prism:publicationName" xsi:type="nex:LiteralMeta"/>
+  <meta content="Taxonomy" datatype="xsd:string" id="meta329501" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="Evolution" datatype="xsd:string" id="meta329500" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta329499" property="prism:doi" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018" datatype="xsd:string" id="meta329498" property="prism:publicationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="Grove G." datatype="xsd:string" id="meta329497" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Romberg M." datatype="xsd:string" id="meta329496" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Latham S." datatype="xsd:string" id="meta329495" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Meeboon J." datatype="xsd:string" id="meta329494" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Braun U." datatype="xsd:string" id="meta329493" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Pandey B." datatype="xsd:string" id="meta329492" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Bradshaw M." datatype="xsd:string" id="meta329491" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Moparthi S." datatype="xsd:string" id="meta329490" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Moparthi S., Bradshaw M., Pandey B., Braun U., Meeboon J., Latham S., Romberg M., &amp; Grove G." datatype="xsd:string" id="meta329489" property="dc:creator" xsi:type="nex:LiteralMeta"/>
+  <meta content="Phylogeny and taxonomy of Podosphaera cerasi sp. nov., and Podosphaera prunicola s. lat." datatype="xsd:string" id="meta329488" property="dc:title" xsi:type="nex:LiteralMeta"/>
+  <meta content="Moparthi S., Bradshaw M., Pandey B., Braun U., Meeboon J., Latham S., Romberg M., &amp; Grove G. 2018. Phylogeny and taxonomy of Podosphaera cerasi sp. nov., and Podosphaera prunicola s. lat. Mycological Progress, ." datatype="xsd:string" id="meta329487" property="dcterms:bibliographicCitation" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-04-23" datatype="xsd:string" id="meta329486" property="prism:creationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2019-05-25" datatype="xsd:string" id="meta329485" property="prism:modificationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2019-05-25" datatype="xsd:string" id="meta329484" property="dc:date" xsi:type="nex:LiteralMeta"/>
+  <meta content="Phylogeny and taxonomy of Podosphaera cerasi sp. nov., and Podosphaera prunicola s. lat." datatype="xsd:string" id="meta329483" property="tb:title.study" xsi:type="nex:LiteralMeta"/>
+  <meta datatype="xsd:anySimpleType" id="meta329482" property="tb:identifier.study.tb1" xsi:type="nex:LiteralMeta"/>
+  <meta content="22639" datatype="xsd:string" id="meta329481" property="tb:identifier.study" xsi:type="nex:LiteralMeta"/>
+  <meta content="Study" datatype="xsd:string" id="meta329479" property="prism:section" xsi:type="nex:LiteralMeta"/>
+  <otus about="#Tls68945" id="Tls68945" label="Taxa" xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@28fdd570 $Rev$" datatype="xsd:string" id="meta329509" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <otu about="#Tl3643026" id="Tl3643026" label="Podosphaera clandestina Ex_Prunus_laurocerasus_AF011316_USA">
+      <meta content="79691" datatype="xsd:long" id="meta329516" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="419455" datatype="xsd:long" id="meta329515" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/62725" id="meta329514" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Podosphaera clandestina" datatype="xsd:string" id="meta329513" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3136349" id="meta329512" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329511" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643015" id="Tl3643015" label="Podosphaera clandestina Ex_Prunus_laurocerasus_AF011317_USA">
+      <meta content="79691" datatype="xsd:long" id="meta329523" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="419455" datatype="xsd:long" id="meta329522" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/62725" id="meta329521" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Podosphaera clandestina" datatype="xsd:string" id="meta329520" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3136349" id="meta329519" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329518" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643002" id="Tl3643002" label="Podosphaera amelanchieris Ex_Amelanchier_laevis_AB525927_GER">
+      <meta content="633306" datatype="xsd:long" id="meta329529" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="848318" datatype="xsd:long" id="meta329528" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Podosphaera amelanchieris" datatype="xsd:string" id="meta329527" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4010789" id="meta329526" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329525" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643017" id="Tl3643017" label="Podosphaera clandestina Ex_Crataegus_monogyna_AB525930_ARG">
+      <meta content="79691" datatype="xsd:long" id="meta329536" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="419455" datatype="xsd:long" id="meta329535" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/62725" id="meta329534" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Podosphaera clandestina" datatype="xsd:string" id="meta329533" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3136349" id="meta329532" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329531" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643025" id="Tl3643025" label="Podosphaera clandestina Ex_Crataegus_oxycantha_AB525931_ARG">
+      <meta content="79691" datatype="xsd:long" id="meta329543" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="419455" datatype="xsd:long" id="meta329542" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/62725" id="meta329541" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Podosphaera clandestina" datatype="xsd:string" id="meta329540" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3136349" id="meta329539" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329538" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643012" id="Tl3643012" label="Podosphaera clandestina Ex_Crataegus_sp._AB525932_ARG">
+      <meta content="79691" datatype="xsd:long" id="meta329550" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="419455" datatype="xsd:long" id="meta329549" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/62725" id="meta329548" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Podosphaera clandestina" datatype="xsd:string" id="meta329547" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3136349" id="meta329546" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329545" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643001" id="Tl3643001" label="Podosphaera aphanis Ex_Rubus_sp._MF919432_WA_USA">
+      <meta content="91275" datatype="xsd:long" id="meta329557" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="170137" datatype="xsd:long" id="meta329556" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/79252" id="meta329555" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Podosphaera aphanis" datatype="xsd:string" id="meta329554" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3355532" id="meta329553" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329552" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643014" id="Tl3643014" label="Podosphaera aphanis Ex_Fragaria_sp._MF919433_WA_USA">
+      <meta content="91275" datatype="xsd:long" id="meta329564" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="170137" datatype="xsd:long" id="meta329563" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/79252" id="meta329562" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Podosphaera aphanis" datatype="xsd:string" id="meta329561" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3355532" id="meta329560" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329559" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643005" id="Tl3643005" label="Podosphaera spiraeae Ex_Spiraea_japonica_MF919434_WA_USA">
+      <meta content="38390" datatype="xsd:long" id="meta329571" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="88775" datatype="xsd:long" id="meta329570" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/92478" id="meta329569" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Podosphaera spiraeae" datatype="xsd:string" id="meta329568" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3355580" id="meta329567" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329566" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643003" id="Tl3643003" label="Podosphaera amelanchieris Ex_Amelanchier_sp._MG016459_WA_USA">
+      <meta content="633306" datatype="xsd:long" id="meta329577" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="848318" datatype="xsd:long" id="meta329576" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Podosphaera amelanchieris" datatype="xsd:string" id="meta329575" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4010789" id="meta329574" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329573" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643022" id="Tl3643022" label="Podosphaera clandestina Ex_Crataegus_sp._MG062783_USA">
+      <meta content="79691" datatype="xsd:long" id="meta329584" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="419455" datatype="xsd:long" id="meta329583" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/62725" id="meta329582" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Podosphaera clandestina" datatype="xsd:string" id="meta329581" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3136349" id="meta329580" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329579" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643019" id="Tl3643019" label="Podosphaera prunicola Ex_Prunus_virginiana_KX842346_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329586" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643007" id="Tl3643007" label="Podosphaera prunicola Ex_Prunus_virginiana_MF770745_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329588" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643024" id="Tl3643024" label="Podosphaera prunicola Ex_Prunus_virginiana_MF770746_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329590" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643011" id="Tl3643011" label="Podosphaera prunicola Ex_Prunus_serotina_LC378576_GER">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329592" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643020" id="Tl3643020" label="Podosphaera cerasi Ex_Prunus_avium_MG076957_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329594" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643000" id="Tl3643000" label="Podosphaera cerasi Ex_Prunus_avium_MG076956_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329596" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643006" id="Tl3643006" label="Podosphaera cerasi Ex_Prunus_avium_LC381235_CA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329598" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643016" id="Tl3643016" label="Podosphaera cerasi Ex_Prunus_avium_KX842345_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329600" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643004" id="Tl3643004" label="Podosphaera cerasi Ex_Prunus_avium_KX826855_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329602" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643018" id="Tl3643018" label="Podosphaera cerasi Ex_Prunus_avium_MG076952_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329604" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643021" id="Tl3643021" label="Podosphaera cerasi Ex_Prunus_avium_MG076953_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329606" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3642999" id="Tl3642999" label="Podosphaera cerasi Ex_Prunus_avium_MG076954_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329608" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643009" id="Tl3643009" label="Podosphaera cerasi Ex_Prunus_avium_MG076955_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329610" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643010" id="Tl3643010" label="Podosphaera cerasi Ex_Prunus_avium_MG076958_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329612" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643013" id="Tl3643013" label="Podosphaera cerasi Ex_Prunus_avium_MG183669_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329614" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643023" id="Tl3643023" label="Podosphaera cerasi Ex_Prunus_avium_MG198703_WA_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329616" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3643008" id="Tl3643008" label="Podosphaera cerasi Ex_Prunus_avium_MG937803_OR_USA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329618" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3642998" id="Tl3642998" label="Cystotheca lanestris Ex_Quercus_agrifolia_AB000933_USA">
+      <meta content="8201" datatype="xsd:long" id="meta329625" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="19714" datatype="xsd:long" id="meta329624" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/62705" id="meta329623" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Cystotheca lanestris" datatype="xsd:string" id="meta329622" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3117478" id="meta329621" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta329620" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+  </otus>
+  <characters about="#M50165" id="M50165" label="Podosphaera ITS 28S" otus="Tls68945" xml:base="http://purl.org/phylo/treebase/phylows/matrix/TB2:" xsi:type="nex:DnaSeqs">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlMatrixWriter@29d688ac $Rev$" datatype="xsd:string" id="meta329650" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta content="50165" datatype="xsd:long" id="meta329649" property="tb:identifier.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="1525" datatype="xsd:integer" id="meta329648" property="tb:nchar.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="29" datatype="xsd:integer" id="meta329647" property="tb:ntax.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="DNA" datatype="xsd:string" id="meta329646" property="tb:type.matrix" xsi:type="nex:LiteralMeta"/>
+    <format>
+      <states id="states329627">
+        <state id="state329628" symbol="A"/>
+        <state id="state329629" symbol="C"/>
+        <state id="state329630" symbol="G"/>
+        <state id="state329631" symbol="T"/>
+        <uncertain_state_set id="uncertain_state_set329632" symbol="K">
+          <member state="state329630"/>
+          <member state="state329631"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329633" symbol="M">
+          <member state="state329628"/>
+          <member state="state329629"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329634" symbol="R">
+          <member state="state329630"/>
+          <member state="state329628"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329635" symbol="S">
+          <member state="state329630"/>
+          <member state="state329629"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329636" symbol="W">
+          <member state="state329628"/>
+          <member state="state329631"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329637" symbol="Y">
+          <member state="state329629"/>
+          <member state="state329631"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329638" symbol="B">
+          <member state="state329630"/>
+          <member state="state329629"/>
+          <member state="state329631"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329639" symbol="D">
+          <member state="state329630"/>
+          <member state="state329628"/>
+          <member state="state329631"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329640" symbol="H">
+          <member state="state329630"/>
+          <member state="state329628"/>
+          <member state="state329631"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329641" symbol="V">
+          <member state="state329630"/>
+          <member state="state329628"/>
+          <member state="state329629"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329642" symbol="N">
+          <member state="state329630"/>
+          <member state="state329629"/>
+          <member state="state329628"/>
+          <member state="state329631"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329643" symbol="X">
+          <member state="state329630"/>
+          <member state="state329629"/>
+          <member state="state329628"/>
+          <member state="state329631"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set329644" symbol="-"/>
+        <uncertain_state_set id="uncertain_state_set329645" symbol="?">
+          <member state="state329630"/>
+          <member state="state329629"/>
+          <member state="uncertain_state_set329644"/>
+          <member state="state329628"/>
+          <member state="state329631"/>
+        </uncertain_state_set>
+      </states>
+      <char id="Col439196672" label="DNA" states="states329627"/>
+      <char id="Col439196673" label="DNA" states="states329627"/>
+      <char id="Col439196674" label="DNA" states="states329627"/>
+      <char id="Col439196675" label="DNA" states="states329627"/>
+      <char id="Col439196676" label="DNA" states="states329627"/>
+      <char id="Col439196677" label="DNA" states="states329627"/>
+      <char id="Col439196678" label="DNA" states="states329627"/>
+      <char id="Col439196679" label="DNA" states="states329627"/>
+      <char id="Col439196680" label="DNA" states="states329627"/>
+      <char id="Col439196681" label="DNA" states="states329627"/>
+      <char id="Col439196682" label="DNA" states="states329627"/>
+      <char id="Col439196683" label="DNA" states="states329627"/>
+      <char id="Col439196684" label="DNA" states="states329627"/>
+      <char id="Col439196685" label="DNA" states="states329627"/>
+      <char id="Col439196686" label="DNA" states="states329627"/>
+      <char id="Col439196687" label="DNA" states="states329627"/>
+      <char id="Col439196688" label="DNA" states="states329627"/>
+      <char id="Col439196689" label="DNA" states="states329627"/>
+      <char id="Col439196690" label="DNA" states="states329627"/>
+      <char id="Col439196691" label="DNA" states="states329627"/>
+      <char id="Col439196692" label="DNA" states="states329627"/>
+      <char id="Col439196693" label="DNA" states="states329627"/>
+      <char id="Col439196694" label="DNA" states="states329627"/>
+      <char id="Col439196695" label="DNA" states="states329627"/>
+      <char id="Col439196696" label="DNA" states="states329627"/>
+      <char id="Col439196697" label="DNA" states="states329627"/>
+      <char id="Col439196698" label="DNA" states="states329627"/>
+      <char id="Col439196699" label="DNA" states="states329627"/>
+      <char id="Col439196700" label="DNA" states="states329627"/>
+      <char id="Col439196701" label="DNA" states="states329627"/>
+      <char id="Col439196702" label="DNA" states="states329627"/>
+      <char id="Col439196703" label="DNA" states="states329627"/>
+      <char id="Col439196704" label="DNA" states="states329627"/>
+      <char id="Col439196705" label="DNA" states="states329627"/>
+      <char id="Col439196706" label="DNA" states="states329627"/>
+      <char id="Col439196707" label="DNA" states="states329627"/>
+      <char id="Col439196708" label="DNA" states="states329627"/>
+      <char id="Col439196709" label="DNA" states="states329627"/>
+      <char id="Col439196710" label="DNA" states="states329627"/>
+      <char id="Col439196711" label="DNA" states="states329627"/>
+      <char id="Col439196712" label="DNA" states="states329627"/>
+      <char id="Col439196713" label="DNA" states="states329627"/>
+      <char id="Col439196714" label="DNA" states="states329627"/>
+      <char id="Col439196715" label="DNA" states="states329627"/>
+      <char id="Col439196716" label="DNA" states="states329627"/>
+      <char id="Col439196717" label="DNA" states="states329627"/>
+      <char id="Col439196718" label="DNA" states="states329627"/>
+      <char id="Col439196719" label="DNA" states="states329627"/>
+      <char id="Col439196720" label="DNA" states="states329627"/>
+      <char id="Col439196721" label="DNA" states="states329627"/>
+      <char id="Col439196722" label="DNA" states="states329627"/>
+      <char id="Col439196723" label="DNA" states="states329627"/>
+      <char id="Col439196724" label="DNA" states="states329627"/>
+      <char id="Col439196725" label="DNA" states="states329627"/>
+      <char id="Col439196726" label="DNA" states="states329627"/>
+      <char id="Col439196727" label="DNA" states="states329627"/>
+      <char id="Col439196728" label="DNA" states="states329627"/>
+      <char id="Col439196729" label="DNA" states="states329627"/>
+      <char id="Col439196730" label="DNA" states="states329627"/>
+      <char id="Col439196731" label="DNA" states="states329627"/>
+      <char id="Col439196732" label="DNA" states="states329627"/>
+      <char id="Col439196733" label="DNA" states="states329627"/>
+      <char id="Col439196734" label="DNA" states="states329627"/>
+      <char id="Col439196735" label="DNA" states="states329627"/>
+      <char id="Col439196736" label="DNA" states="states329627"/>
+      <char id="Col439196737" label="DNA" states="states329627"/>
+      <char id="Col439196738" label="DNA" states="states329627"/>
+      <char id="Col439196739" label="DNA" states="states329627"/>
+      <char id="Col439196740" label="DNA" states="states329627"/>
+      <char id="Col439196741" label="DNA" states="states329627"/>
+      <char id="Col439196742" label="DNA" states="states329627"/>
+      <char id="Col439196743" label="DNA" states="states329627"/>
+      <char id="Col439196744" label="DNA" states="states329627"/>
+      <char id="Col439196745" label="DNA" states="states329627"/>
+      <char id="Col439196746" label="DNA" states="states329627"/>
+      <char id="Col439196747" label="DNA" states="states329627"/>
+      <char id="Col439196748" label="DNA" states="states329627"/>
+      <char id="Col439196749" label="DNA" states="states329627"/>
+      <char id="Col439196750" label="DNA" states="states329627"/>
+      <char id="Col439196751" label="DNA" states="states329627"/>
+      <char id="Col439196752" label="DNA" states="states329627"/>
+      <char id="Col439196753" label="DNA" states="states329627"/>
+      <char id="Col439196754" label="DNA" states="states329627"/>
+      <char id="Col439196755" label="DNA" states="states329627"/>
+      <char id="Col439196756" label="DNA" states="states329627"/>
+      <char id="Col439196757" label="DNA" states="states329627"/>
+      <char id="Col439196758" label="DNA" states="states329627"/>
+      <char id="Col439196759" label="DNA" states="states329627"/>
+      <char id="Col439196760" label="DNA" states="states329627"/>
+      <char id="Col439196761" label="DNA" states="states329627"/>
+      <char id="Col439196762" label="DNA" states="states329627"/>
+      <char id="Col439196763" label="DNA" states="states329627"/>
+      <char id="Col439196764" label="DNA" states="states329627"/>
+      <char id="Col439196765" label="DNA" states="states329627"/>
+      <char id="Col439196766" label="DNA" states="states329627"/>
+      <char id="Col439196767" label="DNA" states="states329627"/>
+      <char id="Col439196768" label="DNA" states="states329627"/>
+      <char id="Col439196769" label="DNA" states="states329627"/>
+      <char id="Col439196770" label="DNA" states="states329627"/>
+      <char id="Col439196771" label="DNA" states="states329627"/>
+      <char id="Col439196772" label="DNA" states="states329627"/>
+      <char id="Col439196773" label="DNA" states="states329627"/>
+      <char id="Col439196774" label="DNA" states="states329627"/>
+      <char id="Col439196775" label="DNA" states="states329627"/>
+      <char id="Col439196776" label="DNA" states="states329627"/>
+      <char id="Col439196777" label="DNA" states="states329627"/>
+      <char id="Col439196778" label="DNA" states="states329627"/>
+      <char id="Col439196779" label="DNA" states="states329627"/>
+      <char id="Col439196780" label="DNA" states="states329627"/>
+      <char id="Col439196781" label="DNA" states="states329627"/>
+      <char id="Col439196782" label="DNA" states="states329627"/>
+      <char id="Col439196783" label="DNA" states="states329627"/>
+      <char id="Col439196784" label="DNA" states="states329627"/>
+      <char id="Col439196785" label="DNA" states="states329627"/>
+      <char id="Col439196786" label="DNA" states="states329627"/>
+      <char id="Col439196787" label="DNA" states="states329627"/>
+      <char id="Col439196788" label="DNA" states="states329627"/>
+      <char id="Col439196789" label="DNA" states="states329627"/>
+      <char id="Col439196790" label="DNA" states="states329627"/>
+      <char id="Col439196791" label="DNA" states="states329627"/>
+      <char id="Col439196792" label="DNA" states="states329627"/>
+      <char id="Col439196793" label="DNA" states="states329627"/>
+      <char id="Col439196794" label="DNA" states="states329627"/>
+      <char id="Col439196795" label="DNA" states="states329627"/>
+      <char id="Col439196796" label="DNA" states="states329627"/>
+      <char id="Col439196797" label="DNA" states="states329627"/>
+      <char id="Col439196798" label="DNA" states="states329627"/>
+      <char id="Col439196799" label="DNA" states="states329627"/>
+      <char id="Col439196800" label="DNA" states="states329627"/>
+      <char id="Col439196801" label="DNA" states="states329627"/>
+      <char id="Col439196802" label="DNA" states="states329627"/>
+      <char id="Col439196803" label="DNA" states="states329627"/>
+      <char id="Col439196804" label="DNA" states="states329627"/>
+      <char id="Col439196805" label="DNA" states="states329627"/>
+      <char id="Col439196806" label="DNA" states="states329627"/>
+      <char id="Col439196807" label="DNA" states="states329627"/>
+      <char id="Col439196808" label="DNA" states="states329627"/>
+      <char id="Col439196809" label="DNA" states="states329627"/>
+      <char id="Col439196810" label="DNA" states="states329627"/>
+      <char id="Col439196811" label="DNA" states="states329627"/>
+      <char id="Col439196812" label="DNA" states="states329627"/>
+      <char id="Col439196813" label="DNA" states="states329627"/>
+      <char id="Col439196814" label="DNA" states="states329627"/>
+      <char id="Col439196815" label="DNA" states="states329627"/>
+      <char id="Col439196816" label="DNA" states="states329627"/>
+      <char id="Col439196817" label="DNA" states="states329627"/>
+      <char id="Col439196818" label="DNA" states="states329627"/>
+      <char id="Col439196819" label="DNA" states="states329627"/>
+      <char id="Col439196820" label="DNA" states="states329627"/>
+      <char id="Col439196821" label="DNA" states="states329627"/>
+      <char id="Col439196822" label="DNA" states="states329627"/>
+      <char id="Col439196823" label="DNA" states="states329627"/>
+      <char id="Col439196824" label="DNA" states="states329627"/>
+      <char id="Col439196825" label="DNA" states="states329627"/>
+      <char id="Col439196826" label="DNA" states="states329627"/>
+      <char id="Col439196827" label="DNA" states="states329627"/>
+      <char id="Col439196828" label="DNA" states="states329627"/>
+      <char id="Col439196829" label="DNA" states="states329627"/>
+      <char id="Col439196830" label="DNA" states="states329627"/>
+      <char id="Col439196831" label="DNA" states="states329627"/>
+      <char id="Col439196832" label="DNA" states="states329627"/>
+      <char id="Col439196833" label="DNA" states="states329627"/>
+      <char id="Col439196834" label="DNA" states="states329627"/>
+      <char id="Col439196835" label="DNA" states="states329627"/>
+      <char id="Col439196836" label="DNA" states="states329627"/>
+      <char id="Col439196837" label="DNA" states="states329627"/>
+      <char id="Col439196838" label="DNA" states="states329627"/>
+      <char id="Col439196839" label="DNA" states="states329627"/>
+      <char id="Col439196840" label="DNA" states="states329627"/>
+      <char id="Col439196841" label="DNA" states="states329627"/>
+      <char id="Col439196842" label="DNA" states="states329627"/>
+      <char id="Col439196843" label="DNA" states="states329627"/>
+      <char id="Col439196844" label="DNA" states="states329627"/>
+      <char id="Col439196845" label="DNA" states="states329627"/>
+      <char id="Col439196846" label="DNA" states="states329627"/>
+      <char id="Col439196847" label="DNA" states="states329627"/>
+      <char id="Col439196848" label="DNA" states="states329627"/>
+      <char id="Col439196849" label="DNA" states="states329627"/>
+      <char id="Col439196850" label="DNA" states="states329627"/>
+      <char id="Col439196851" label="DNA" states="states329627"/>
+      <char id="Col439196852" label="DNA" states="states329627"/>
+      <char id="Col439196853" label="DNA" states="states329627"/>
+      <char id="Col439196854" label="DNA" states="states329627"/>
+      <char id="Col439196855" label="DNA" states="states329627"/>
+      <char id="Col439196856" label="DNA" states="states329627"/>
+      <char id="Col439196857" label="DNA" states="states329627"/>
+      <char id="Col439196858" label="DNA" states="states329627"/>
+      <char id="Col439196859" label="DNA" states="states329627"/>
+      <char id="Col439196860" label="DNA" states="states329627"/>
+      <char id="Col439196861" label="DNA" states="states329627"/>
+      <char id="Col439196862" label="DNA" states="states329627"/>
+      <char id="Col439196863" label="DNA" states="states329627"/>
+      <char id="Col439196864" label="DNA" states="states329627"/>
+      <char id="Col439196865" label="DNA" states="states329627"/>
+      <char id="Col439196866" label="DNA" states="states329627"/>
+      <char id="Col439196867" label="DNA" states="states329627"/>
+      <char id="Col439196868" label="DNA" states="states329627"/>
+      <char id="Col439196869" label="DNA" states="states329627"/>
+      <char id="Col439196870" label="DNA" states="states329627"/>
+      <char id="Col439196871" label="DNA" states="states329627"/>
+      <char id="Col439196872" label="DNA" states="states329627"/>
+      <char id="Col439196873" label="DNA" states="states329627"/>
+      <char id="Col439196874" label="DNA" states="states329627"/>
+      <char id="Col439196875" label="DNA" states="states329627"/>
+      <char id="Col439196876" label="DNA" states="states329627"/>
+      <char id="Col439196877" label="DNA" states="states329627"/>
+      <char id="Col439196878" label="DNA" states="states329627"/>
+      <char id="Col439196879" label="DNA" states="states329627"/>
+      <char id="Col439196880" label="DNA" states="states329627"/>
+      <char id="Col439196881" label="DNA" states="states329627"/>
+      <char id="Col439196882" label="DNA" states="states329627"/>
+      <char id="Col439196883" label="DNA" states="states329627"/>
+      <char id="Col439196884" label="DNA" states="states329627"/>
+      <char id="Col439196885" label="DNA" states="states329627"/>
+      <char id="Col439196886" label="DNA" states="states329627"/>
+      <char id="Col439196887" label="DNA" states="states329627"/>
+      <char id="Col439196888" label="DNA" states="states329627"/>
+      <char id="Col439196889" label="DNA" states="states329627"/>
+      <char id="Col439196890" label="DNA" states="states329627"/>
+      <char id="Col439196891" label="DNA" states="states329627"/>
+      <char id="Col439196892" label="DNA" states="states329627"/>
+      <char id="Col439196893" label="DNA" states="states329627"/>
+      <char id="Col439196894" label="DNA" states="states329627"/>
+      <char id="Col439196895" label="DNA" states="states329627"/>
+      <char id="Col439196896" label="DNA" states="states329627"/>
+      <char id="Col439196897" label="DNA" states="states329627"/>
+      <char id="Col439196898" label="DNA" states="states329627"/>
+      <char id="Col439196899" label="DNA" states="states329627"/>
+      <char id="Col439196900" label="DNA" states="states329627"/>
+      <char id="Col439196901" label="DNA" states="states329627"/>
+      <char id="Col439196902" label="DNA" states="states329627"/>
+      <char id="Col439196903" label="DNA" states="states329627"/>
+      <char id="Col439196904" label="DNA" states="states329627"/>
+      <char id="Col439196905" label="DNA" states="states329627"/>
+      <char id="Col439196906" label="DNA" states="states329627"/>
+      <char id="Col439196907" label="DNA" states="states329627"/>
+      <char id="Col439196908" label="DNA" states="states329627"/>
+      <char id="Col439196909" label="DNA" states="states329627"/>
+      <char id="Col439196910" label="DNA" states="states329627"/>
+      <char id="Col439196911" label="DNA" states="states329627"/>
+      <char id="Col439196912" label="DNA" states="states329627"/>
+      <char id="Col439196913" label="DNA" states="states329627"/>
+      <char id="Col439196914" label="DNA" states="states329627"/>
+      <char id="Col439196915" label="DNA" states="states329627"/>
+      <char id="Col439196916" label="DNA" states="states329627"/>
+      <char id="Col439196917" label="DNA" states="states329627"/>
+      <char id="Col439196918" label="DNA" states="states329627"/>
+      <char id="Col439196919" label="DNA" states="states329627"/>
+      <char id="Col439196920" label="DNA" states="states329627"/>
+      <char id="Col439196921" label="DNA" states="states329627"/>
+      <char id="Col439196922" label="DNA" states="states329627"/>
+      <char id="Col439196923" label="DNA" states="states329627"/>
+      <char id="Col439196924" label="DNA" states="states329627"/>
+      <char id="Col439196925" label="DNA" states="states329627"/>
+      <char id="Col439196926" label="DNA" states="states329627"/>
+      <char id="Col439196927" label="DNA" states="states329627"/>
+      <char id="Col439196928" label="DNA" states="states329627"/>
+      <char id="Col439196929" label="DNA" states="states329627"/>
+      <char id="Col439196930" label="DNA" states="states329627"/>
+      <char id="Col439196931" label="DNA" states="states329627"/>
+      <char id="Col439196932" label="DNA" states="states329627"/>
+      <char id="Col439196933" label="DNA" states="states329627"/>
+      <char id="Col439196934" label="DNA" states="states329627"/>
+      <char id="Col439196935" label="DNA" states="states329627"/>
+      <char id="Col439196936" label="DNA" states="states329627"/>
+      <char id="Col439196937" label="DNA" states="states329627"/>
+      <char id="Col439196938" label="DNA" states="states329627"/>
+      <char id="Col439196939" label="DNA" states="states329627"/>
+      <char id="Col439196940" label="DNA" states="states329627"/>
+      <char id="Col439196941" label="DNA" states="states329627"/>
+      <char id="Col439196942" label="DNA" states="states329627"/>
+      <char id="Col439196943" label="DNA" states="states329627"/>
+      <char id="Col439196944" label="DNA" states="states329627"/>
+      <char id="Col439196945" label="DNA" states="states329627"/>
+      <char id="Col439196946" label="DNA" states="states329627"/>
+      <char id="Col439196947" label="DNA" states="states329627"/>
+      <char id="Col439196948" label="DNA" states="states329627"/>
+      <char id="Col439196949" label="DNA" states="states329627"/>
+      <char id="Col439196950" label="DNA" states="states329627"/>
+      <char id="Col439196951" label="DNA" states="states329627"/>
+      <char id="Col439196952" label="DNA" states="states329627"/>
+      <char id="Col439196953" label="DNA" states="states329627"/>
+      <char id="Col439196954" label="DNA" states="states329627"/>
+      <char id="Col439196955" label="DNA" states="states329627"/>
+      <char id="Col439196956" label="DNA" states="states329627"/>
+      <char id="Col439196957" label="DNA" states="states329627"/>
+      <char id="Col439196958" label="DNA" states="states329627"/>
+      <char id="Col439196959" label="DNA" states="states329627"/>
+      <char id="Col439196960" label="DNA" states="states329627"/>
+      <char id="Col439196961" label="DNA" states="states329627"/>
+      <char id="Col439196962" label="DNA" states="states329627"/>
+      <char id="Col439196963" label="DNA" states="states329627"/>
+      <char id="Col439196964" label="DNA" states="states329627"/>
+      <char id="Col439196965" label="DNA" states="states329627"/>
+      <char id="Col439196966" label="DNA" states="states329627"/>
+      <char id="Col439196967" label="DNA" states="states329627"/>
+      <char id="Col439196968" label="DNA" states="states329627"/>
+      <char id="Col439196969" label="DNA" states="states329627"/>
+      <char id="Col439196970" label="DNA" states="states329627"/>
+      <char id="Col439196971" label="DNA" states="states329627"/>
+      <char id="Col439196972" label="DNA" states="states329627"/>
+      <char id="Col439196973" label="DNA" states="states329627"/>
+      <char id="Col439196974" label="DNA" states="states329627"/>
+      <char id="Col439196975" label="DNA" states="states329627"/>
+      <char id="Col439196976" label="DNA" states="states329627"/>
+      <char id="Col439196977" label="DNA" states="states329627"/>
+      <char id="Col439196978" label="DNA" states="states329627"/>
+      <char id="Col439196979" label="DNA" states="states329627"/>
+      <char id="Col439196980" label="DNA" states="states329627"/>
+      <char id="Col439196981" label="DNA" states="states329627"/>
+      <char id="Col439196982" label="DNA" states="states329627"/>
+      <char id="Col439196983" label="DNA" states="states329627"/>
+      <char id="Col439196984" label="DNA" states="states329627"/>
+      <char id="Col439196985" label="DNA" states="states329627"/>
+      <char id="Col439196986" label="DNA" states="states329627"/>
+      <char id="Col439196987" label="DNA" states="states329627"/>
+      <char id="Col439196988" label="DNA" states="states329627"/>
+      <char id="Col439196989" label="DNA" states="states329627"/>
+      <char id="Col439196990" label="DNA" states="states329627"/>
+      <char id="Col439196991" label="DNA" states="states329627"/>
+      <char id="Col439196992" label="DNA" states="states329627"/>
+      <char id="Col439196993" label="DNA" states="states329627"/>
+      <char id="Col439196994" label="DNA" states="states329627"/>
+      <char id="Col439196995" label="DNA" states="states329627"/>
+      <char id="Col439196996" label="DNA" states="states329627"/>
+      <char id="Col439196997" label="DNA" states="states329627"/>
+      <char id="Col439196998" label="DNA" states="states329627"/>
+      <char id="Col439196999" label="DNA" states="states329627"/>
+      <char id="Col439197000" label="DNA" states="states329627"/>
+      <char id="Col439197001" label="DNA" states="states329627"/>
+      <char id="Col439197002" label="DNA" states="states329627"/>
+      <char id="Col439197003" label="DNA" states="states329627"/>
+      <char id="Col439197004" label="DNA" states="states329627"/>
+      <char id="Col439197005" label="DNA" states="states329627"/>
+      <char id="Col439197006" label="DNA" states="states329627"/>
+      <char id="Col439197007" label="DNA" states="states329627"/>
+      <char id="Col439197008" label="DNA" states="states329627"/>
+      <char id="Col439197009" label="DNA" states="states329627"/>
+      <char id="Col439197010" label="DNA" states="states329627"/>
+      <char id="Col439197011" label="DNA" states="states329627"/>
+      <char id="Col439197012" label="DNA" states="states329627"/>
+      <char id="Col439197013" label="DNA" states="states329627"/>
+      <char id="Col439197014" label="DNA" states="states329627"/>
+      <char id="Col439197015" label="DNA" states="states329627"/>
+      <char id="Col439197016" label="DNA" states="states329627"/>
+      <char id="Col439197017" label="DNA" states="states329627"/>
+      <char id="Col439197018" label="DNA" states="states329627"/>
+      <char id="Col439197019" label="DNA" states="states329627"/>
+      <char id="Col439197020" label="DNA" states="states329627"/>
+      <char id="Col439197021" label="DNA" states="states329627"/>
+      <char id="Col439197022" label="DNA" states="states329627"/>
+      <char id="Col439197023" label="DNA" states="states329627"/>
+      <char id="Col439197024" label="DNA" states="states329627"/>
+      <char id="Col439197025" label="DNA" states="states329627"/>
+      <char id="Col439197026" label="DNA" states="states329627"/>
+      <char id="Col439197027" label="DNA" states="states329627"/>
+      <char id="Col439197028" label="DNA" states="states329627"/>
+      <char id="Col439197029" label="DNA" states="states329627"/>
+      <char id="Col439197030" label="DNA" states="states329627"/>
+      <char id="Col439197031" label="DNA" states="states329627"/>
+      <char id="Col439197032" label="DNA" states="states329627"/>
+      <char id="Col439197033" label="DNA" states="states329627"/>
+      <char id="Col439197034" label="DNA" states="states329627"/>
+      <char id="Col439197035" label="DNA" states="states329627"/>
+      <char id="Col439197036" label="DNA" states="states329627"/>
+      <char id="Col439197037" label="DNA" states="states329627"/>
+      <char id="Col439197038" label="DNA" states="states329627"/>
+      <char id="Col439197039" label="DNA" states="states329627"/>
+      <char id="Col439197040" label="DNA" states="states329627"/>
+      <char id="Col439197041" label="DNA" states="states329627"/>
+      <char id="Col439197042" label="DNA" states="states329627"/>
+      <char id="Col439197043" label="DNA" states="states329627"/>
+      <char id="Col439197044" label="DNA" states="states329627"/>
+      <char id="Col439197045" label="DNA" states="states329627"/>
+      <char id="Col439197046" label="DNA" states="states329627"/>
+      <char id="Col439197047" label="DNA" states="states329627"/>
+      <char id="Col439197048" label="DNA" states="states329627"/>
+      <char id="Col439197049" label="DNA" states="states329627"/>
+      <char id="Col439197050" label="DNA" states="states329627"/>
+      <char id="Col439197051" label="DNA" states="states329627"/>
+      <char id="Col439197052" label="DNA" states="states329627"/>
+      <char id="Col439197053" label="DNA" states="states329627"/>
+      <char id="Col439197054" label="DNA" states="states329627"/>
+      <char id="Col439197055" label="DNA" states="states329627"/>
+      <char id="Col439197056" label="DNA" states="states329627"/>
+      <char id="Col439197057" label="DNA" states="states329627"/>
+      <char id="Col439197058" label="DNA" states="states329627"/>
+      <char id="Col439197059" label="DNA" states="states329627"/>
+      <char id="Col439197060" label="DNA" states="states329627"/>
+      <char id="Col439197061" label="DNA" states="states329627"/>
+      <char id="Col439197062" label="DNA" states="states329627"/>
+      <char id="Col439197063" label="DNA" states="states329627"/>
+      <char id="Col439197064" label="DNA" states="states329627"/>
+      <char id="Col439197065" label="DNA" states="states329627"/>
+      <char id="Col439197066" label="DNA" states="states329627"/>
+      <char id="Col439197067" label="DNA" states="states329627"/>
+      <char id="Col439197068" label="DNA" states="states329627"/>
+      <char id="Col439197069" label="DNA" states="states329627"/>
+      <char id="Col439197070" label="DNA" states="states329627"/>
+      <char id="Col439197071" label="DNA" states="states329627"/>
+      <char id="Col439197072" label="DNA" states="states329627"/>
+      <char id="Col439197073" label="DNA" states="states329627"/>
+      <char id="Col439197074" label="DNA" states="states329627"/>
+      <char id="Col439197075" label="DNA" states="states329627"/>
+      <char id="Col439197076" label="DNA" states="states329627"/>
+      <char id="Col439197077" label="DNA" states="states329627"/>
+      <char id="Col439197078" label="DNA" states="states329627"/>
+      <char id="Col439197079" label="DNA" states="states329627"/>
+      <char id="Col439197080" label="DNA" states="states329627"/>
+      <char id="Col439197081" label="DNA" states="states329627"/>
+      <char id="Col439197082" label="DNA" states="states329627"/>
+      <char id="Col439197083" label="DNA" states="states329627"/>
+      <char id="Col439197084" label="DNA" states="states329627"/>
+      <char id="Col439197085" label="DNA" states="states329627"/>
+      <char id="Col439197086" label="DNA" states="states329627"/>
+      <char id="Col439197087" label="DNA" states="states329627"/>
+      <char id="Col439197088" label="DNA" states="states329627"/>
+      <char id="Col439197089" label="DNA" states="states329627"/>
+      <char id="Col439197090" label="DNA" states="states329627"/>
+      <char id="Col439197091" label="DNA" states="states329627"/>
+      <char id="Col439197092" label="DNA" states="states329627"/>
+      <char id="Col439197093" label="DNA" states="states329627"/>
+      <char id="Col439197094" label="DNA" states="states329627"/>
+      <char id="Col439197095" label="DNA" states="states329627"/>
+      <char id="Col439197096" label="DNA" states="states329627"/>
+      <char id="Col439197097" label="DNA" states="states329627"/>
+      <char id="Col439197098" label="DNA" states="states329627"/>
+      <char id="Col439197099" label="DNA" states="states329627"/>
+      <char id="Col439197100" label="DNA" states="states329627"/>
+      <char id="Col439197101" label="DNA" states="states329627"/>
+      <char id="Col439197102" label="DNA" states="states329627"/>
+      <char id="Col439197103" label="DNA" states="states329627"/>
+      <char id="Col439197104" label="DNA" states="states329627"/>
+      <char id="Col439197105" label="DNA" states="states329627"/>
+      <char id="Col439197106" label="DNA" states="states329627"/>
+      <char id="Col439197107" label="DNA" states="states329627"/>
+      <char id="Col439197108" label="DNA" states="states329627"/>
+      <char id="Col439197109" label="DNA" states="states329627"/>
+      <char id="Col439197110" label="DNA" states="states329627"/>
+      <char id="Col439197111" label="DNA" states="states329627"/>
+      <char id="Col439197112" label="DNA" states="states329627"/>
+      <char id="Col439197113" label="DNA" states="states329627"/>
+      <char id="Col439197114" label="DNA" states="states329627"/>
+      <char id="Col439197115" label="DNA" states="states329627"/>
+      <char id="Col439197116" label="DNA" states="states329627"/>
+      <char id="Col439197117" label="DNA" states="states329627"/>
+      <char id="Col439197118" label="DNA" states="states329627"/>
+      <char id="Col439197119" label="DNA" states="states329627"/>
+      <char id="Col439197120" label="DNA" states="states329627"/>
+      <char id="Col439197121" label="DNA" states="states329627"/>
+      <char id="Col439197122" label="DNA" states="states329627"/>
+      <char id="Col439197123" label="DNA" states="states329627"/>
+      <char id="Col439197124" label="DNA" states="states329627"/>
+      <char id="Col439197125" label="DNA" states="states329627"/>
+      <char id="Col439197126" label="DNA" states="states329627"/>
+      <char id="Col439197127" label="DNA" states="states329627"/>
+      <char id="Col439197128" label="DNA" states="states329627"/>
+      <char id="Col439197129" label="DNA" states="states329627"/>
+      <char id="Col439197130" label="DNA" states="states329627"/>
+      <char id="Col439197131" label="DNA" states="states329627"/>
+      <char id="Col439197132" label="DNA" states="states329627"/>
+      <char id="Col439197133" label="DNA" states="states329627"/>
+      <char id="Col439197134" label="DNA" states="states329627"/>
+      <char id="Col439197135" label="DNA" states="states329627"/>
+      <char id="Col439197136" label="DNA" states="states329627"/>
+      <char id="Col439197137" label="DNA" states="states329627"/>
+      <char id="Col439197138" label="DNA" states="states329627"/>
+      <char id="Col439197139" label="DNA" states="states329627"/>
+      <char id="Col439197140" label="DNA" states="states329627"/>
+      <char id="Col439197141" label="DNA" states="states329627"/>
+      <char id="Col439197142" label="DNA" states="states329627"/>
+      <char id="Col439197143" label="DNA" states="states329627"/>
+      <char id="Col439197144" label="DNA" states="states329627"/>
+      <char id="Col439197145" label="DNA" states="states329627"/>
+      <char id="Col439197146" label="DNA" states="states329627"/>
+      <char id="Col439197147" label="DNA" states="states329627"/>
+      <char id="Col439197148" label="DNA" states="states329627"/>
+      <char id="Col439197149" label="DNA" states="states329627"/>
+      <char id="Col439197150" label="DNA" states="states329627"/>
+      <char id="Col439197151" label="DNA" states="states329627"/>
+      <char id="Col439197152" label="DNA" states="states329627"/>
+      <char id="Col439197153" label="DNA" states="states329627"/>
+      <char id="Col439197154" label="DNA" states="states329627"/>
+      <char id="Col439197155" label="DNA" states="states329627"/>
+      <char id="Col439197156" label="DNA" states="states329627"/>
+      <char id="Col439197157" label="DNA" states="states329627"/>
+      <char id="Col439197158" label="DNA" states="states329627"/>
+      <char id="Col439197159" label="DNA" states="states329627"/>
+      <char id="Col439197160" label="DNA" states="states329627"/>
+      <char id="Col439197161" label="DNA" states="states329627"/>
+      <char id="Col439197162" label="DNA" states="states329627"/>
+      <char id="Col439197163" label="DNA" states="states329627"/>
+      <char id="Col439197164" label="DNA" states="states329627"/>
+      <char id="Col439197165" label="DNA" states="states329627"/>
+      <char id="Col439197166" label="DNA" states="states329627"/>
+      <char id="Col439197167" label="DNA" states="states329627"/>
+      <char id="Col439197168" label="DNA" states="states329627"/>
+      <char id="Col439197169" label="DNA" states="states329627"/>
+      <char id="Col439197170" label="DNA" states="states329627"/>
+      <char id="Col439197171" label="DNA" states="states329627"/>
+      <char id="Col439197172" label="DNA" states="states329627"/>
+      <char id="Col439197173" label="DNA" states="states329627"/>
+      <char id="Col439197174" label="DNA" states="states329627"/>
+      <char id="Col439197175" label="DNA" states="states329627"/>
+      <char id="Col439197176" label="DNA" states="states329627"/>
+      <char id="Col439197177" label="DNA" states="states329627"/>
+      <char id="Col439197178" label="DNA" states="states329627"/>
+      <char id="Col439197179" label="DNA" states="states329627"/>
+      <char id="Col439197180" label="DNA" states="states329627"/>
+      <char id="Col439197181" label="DNA" states="states329627"/>
+      <char id="Col439197182" label="DNA" states="states329627"/>
+      <char id="Col439197183" label="DNA" states="states329627"/>
+      <char id="Col439197184" label="DNA" states="states329627"/>
+      <char id="Col439197185" label="DNA" states="states329627"/>
+      <char id="Col439197186" label="DNA" states="states329627"/>
+      <char id="Col439197187" label="DNA" states="states329627"/>
+      <char id="Col439197188" label="DNA" states="states329627"/>
+      <char id="Col439197189" label="DNA" states="states329627"/>
+      <char id="Col439197190" label="DNA" states="states329627"/>
+      <char id="Col439197191" label="DNA" states="states329627"/>
+      <char id="Col439197192" label="DNA" states="states329627"/>
+      <char id="Col439197193" label="DNA" states="states329627"/>
+      <char id="Col439197194" label="DNA" states="states329627"/>
+      <char id="Col439197195" label="DNA" states="states329627"/>
+      <char id="Col439197196" label="DNA" states="states329627"/>
+      <char id="Col439197197" label="DNA" states="states329627"/>
+      <char id="Col439197198" label="DNA" states="states329627"/>
+      <char id="Col439197199" label="DNA" states="states329627"/>
+      <char id="Col439197200" label="DNA" states="states329627"/>
+      <char id="Col439197201" label="DNA" states="states329627"/>
+      <char id="Col439197202" label="DNA" states="states329627"/>
+      <char id="Col439197203" label="DNA" states="states329627"/>
+      <char id="Col439197204" label="DNA" states="states329627"/>
+      <char id="Col439197205" label="DNA" states="states329627"/>
+      <char id="Col439197206" label="DNA" states="states329627"/>
+      <char id="Col439197207" label="DNA" states="states329627"/>
+      <char id="Col439197208" label="DNA" states="states329627"/>
+      <char id="Col439197209" label="DNA" states="states329627"/>
+      <char id="Col439197210" label="DNA" states="states329627"/>
+      <char id="Col439197211" label="DNA" states="states329627"/>
+      <char id="Col439197212" label="DNA" states="states329627"/>
+      <char id="Col439197213" label="DNA" states="states329627"/>
+      <char id="Col439197214" label="DNA" states="states329627"/>
+      <char id="Col439197215" label="DNA" states="states329627"/>
+      <char id="Col439197216" label="DNA" states="states329627"/>
+      <char id="Col439197217" label="DNA" states="states329627"/>
+      <char id="Col439197218" label="DNA" states="states329627"/>
+      <char id="Col439197219" label="DNA" states="states329627"/>
+      <char id="Col439197220" label="DNA" states="states329627"/>
+      <char id="Col439197221" label="DNA" states="states329627"/>
+      <char id="Col439197222" label="DNA" states="states329627"/>
+      <char id="Col439197223" label="DNA" states="states329627"/>
+      <char id="Col439197224" label="DNA" states="states329627"/>
+      <char id="Col439197225" label="DNA" states="states329627"/>
+      <char id="Col439197226" label="DNA" states="states329627"/>
+      <char id="Col439197227" label="DNA" states="states329627"/>
+      <char id="Col439197228" label="DNA" states="states329627"/>
+      <char id="Col439197229" label="DNA" states="states329627"/>
+      <char id="Col439197230" label="DNA" states="states329627"/>
+      <char id="Col439197231" label="DNA" states="states329627"/>
+      <char id="Col439197232" label="DNA" states="states329627"/>
+      <char id="Col439197233" label="DNA" states="states329627"/>
+      <char id="Col439197234" label="DNA" states="states329627"/>
+      <char id="Col439197235" label="DNA" states="states329627"/>
+      <char id="Col439197236" label="DNA" states="states329627"/>
+      <char id="Col439197237" label="DNA" states="states329627"/>
+      <char id="Col439197238" label="DNA" states="states329627"/>
+      <char id="Col439197239" label="DNA" states="states329627"/>
+      <char id="Col439197240" label="DNA" states="states329627"/>
+      <char id="Col439197241" label="DNA" states="states329627"/>
+      <char id="Col439197242" label="DNA" states="states329627"/>
+      <char id="Col439197243" label="DNA" states="states329627"/>
+      <char id="Col439197244" label="DNA" states="states329627"/>
+      <char id="Col439197245" label="DNA" states="states329627"/>
+      <char id="Col439197246" label="DNA" states="states329627"/>
+      <char id="Col439197247" label="DNA" states="states329627"/>
+      <char id="Col439197248" label="DNA" states="states329627"/>
+      <char id="Col439197249" label="DNA" states="states329627"/>
+      <char id="Col439197250" label="DNA" states="states329627"/>
+      <char id="Col439197251" label="DNA" states="states329627"/>
+      <char id="Col439197252" label="DNA" states="states329627"/>
+      <char id="Col439197253" label="DNA" states="states329627"/>
+      <char id="Col439197254" label="DNA" states="states329627"/>
+      <char id="Col439197255" label="DNA" states="states329627"/>
+      <char id="Col439197256" label="DNA" states="states329627"/>
+      <char id="Col439197257" label="DNA" states="states329627"/>
+      <char id="Col439197258" label="DNA" states="states329627"/>
+      <char id="Col439197259" label="DNA" states="states329627"/>
+      <char id="Col439197260" label="DNA" states="states329627"/>
+      <char id="Col439197261" label="DNA" states="states329627"/>
+      <char id="Col439197262" label="DNA" states="states329627"/>
+      <char id="Col439197263" label="DNA" states="states329627"/>
+      <char id="Col439197264" label="DNA" states="states329627"/>
+      <char id="Col439197265" label="DNA" states="states329627"/>
+      <char id="Col439197266" label="DNA" states="states329627"/>
+      <char id="Col439197267" label="DNA" states="states329627"/>
+      <char id="Col439197268" label="DNA" states="states329627"/>
+      <char id="Col439197269" label="DNA" states="states329627"/>
+      <char id="Col439197270" label="DNA" states="states329627"/>
+      <char id="Col439197271" label="DNA" states="states329627"/>
+      <char id="Col439197272" label="DNA" states="states329627"/>
+      <char id="Col439197273" label="DNA" states="states329627"/>
+      <char id="Col439197274" label="DNA" states="states329627"/>
+      <char id="Col439197275" label="DNA" states="states329627"/>
+      <char id="Col439197276" label="DNA" states="states329627"/>
+      <char id="Col439197277" label="DNA" states="states329627"/>
+      <char id="Col439197278" label="DNA" states="states329627"/>
+      <char id="Col439197279" label="DNA" states="states329627"/>
+      <char id="Col439197280" label="DNA" states="states329627"/>
+      <char id="Col439197281" label="DNA" states="states329627"/>
+      <char id="Col439197282" label="DNA" states="states329627"/>
+      <char id="Col439197283" label="DNA" states="states329627"/>
+      <char id="Col439197284" label="DNA" states="states329627"/>
+      <char id="Col439197285" label="DNA" states="states329627"/>
+      <char id="Col439197286" label="DNA" states="states329627"/>
+      <char id="Col439197287" label="DNA" states="states329627"/>
+      <char id="Col439197288" label="DNA" states="states329627"/>
+      <char id="Col439197289" label="DNA" states="states329627"/>
+      <char id="Col439197290" label="DNA" states="states329627"/>
+      <char id="Col439197291" label="DNA" states="states329627"/>
+      <char id="Col439197292" label="DNA" states="states329627"/>
+      <char id="Col439197293" label="DNA" states="states329627"/>
+      <char id="Col439197294" label="DNA" states="states329627"/>
+      <char id="Col439197295" label="DNA" states="states329627"/>
+      <char id="Col439197296" label="DNA" states="states329627"/>
+      <char id="Col439197297" label="DNA" states="states329627"/>
+      <char id="Col439197298" label="DNA" states="states329627"/>
+      <char id="Col439197299" label="DNA" states="states329627"/>
+      <char id="Col439197300" label="DNA" states="states329627"/>
+      <char id="Col439197301" label="DNA" states="states329627"/>
+      <char id="Col439197302" label="DNA" states="states329627"/>
+      <char id="Col439197303" label="DNA" states="states329627"/>
+      <char id="Col439197304" label="DNA" states="states329627"/>
+      <char id="Col439197305" label="DNA" states="states329627"/>
+      <char id="Col439197306" label="DNA" states="states329627"/>
+      <char id="Col439197307" label="DNA" states="states329627"/>
+      <char id="Col439197308" label="DNA" states="states329627"/>
+      <char id="Col439197309" label="DNA" states="states329627"/>
+      <char id="Col439197310" label="DNA" states="states329627"/>
+      <char id="Col439197311" label="DNA" states="states329627"/>
+      <char id="Col439197312" label="DNA" states="states329627"/>
+      <char id="Col439197313" label="DNA" states="states329627"/>
+      <char id="Col439197314" label="DNA" states="states329627"/>
+      <char id="Col439197315" label="DNA" states="states329627"/>
+      <char id="Col439197316" label="DNA" states="states329627"/>
+      <char id="Col439197317" label="DNA" states="states329627"/>
+      <char id="Col439197318" label="DNA" states="states329627"/>
+      <char id="Col439197319" label="DNA" states="states329627"/>
+      <char id="Col439197320" label="DNA" states="states329627"/>
+      <char id="Col439197321" label="DNA" states="states329627"/>
+      <char id="Col439197322" label="DNA" states="states329627"/>
+      <char id="Col439197323" label="DNA" states="states329627"/>
+      <char id="Col439197324" label="DNA" states="states329627"/>
+      <char id="Col439197325" label="DNA" states="states329627"/>
+      <char id="Col439197326" label="DNA" states="states329627"/>
+      <char id="Col439197327" label="DNA" states="states329627"/>
+      <char id="Col439197328" label="DNA" states="states329627"/>
+      <char id="Col439197329" label="DNA" states="states329627"/>
+      <char id="Col439197330" label="DNA" states="states329627"/>
+      <char id="Col439197331" label="DNA" states="states329627"/>
+      <char id="Col439197332" label="DNA" states="states329627"/>
+      <char id="Col439197333" label="DNA" states="states329627"/>
+      <char id="Col439197334" label="DNA" states="states329627"/>
+      <char id="Col439197335" label="DNA" states="states329627"/>
+      <char id="Col439197336" label="DNA" states="states329627"/>
+      <char id="Col439197337" label="DNA" states="states329627"/>
+      <char id="Col439197338" label="DNA" states="states329627"/>
+      <char id="Col439197339" label="DNA" states="states329627"/>
+      <char id="Col439197340" label="DNA" states="states329627"/>
+      <char id="Col439197341" label="DNA" states="states329627"/>
+      <char id="Col439197342" label="DNA" states="states329627"/>
+      <char id="Col439197343" label="DNA" states="states329627"/>
+      <char id="Col439197344" label="DNA" states="states329627"/>
+      <char id="Col439197345" label="DNA" states="states329627"/>
+      <char id="Col439197346" label="DNA" states="states329627"/>
+      <char id="Col439197347" label="DNA" states="states329627"/>
+      <char id="Col439197348" label="DNA" states="states329627"/>
+      <char id="Col439197349" label="DNA" states="states329627"/>
+      <char id="Col439197350" label="DNA" states="states329627"/>
+      <char id="Col439197351" label="DNA" states="states329627"/>
+      <char id="Col439197352" label="DNA" states="states329627"/>
+      <char id="Col439197353" label="DNA" states="states329627"/>
+      <char id="Col439197354" label="DNA" states="states329627"/>
+      <char id="Col439197355" label="DNA" states="states329627"/>
+      <char id="Col439197356" label="DNA" states="states329627"/>
+      <char id="Col439197357" label="DNA" states="states329627"/>
+      <char id="Col439197358" label="DNA" states="states329627"/>
+      <char id="Col439197359" label="DNA" states="states329627"/>
+      <char id="Col439197360" label="DNA" states="states329627"/>
+      <char id="Col439197361" label="DNA" states="states329627"/>
+      <char id="Col439197362" label="DNA" states="states329627"/>
+      <char id="Col439197363" label="DNA" states="states329627"/>
+      <char id="Col439197364" label="DNA" states="states329627"/>
+      <char id="Col439197365" label="DNA" states="states329627"/>
+      <char id="Col439197366" label="DNA" states="states329627"/>
+      <char id="Col439197367" label="DNA" states="states329627"/>
+      <char id="Col439197368" label="DNA" states="states329627"/>
+      <char id="Col439197369" label="DNA" states="states329627"/>
+      <char id="Col439197370" label="DNA" states="states329627"/>
+      <char id="Col439197371" label="DNA" states="states329627"/>
+      <char id="Col439197372" label="DNA" states="states329627"/>
+      <char id="Col439197373" label="DNA" states="states329627"/>
+      <char id="Col439197374" label="DNA" states="states329627"/>
+      <char id="Col439197375" label="DNA" states="states329627"/>
+      <char id="Col439197376" label="DNA" states="states329627"/>
+      <char id="Col439197377" label="DNA" states="states329627"/>
+      <char id="Col439197378" label="DNA" states="states329627"/>
+      <char id="Col439197379" label="DNA" states="states329627"/>
+      <char id="Col439197380" label="DNA" states="states329627"/>
+      <char id="Col439197381" label="DNA" states="states329627"/>
+      <char id="Col439197382" label="DNA" states="states329627"/>
+      <char id="Col439197383" label="DNA" states="states329627"/>
+      <char id="Col439197384" label="DNA" states="states329627"/>
+      <char id="Col439197385" label="DNA" states="states329627"/>
+      <char id="Col439197386" label="DNA" states="states329627"/>
+      <char id="Col439197387" label="DNA" states="states329627"/>
+      <char id="Col439197388" label="DNA" states="states329627"/>
+      <char id="Col439197389" label="DNA" states="states329627"/>
+      <char id="Col439197390" label="DNA" states="states329627"/>
+      <char id="Col439197391" label="DNA" states="states329627"/>
+      <char id="Col439197392" label="DNA" states="states329627"/>
+      <char id="Col439197393" label="DNA" states="states329627"/>
+      <char id="Col439197394" label="DNA" states="states329627"/>
+      <char id="Col439197395" label="DNA" states="states329627"/>
+      <char id="Col439197396" label="DNA" states="states329627"/>
+      <char id="Col439197397" label="DNA" states="states329627"/>
+      <char id="Col439197398" label="DNA" states="states329627"/>
+      <char id="Col439197399" label="DNA" states="states329627"/>
+      <char id="Col439197400" label="DNA" states="states329627"/>
+      <char id="Col439197401" label="DNA" states="states329627"/>
+      <char id="Col439197402" label="DNA" states="states329627"/>
+      <char id="Col439197403" label="DNA" states="states329627"/>
+      <char id="Col439197404" label="DNA" states="states329627"/>
+      <char id="Col439197405" label="DNA" states="states329627"/>
+      <char id="Col439197406" label="DNA" states="states329627"/>
+      <char id="Col439197407" label="DNA" states="states329627"/>
+      <char id="Col439197408" label="DNA" states="states329627"/>
+      <char id="Col439197409" label="DNA" states="states329627"/>
+      <char id="Col439197410" label="DNA" states="states329627"/>
+      <char id="Col439197411" label="DNA" states="states329627"/>
+      <char id="Col439197412" label="DNA" states="states329627"/>
+      <char id="Col439197413" label="DNA" states="states329627"/>
+      <char id="Col439197414" label="DNA" states="states329627"/>
+      <char id="Col439197415" label="DNA" states="states329627"/>
+      <char id="Col439197416" label="DNA" states="states329627"/>
+      <char id="Col439197417" label="DNA" states="states329627"/>
+      <char id="Col439197418" label="DNA" states="states329627"/>
+      <char id="Col439197419" label="DNA" states="states329627"/>
+      <char id="Col439197420" label="DNA" states="states329627"/>
+      <char id="Col439197421" label="DNA" states="states329627"/>
+      <char id="Col439197422" label="DNA" states="states329627"/>
+      <char id="Col439197423" label="DNA" states="states329627"/>
+      <char id="Col439197424" label="DNA" states="states329627"/>
+      <char id="Col439197425" label="DNA" states="states329627"/>
+      <char id="Col439197426" label="DNA" states="states329627"/>
+      <char id="Col439197427" label="DNA" states="states329627"/>
+      <char id="Col439197428" label="DNA" states="states329627"/>
+      <char id="Col439197429" label="DNA" states="states329627"/>
+      <char id="Col439197430" label="DNA" states="states329627"/>
+      <char id="Col439197431" label="DNA" states="states329627"/>
+      <char id="Col439197432" label="DNA" states="states329627"/>
+      <char id="Col439197433" label="DNA" states="states329627"/>
+      <char id="Col439197434" label="DNA" states="states329627"/>
+      <char id="Col439197435" label="DNA" states="states329627"/>
+      <char id="Col439197436" label="DNA" states="states329627"/>
+      <char id="Col439197437" label="DNA" states="states329627"/>
+      <char id="Col439197438" label="DNA" states="states329627"/>
+      <char id="Col439197439" label="DNA" states="states329627"/>
+      <char id="Col439197440" label="DNA" states="states329627"/>
+      <char id="Col439197441" label="DNA" states="states329627"/>
+      <char id="Col439197442" label="DNA" states="states329627"/>
+      <char id="Col439197443" label="DNA" states="states329627"/>
+      <char id="Col439197444" label="DNA" states="states329627"/>
+      <char id="Col439197445" label="DNA" states="states329627"/>
+      <char id="Col439197446" label="DNA" states="states329627"/>
+      <char id="Col439197447" label="DNA" states="states329627"/>
+      <char id="Col439197448" label="DNA" states="states329627"/>
+      <char id="Col439197449" label="DNA" states="states329627"/>
+      <char id="Col439197450" label="DNA" states="states329627"/>
+      <char id="Col439197451" label="DNA" states="states329627"/>
+      <char id="Col439197452" label="DNA" states="states329627"/>
+      <char id="Col439197453" label="DNA" states="states329627"/>
+      <char id="Col439197454" label="DNA" states="states329627"/>
+      <char id="Col439197455" label="DNA" states="states329627"/>
+      <char id="Col439197456" label="DNA" states="states329627"/>
+      <char id="Col439197457" label="DNA" states="states329627"/>
+      <char id="Col439197458" label="DNA" states="states329627"/>
+      <char id="Col439197459" label="DNA" states="states329627"/>
+      <char id="Col439197460" label="DNA" states="states329627"/>
+      <char id="Col439197461" label="DNA" states="states329627"/>
+      <char id="Col439197462" label="DNA" states="states329627"/>
+      <char id="Col439197463" label="DNA" states="states329627"/>
+      <char id="Col439197464" label="DNA" states="states329627"/>
+      <char id="Col439197465" label="DNA" states="states329627"/>
+      <char id="Col439197466" label="DNA" states="states329627"/>
+      <char id="Col439197467" label="DNA" states="states329627"/>
+      <char id="Col439197468" label="DNA" states="states329627"/>
+      <char id="Col439197469" label="DNA" states="states329627"/>
+      <char id="Col439197470" label="DNA" states="states329627"/>
+      <char id="Col439197471" label="DNA" states="states329627"/>
+      <char id="Col439197472" label="DNA" states="states329627"/>
+      <char id="Col439197473" label="DNA" states="states329627"/>
+      <char id="Col439197474" label="DNA" states="states329627"/>
+      <char id="Col439197475" label="DNA" states="states329627"/>
+      <char id="Col439197476" label="DNA" states="states329627"/>
+      <char id="Col439197477" label="DNA" states="states329627"/>
+      <char id="Col439197478" label="DNA" states="states329627"/>
+      <char id="Col439197479" label="DNA" states="states329627"/>
+      <char id="Col439197480" label="DNA" states="states329627"/>
+      <char id="Col439197481" label="DNA" states="states329627"/>
+      <char id="Col439197482" label="DNA" states="states329627"/>
+      <char id="Col439197483" label="DNA" states="states329627"/>
+      <char id="Col439197484" label="DNA" states="states329627"/>
+      <char id="Col439197485" label="DNA" states="states329627"/>
+      <char id="Col439197486" label="DNA" states="states329627"/>
+      <char id="Col439197487" label="DNA" states="states329627"/>
+      <char id="Col439197488" label="DNA" states="states329627"/>
+      <char id="Col439197489" label="DNA" states="states329627"/>
+      <char id="Col439197490" label="DNA" states="states329627"/>
+      <char id="Col439197491" label="DNA" states="states329627"/>
+      <char id="Col439197492" label="DNA" states="states329627"/>
+      <char id="Col439197493" label="DNA" states="states329627"/>
+      <char id="Col439197494" label="DNA" states="states329627"/>
+      <char id="Col439197495" label="DNA" states="states329627"/>
+      <char id="Col439197496" label="DNA" states="states329627"/>
+      <char id="Col439197497" label="DNA" states="states329627"/>
+      <char id="Col439197498" label="DNA" states="states329627"/>
+      <char id="Col439197499" label="DNA" states="states329627"/>
+      <char id="Col439197500" label="DNA" states="states329627"/>
+      <char id="Col439197501" label="DNA" states="states329627"/>
+      <char id="Col439197502" label="DNA" states="states329627"/>
+      <char id="Col439197503" label="DNA" states="states329627"/>
+      <char id="Col439197504" label="DNA" states="states329627"/>
+      <char id="Col439197505" label="DNA" states="states329627"/>
+      <char id="Col439197506" label="DNA" states="states329627"/>
+      <char id="Col439197507" label="DNA" states="states329627"/>
+      <char id="Col439197508" label="DNA" states="states329627"/>
+      <char id="Col439197509" label="DNA" states="states329627"/>
+      <char id="Col439197510" label="DNA" states="states329627"/>
+      <char id="Col439197511" label="DNA" states="states329627"/>
+      <char id="Col439197512" label="DNA" states="states329627"/>
+      <char id="Col439197513" label="DNA" states="states329627"/>
+      <char id="Col439197514" label="DNA" states="states329627"/>
+      <char id="Col439197515" label="DNA" states="states329627"/>
+      <char id="Col439197516" label="DNA" states="states329627"/>
+      <char id="Col439197517" label="DNA" states="states329627"/>
+      <char id="Col439197518" label="DNA" states="states329627"/>
+      <char id="Col439197519" label="DNA" states="states329627"/>
+      <char id="Col439197520" label="DNA" states="states329627"/>
+      <char id="Col439197521" label="DNA" states="states329627"/>
+      <char id="Col439197522" label="DNA" states="states329627"/>
+      <char id="Col439197523" label="DNA" states="states329627"/>
+      <char id="Col439197524" label="DNA" states="states329627"/>
+      <char id="Col439197525" label="DNA" states="states329627"/>
+      <char id="Col439197526" label="DNA" states="states329627"/>
+      <char id="Col439197527" label="DNA" states="states329627"/>
+      <char id="Col439197528" label="DNA" states="states329627"/>
+      <char id="Col439197529" label="DNA" states="states329627"/>
+      <char id="Col439197530" label="DNA" states="states329627"/>
+      <char id="Col439197531" label="DNA" states="states329627"/>
+      <char id="Col439197532" label="DNA" states="states329627"/>
+      <char id="Col439197533" label="DNA" states="states329627"/>
+      <char id="Col439197534" label="DNA" states="states329627"/>
+      <char id="Col439197535" label="DNA" states="states329627"/>
+      <char id="Col439197536" label="DNA" states="states329627"/>
+      <char id="Col439197537" label="DNA" states="states329627"/>
+      <char id="Col439197538" label="DNA" states="states329627"/>
+      <char id="Col439197539" label="DNA" states="states329627"/>
+      <char id="Col439197540" label="DNA" states="states329627"/>
+      <char id="Col439197541" label="DNA" states="states329627"/>
+      <char id="Col439197542" label="DNA" states="states329627"/>
+      <char id="Col439197543" label="DNA" states="states329627"/>
+      <char id="Col439197544" label="DNA" states="states329627"/>
+      <char id="Col439197545" label="DNA" states="states329627"/>
+      <char id="Col439197546" label="DNA" states="states329627"/>
+      <char id="Col439197547" label="DNA" states="states329627"/>
+      <char id="Col439197548" label="DNA" states="states329627"/>
+      <char id="Col439197549" label="DNA" states="states329627"/>
+      <char id="Col439197550" label="DNA" states="states329627"/>
+      <char id="Col439197551" label="DNA" states="states329627"/>
+      <char id="Col439197552" label="DNA" states="states329627"/>
+      <char id="Col439197553" label="DNA" states="states329627"/>
+      <char id="Col439197554" label="DNA" states="states329627"/>
+      <char id="Col439197555" label="DNA" states="states329627"/>
+      <char id="Col439197556" label="DNA" states="states329627"/>
+      <char id="Col439197557" label="DNA" states="states329627"/>
+      <char id="Col439197558" label="DNA" states="states329627"/>
+      <char id="Col439197559" label="DNA" states="states329627"/>
+      <char id="Col439197560" label="DNA" states="states329627"/>
+      <char id="Col439197561" label="DNA" states="states329627"/>
+      <char id="Col439197562" label="DNA" states="states329627"/>
+      <char id="Col439197563" label="DNA" states="states329627"/>
+      <char id="Col439197564" label="DNA" states="states329627"/>
+      <char id="Col439197565" label="DNA" states="states329627"/>
+      <char id="Col439197566" label="DNA" states="states329627"/>
+      <char id="Col439197567" label="DNA" states="states329627"/>
+      <char id="Col439197568" label="DNA" states="states329627"/>
+      <char id="Col439197569" label="DNA" states="states329627"/>
+      <char id="Col439197570" label="DNA" states="states329627"/>
+      <char id="Col439197571" label="DNA" states="states329627"/>
+      <char id="Col439197572" label="DNA" states="states329627"/>
+      <char id="Col439197573" label="DNA" states="states329627"/>
+      <char id="Col439197574" label="DNA" states="states329627"/>
+      <char id="Col439197575" label="DNA" states="states329627"/>
+      <char id="Col439197576" label="DNA" states="states329627"/>
+      <char id="Col439197577" label="DNA" states="states329627"/>
+      <char id="Col439197578" label="DNA" states="states329627"/>
+      <char id="Col439197579" label="DNA" states="states329627"/>
+      <char id="Col439197580" label="DNA" states="states329627"/>
+      <char id="Col439197581" label="DNA" states="states329627"/>
+      <char id="Col439197582" label="DNA" states="states329627"/>
+      <char id="Col439197583" label="DNA" states="states329627"/>
+      <char id="Col439197584" label="DNA" states="states329627"/>
+      <char id="Col439197585" label="DNA" states="states329627"/>
+      <char id="Col439197586" label="DNA" states="states329627"/>
+      <char id="Col439197587" label="DNA" states="states329627"/>
+      <char id="Col439197588" label="DNA" states="states329627"/>
+      <char id="Col439197589" label="DNA" states="states329627"/>
+      <char id="Col439197590" label="DNA" states="states329627"/>
+      <char id="Col439197591" label="DNA" states="states329627"/>
+      <char id="Col439197592" label="DNA" states="states329627"/>
+      <char id="Col439197593" label="DNA" states="states329627"/>
+      <char id="Col439197594" label="DNA" states="states329627"/>
+      <char id="Col439197595" label="DNA" states="states329627"/>
+      <char id="Col439197596" label="DNA" states="states329627"/>
+      <char id="Col439197597" label="DNA" states="states329627"/>
+      <char id="Col439197598" label="DNA" states="states329627"/>
+      <char id="Col439197599" label="DNA" states="states329627"/>
+      <char id="Col439197600" label="DNA" states="states329627"/>
+      <char id="Col439197601" label="DNA" states="states329627"/>
+      <char id="Col439197602" label="DNA" states="states329627"/>
+      <char id="Col439197603" label="DNA" states="states329627"/>
+      <char id="Col439197604" label="DNA" states="states329627"/>
+      <char id="Col439197605" label="DNA" states="states329627"/>
+      <char id="Col439197606" label="DNA" states="states329627"/>
+      <char id="Col439197607" label="DNA" states="states329627"/>
+      <char id="Col439197608" label="DNA" states="states329627"/>
+      <char id="Col439197609" label="DNA" states="states329627"/>
+      <char id="Col439197610" label="DNA" states="states329627"/>
+      <char id="Col439197611" label="DNA" states="states329627"/>
+      <char id="Col439197612" label="DNA" states="states329627"/>
+      <char id="Col439197613" label="DNA" states="states329627"/>
+      <char id="Col439197614" label="DNA" states="states329627"/>
+      <char id="Col439197615" label="DNA" states="states329627"/>
+      <char id="Col439197616" label="DNA" states="states329627"/>
+      <char id="Col439197617" label="DNA" states="states329627"/>
+      <char id="Col439197618" label="DNA" states="states329627"/>
+      <char id="Col439197619" label="DNA" states="states329627"/>
+      <char id="Col439197620" label="DNA" states="states329627"/>
+      <char id="Col439197621" label="DNA" states="states329627"/>
+      <char id="Col439197622" label="DNA" states="states329627"/>
+      <char id="Col439197623" label="DNA" states="states329627"/>
+      <char id="Col439197624" label="DNA" states="states329627"/>
+      <char id="Col439197625" label="DNA" states="states329627"/>
+      <char id="Col439197626" label="DNA" states="states329627"/>
+      <char id="Col439197627" label="DNA" states="states329627"/>
+      <char id="Col439197628" label="DNA" states="states329627"/>
+      <char id="Col439197629" label="DNA" states="states329627"/>
+      <char id="Col439197630" label="DNA" states="states329627"/>
+      <char id="Col439197631" label="DNA" states="states329627"/>
+      <char id="Col439197632" label="DNA" states="states329627"/>
+      <char id="Col439197633" label="DNA" states="states329627"/>
+      <char id="Col439197634" label="DNA" states="states329627"/>
+      <char id="Col439197635" label="DNA" states="states329627"/>
+      <char id="Col439197636" label="DNA" states="states329627"/>
+      <char id="Col439197637" label="DNA" states="states329627"/>
+      <char id="Col439197638" label="DNA" states="states329627"/>
+      <char id="Col439197639" label="DNA" states="states329627"/>
+      <char id="Col439197640" label="DNA" states="states329627"/>
+      <char id="Col439197641" label="DNA" states="states329627"/>
+      <char id="Col439197642" label="DNA" states="states329627"/>
+      <char id="Col439197643" label="DNA" states="states329627"/>
+      <char id="Col439197644" label="DNA" states="states329627"/>
+      <char id="Col439197645" label="DNA" states="states329627"/>
+      <char id="Col439197646" label="DNA" states="states329627"/>
+      <char id="Col439197647" label="DNA" states="states329627"/>
+      <char id="Col439197648" label="DNA" states="states329627"/>
+      <char id="Col439197649" label="DNA" states="states329627"/>
+      <char id="Col439197650" label="DNA" states="states329627"/>
+      <char id="Col439197651" label="DNA" states="states329627"/>
+      <char id="Col439197652" label="DNA" states="states329627"/>
+      <char id="Col439197653" label="DNA" states="states329627"/>
+      <char id="Col439197654" label="DNA" states="states329627"/>
+      <char id="Col439197655" label="DNA" states="states329627"/>
+      <char id="Col439197656" label="DNA" states="states329627"/>
+      <char id="Col439197657" label="DNA" states="states329627"/>
+      <char id="Col439197658" label="DNA" states="states329627"/>
+      <char id="Col439197659" label="DNA" states="states329627"/>
+      <char id="Col439197660" label="DNA" states="states329627"/>
+      <char id="Col439197661" label="DNA" states="states329627"/>
+      <char id="Col439197662" label="DNA" states="states329627"/>
+      <char id="Col439197663" label="DNA" states="states329627"/>
+      <char id="Col439197664" label="DNA" states="states329627"/>
+      <char id="Col439197665" label="DNA" states="states329627"/>
+      <char id="Col439197666" label="DNA" states="states329627"/>
+      <char id="Col439197667" label="DNA" states="states329627"/>
+      <char id="Col439197668" label="DNA" states="states329627"/>
+      <char id="Col439197669" label="DNA" states="states329627"/>
+      <char id="Col439197670" label="DNA" states="states329627"/>
+      <char id="Col439197671" label="DNA" states="states329627"/>
+      <char id="Col439197672" label="DNA" states="states329627"/>
+      <char id="Col439197673" label="DNA" states="states329627"/>
+      <char id="Col439197674" label="DNA" states="states329627"/>
+      <char id="Col439197675" label="DNA" states="states329627"/>
+      <char id="Col439197676" label="DNA" states="states329627"/>
+      <char id="Col439197677" label="DNA" states="states329627"/>
+      <char id="Col439197678" label="DNA" states="states329627"/>
+      <char id="Col439197679" label="DNA" states="states329627"/>
+      <char id="Col439197680" label="DNA" states="states329627"/>
+      <char id="Col439197681" label="DNA" states="states329627"/>
+      <char id="Col439197682" label="DNA" states="states329627"/>
+      <char id="Col439197683" label="DNA" states="states329627"/>
+      <char id="Col439197684" label="DNA" states="states329627"/>
+      <char id="Col439197685" label="DNA" states="states329627"/>
+      <char id="Col439197686" label="DNA" states="states329627"/>
+      <char id="Col439197687" label="DNA" states="states329627"/>
+      <char id="Col439197688" label="DNA" states="states329627"/>
+      <char id="Col439197689" label="DNA" states="states329627"/>
+      <char id="Col439197690" label="DNA" states="states329627"/>
+      <char id="Col439197691" label="DNA" states="states329627"/>
+      <char id="Col439197692" label="DNA" states="states329627"/>
+      <char id="Col439197693" label="DNA" states="states329627"/>
+      <char id="Col439197694" label="DNA" states="states329627"/>
+      <char id="Col439197695" label="DNA" states="states329627"/>
+      <char id="Col439197696" label="DNA" states="states329627"/>
+      <char id="Col439197697" label="DNA" states="states329627"/>
+      <char id="Col439197698" label="DNA" states="states329627"/>
+      <char id="Col439197699" label="DNA" states="states329627"/>
+      <char id="Col439197700" label="DNA" states="states329627"/>
+      <char id="Col439197701" label="DNA" states="states329627"/>
+      <char id="Col439197702" label="DNA" states="states329627"/>
+      <char id="Col439197703" label="DNA" states="states329627"/>
+      <char id="Col439197704" label="DNA" states="states329627"/>
+      <char id="Col439197705" label="DNA" states="states329627"/>
+      <char id="Col439197706" label="DNA" states="states329627"/>
+      <char id="Col439197707" label="DNA" states="states329627"/>
+      <char id="Col439197708" label="DNA" states="states329627"/>
+      <char id="Col439197709" label="DNA" states="states329627"/>
+      <char id="Col439197710" label="DNA" states="states329627"/>
+      <char id="Col439197711" label="DNA" states="states329627"/>
+      <char id="Col439197712" label="DNA" states="states329627"/>
+      <char id="Col439197713" label="DNA" states="states329627"/>
+      <char id="Col439197714" label="DNA" states="states329627"/>
+      <char id="Col439197715" label="DNA" states="states329627"/>
+      <char id="Col439197716" label="DNA" states="states329627"/>
+      <char id="Col439197717" label="DNA" states="states329627"/>
+      <char id="Col439197718" label="DNA" states="states329627"/>
+      <char id="Col439197719" label="DNA" states="states329627"/>
+      <char id="Col439197720" label="DNA" states="states329627"/>
+      <char id="Col439197721" label="DNA" states="states329627"/>
+      <char id="Col439197722" label="DNA" states="states329627"/>
+      <char id="Col439197723" label="DNA" states="states329627"/>
+      <char id="Col439197724" label="DNA" states="states329627"/>
+      <char id="Col439197725" label="DNA" states="states329627"/>
+      <char id="Col439197726" label="DNA" states="states329627"/>
+      <char id="Col439197727" label="DNA" states="states329627"/>
+      <char id="Col439197728" label="DNA" states="states329627"/>
+      <char id="Col439197729" label="DNA" states="states329627"/>
+      <char id="Col439197730" label="DNA" states="states329627"/>
+      <char id="Col439197731" label="DNA" states="states329627"/>
+      <char id="Col439197732" label="DNA" states="states329627"/>
+      <char id="Col439197733" label="DNA" states="states329627"/>
+      <char id="Col439197734" label="DNA" states="states329627"/>
+      <char id="Col439197735" label="DNA" states="states329627"/>
+      <char id="Col439197736" label="DNA" states="states329627"/>
+      <char id="Col439197737" label="DNA" states="states329627"/>
+      <char id="Col439197738" label="DNA" states="states329627"/>
+      <char id="Col439197739" label="DNA" states="states329627"/>
+      <char id="Col439197740" label="DNA" states="states329627"/>
+      <char id="Col439197741" label="DNA" states="states329627"/>
+      <char id="Col439197742" label="DNA" states="states329627"/>
+      <char id="Col439197743" label="DNA" states="states329627"/>
+      <char id="Col439197744" label="DNA" states="states329627"/>
+      <char id="Col439197745" label="DNA" states="states329627"/>
+      <char id="Col439197746" label="DNA" states="states329627"/>
+      <char id="Col439197747" label="DNA" states="states329627"/>
+      <char id="Col439197748" label="DNA" states="states329627"/>
+      <char id="Col439197749" label="DNA" states="states329627"/>
+      <char id="Col439197750" label="DNA" states="states329627"/>
+      <char id="Col439197751" label="DNA" states="states329627"/>
+      <char id="Col439197752" label="DNA" states="states329627"/>
+      <char id="Col439197753" label="DNA" states="states329627"/>
+      <char id="Col439197754" label="DNA" states="states329627"/>
+      <char id="Col439197755" label="DNA" states="states329627"/>
+      <char id="Col439197756" label="DNA" states="states329627"/>
+      <char id="Col439197757" label="DNA" states="states329627"/>
+      <char id="Col439197758" label="DNA" states="states329627"/>
+      <char id="Col439197759" label="DNA" states="states329627"/>
+      <char id="Col439197760" label="DNA" states="states329627"/>
+      <char id="Col439197761" label="DNA" states="states329627"/>
+      <char id="Col439197762" label="DNA" states="states329627"/>
+      <char id="Col439197763" label="DNA" states="states329627"/>
+      <char id="Col439197764" label="DNA" states="states329627"/>
+      <char id="Col439197765" label="DNA" states="states329627"/>
+      <char id="Col439197766" label="DNA" states="states329627"/>
+      <char id="Col439197767" label="DNA" states="states329627"/>
+      <char id="Col439197768" label="DNA" states="states329627"/>
+      <char id="Col439197769" label="DNA" states="states329627"/>
+      <char id="Col439197770" label="DNA" states="states329627"/>
+      <char id="Col439197771" label="DNA" states="states329627"/>
+      <char id="Col439197772" label="DNA" states="states329627"/>
+      <char id="Col439197773" label="DNA" states="states329627"/>
+      <char id="Col439197774" label="DNA" states="states329627"/>
+      <char id="Col439197775" label="DNA" states="states329627"/>
+      <char id="Col439197776" label="DNA" states="states329627"/>
+      <char id="Col439197777" label="DNA" states="states329627"/>
+      <char id="Col439197778" label="DNA" states="states329627"/>
+      <char id="Col439197779" label="DNA" states="states329627"/>
+      <char id="Col439197780" label="DNA" states="states329627"/>
+      <char id="Col439197781" label="DNA" states="states329627"/>
+      <char id="Col439197782" label="DNA" states="states329627"/>
+      <char id="Col439197783" label="DNA" states="states329627"/>
+      <char id="Col439197784" label="DNA" states="states329627"/>
+      <char id="Col439197785" label="DNA" states="states329627"/>
+      <char id="Col439197786" label="DNA" states="states329627"/>
+      <char id="Col439197787" label="DNA" states="states329627"/>
+      <char id="Col439197788" label="DNA" states="states329627"/>
+      <char id="Col439197789" label="DNA" states="states329627"/>
+      <char id="Col439197790" label="DNA" states="states329627"/>
+      <char id="Col439197791" label="DNA" states="states329627"/>
+      <char id="Col439197792" label="DNA" states="states329627"/>
+      <char id="Col439197793" label="DNA" states="states329627"/>
+      <char id="Col439197794" label="DNA" states="states329627"/>
+      <char id="Col439197795" label="DNA" states="states329627"/>
+      <char id="Col439197796" label="DNA" states="states329627"/>
+      <char id="Col439197797" label="DNA" states="states329627"/>
+      <char id="Col439197798" label="DNA" states="states329627"/>
+      <char id="Col439197799" label="DNA" states="states329627"/>
+      <char id="Col439197800" label="DNA" states="states329627"/>
+      <char id="Col439197801" label="DNA" states="states329627"/>
+      <char id="Col439197802" label="DNA" states="states329627"/>
+      <char id="Col439197803" label="DNA" states="states329627"/>
+      <char id="Col439197804" label="DNA" states="states329627"/>
+      <char id="Col439197805" label="DNA" states="states329627"/>
+      <char id="Col439197806" label="DNA" states="states329627"/>
+      <char id="Col439197807" label="DNA" states="states329627"/>
+      <char id="Col439197808" label="DNA" states="states329627"/>
+      <char id="Col439197809" label="DNA" states="states329627"/>
+      <char id="Col439197810" label="DNA" states="states329627"/>
+      <char id="Col439197811" label="DNA" states="states329627"/>
+      <char id="Col439197812" label="DNA" states="states329627"/>
+      <char id="Col439197813" label="DNA" states="states329627"/>
+      <char id="Col439197814" label="DNA" states="states329627"/>
+      <char id="Col439197815" label="DNA" states="states329627"/>
+      <char id="Col439197816" label="DNA" states="states329627"/>
+      <char id="Col439197817" label="DNA" states="states329627"/>
+      <char id="Col439197818" label="DNA" states="states329627"/>
+      <char id="Col439197819" label="DNA" states="states329627"/>
+      <char id="Col439197820" label="DNA" states="states329627"/>
+      <char id="Col439197821" label="DNA" states="states329627"/>
+      <char id="Col439197822" label="DNA" states="states329627"/>
+      <char id="Col439197823" label="DNA" states="states329627"/>
+      <char id="Col439197824" label="DNA" states="states329627"/>
+      <char id="Col439197825" label="DNA" states="states329627"/>
+      <char id="Col439197826" label="DNA" states="states329627"/>
+      <char id="Col439197827" label="DNA" states="states329627"/>
+      <char id="Col439197828" label="DNA" states="states329627"/>
+      <char id="Col439197829" label="DNA" states="states329627"/>
+      <char id="Col439197830" label="DNA" states="states329627"/>
+      <char id="Col439197831" label="DNA" states="states329627"/>
+      <char id="Col439197832" label="DNA" states="states329627"/>
+      <char id="Col439197833" label="DNA" states="states329627"/>
+      <char id="Col439197834" label="DNA" states="states329627"/>
+      <char id="Col439197835" label="DNA" states="states329627"/>
+      <char id="Col439197836" label="DNA" states="states329627"/>
+      <char id="Col439197837" label="DNA" states="states329627"/>
+      <char id="Col439197838" label="DNA" states="states329627"/>
+      <char id="Col439197839" label="DNA" states="states329627"/>
+      <char id="Col439197840" label="DNA" states="states329627"/>
+      <char id="Col439197841" label="DNA" states="states329627"/>
+      <char id="Col439197842" label="DNA" states="states329627"/>
+      <char id="Col439197843" label="DNA" states="states329627"/>
+      <char id="Col439197844" label="DNA" states="states329627"/>
+      <char id="Col439197845" label="DNA" states="states329627"/>
+      <char id="Col439197846" label="DNA" states="states329627"/>
+      <char id="Col439197847" label="DNA" states="states329627"/>
+      <char id="Col439197848" label="DNA" states="states329627"/>
+      <char id="Col439197849" label="DNA" states="states329627"/>
+      <char id="Col439197850" label="DNA" states="states329627"/>
+      <char id="Col439197851" label="DNA" states="states329627"/>
+      <char id="Col439197852" label="DNA" states="states329627"/>
+      <char id="Col439197853" label="DNA" states="states329627"/>
+      <char id="Col439197854" label="DNA" states="states329627"/>
+      <char id="Col439197855" label="DNA" states="states329627"/>
+      <char id="Col439197856" label="DNA" states="states329627"/>
+      <char id="Col439197857" label="DNA" states="states329627"/>
+      <char id="Col439197858" label="DNA" states="states329627"/>
+      <char id="Col439197859" label="DNA" states="states329627"/>
+      <char id="Col439197860" label="DNA" states="states329627"/>
+      <char id="Col439197861" label="DNA" states="states329627"/>
+      <char id="Col439197862" label="DNA" states="states329627"/>
+      <char id="Col439197863" label="DNA" states="states329627"/>
+      <char id="Col439197864" label="DNA" states="states329627"/>
+      <char id="Col439197865" label="DNA" states="states329627"/>
+      <char id="Col439197866" label="DNA" states="states329627"/>
+      <char id="Col439197867" label="DNA" states="states329627"/>
+      <char id="Col439197868" label="DNA" states="states329627"/>
+      <char id="Col439197869" label="DNA" states="states329627"/>
+      <char id="Col439197870" label="DNA" states="states329627"/>
+      <char id="Col439197871" label="DNA" states="states329627"/>
+      <char id="Col439197872" label="DNA" states="states329627"/>
+      <char id="Col439197873" label="DNA" states="states329627"/>
+      <char id="Col439197874" label="DNA" states="states329627"/>
+      <char id="Col439197875" label="DNA" states="states329627"/>
+      <char id="Col439197876" label="DNA" states="states329627"/>
+      <char id="Col439197877" label="DNA" states="states329627"/>
+      <char id="Col439197878" label="DNA" states="states329627"/>
+      <char id="Col439197879" label="DNA" states="states329627"/>
+      <char id="Col439197880" label="DNA" states="states329627"/>
+      <char id="Col439197881" label="DNA" states="states329627"/>
+      <char id="Col439197882" label="DNA" states="states329627"/>
+      <char id="Col439197883" label="DNA" states="states329627"/>
+      <char id="Col439197884" label="DNA" states="states329627"/>
+      <char id="Col439197885" label="DNA" states="states329627"/>
+      <char id="Col439197886" label="DNA" states="states329627"/>
+      <char id="Col439197887" label="DNA" states="states329627"/>
+      <char id="Col439197888" label="DNA" states="states329627"/>
+      <char id="Col439197889" label="DNA" states="states329627"/>
+      <char id="Col439197890" label="DNA" states="states329627"/>
+      <char id="Col439197891" label="DNA" states="states329627"/>
+      <char id="Col439197892" label="DNA" states="states329627"/>
+      <char id="Col439197893" label="DNA" states="states329627"/>
+      <char id="Col439197894" label="DNA" states="states329627"/>
+      <char id="Col439197895" label="DNA" states="states329627"/>
+      <char id="Col439197896" label="DNA" states="states329627"/>
+      <char id="Col439197897" label="DNA" states="states329627"/>
+      <char id="Col439197898" label="DNA" states="states329627"/>
+      <char id="Col439197899" label="DNA" states="states329627"/>
+      <char id="Col439197900" label="DNA" states="states329627"/>
+      <char id="Col439197901" label="DNA" states="states329627"/>
+      <char id="Col439197902" label="DNA" states="states329627"/>
+      <char id="Col439197903" label="DNA" states="states329627"/>
+      <char id="Col439197904" label="DNA" states="states329627"/>
+      <char id="Col439197905" label="DNA" states="states329627"/>
+      <char id="Col439197906" label="DNA" states="states329627"/>
+      <char id="Col439197907" label="DNA" states="states329627"/>
+      <char id="Col439197908" label="DNA" states="states329627"/>
+      <char id="Col439197909" label="DNA" states="states329627"/>
+      <char id="Col439197910" label="DNA" states="states329627"/>
+      <char id="Col439197911" label="DNA" states="states329627"/>
+      <char id="Col439197912" label="DNA" states="states329627"/>
+      <char id="Col439197913" label="DNA" states="states329627"/>
+      <char id="Col439197914" label="DNA" states="states329627"/>
+      <char id="Col439197915" label="DNA" states="states329627"/>
+      <char id="Col439197916" label="DNA" states="states329627"/>
+      <char id="Col439197917" label="DNA" states="states329627"/>
+      <char id="Col439197918" label="DNA" states="states329627"/>
+      <char id="Col439197919" label="DNA" states="states329627"/>
+      <char id="Col439197920" label="DNA" states="states329627"/>
+      <char id="Col439197921" label="DNA" states="states329627"/>
+      <char id="Col439197922" label="DNA" states="states329627"/>
+      <char id="Col439197923" label="DNA" states="states329627"/>
+      <char id="Col439197924" label="DNA" states="states329627"/>
+      <char id="Col439197925" label="DNA" states="states329627"/>
+      <char id="Col439197926" label="DNA" states="states329627"/>
+      <char id="Col439197927" label="DNA" states="states329627"/>
+      <char id="Col439197928" label="DNA" states="states329627"/>
+      <char id="Col439197929" label="DNA" states="states329627"/>
+      <char id="Col439197930" label="DNA" states="states329627"/>
+      <char id="Col439197931" label="DNA" states="states329627"/>
+      <char id="Col439197932" label="DNA" states="states329627"/>
+      <char id="Col439197933" label="DNA" states="states329627"/>
+      <char id="Col439197934" label="DNA" states="states329627"/>
+      <char id="Col439197935" label="DNA" states="states329627"/>
+      <char id="Col439197936" label="DNA" states="states329627"/>
+      <char id="Col439197937" label="DNA" states="states329627"/>
+      <char id="Col439197938" label="DNA" states="states329627"/>
+      <char id="Col439197939" label="DNA" states="states329627"/>
+      <char id="Col439197940" label="DNA" states="states329627"/>
+      <char id="Col439197941" label="DNA" states="states329627"/>
+      <char id="Col439197942" label="DNA" states="states329627"/>
+      <char id="Col439197943" label="DNA" states="states329627"/>
+      <char id="Col439197944" label="DNA" states="states329627"/>
+      <char id="Col439197945" label="DNA" states="states329627"/>
+      <char id="Col439197946" label="DNA" states="states329627"/>
+      <char id="Col439197947" label="DNA" states="states329627"/>
+      <char id="Col439197948" label="DNA" states="states329627"/>
+      <char id="Col439197949" label="DNA" states="states329627"/>
+      <char id="Col439197950" label="DNA" states="states329627"/>
+      <char id="Col439197951" label="DNA" states="states329627"/>
+      <char id="Col439197952" label="DNA" states="states329627"/>
+      <char id="Col439197953" label="DNA" states="states329627"/>
+      <char id="Col439197954" label="DNA" states="states329627"/>
+      <char id="Col439197955" label="DNA" states="states329627"/>
+      <char id="Col439197956" label="DNA" states="states329627"/>
+      <char id="Col439197957" label="DNA" states="states329627"/>
+      <char id="Col439197958" label="DNA" states="states329627"/>
+      <char id="Col439197959" label="DNA" states="states329627"/>
+      <char id="Col439197960" label="DNA" states="states329627"/>
+      <char id="Col439197961" label="DNA" states="states329627"/>
+      <char id="Col439197962" label="DNA" states="states329627"/>
+      <char id="Col439197963" label="DNA" states="states329627"/>
+      <char id="Col439197964" label="DNA" states="states329627"/>
+      <char id="Col439197965" label="DNA" states="states329627"/>
+      <char id="Col439197966" label="DNA" states="states329627"/>
+      <char id="Col439197967" label="DNA" states="states329627"/>
+      <char id="Col439197968" label="DNA" states="states329627"/>
+      <char id="Col439197969" label="DNA" states="states329627"/>
+      <char id="Col439197970" label="DNA" states="states329627"/>
+      <char id="Col439197971" label="DNA" states="states329627"/>
+      <char id="Col439197972" label="DNA" states="states329627"/>
+      <char id="Col439197973" label="DNA" states="states329627"/>
+      <char id="Col439197974" label="DNA" states="states329627"/>
+      <char id="Col439197975" label="DNA" states="states329627"/>
+      <char id="Col439197976" label="DNA" states="states329627"/>
+      <char id="Col439197977" label="DNA" states="states329627"/>
+      <char id="Col439197978" label="DNA" states="states329627"/>
+      <char id="Col439197979" label="DNA" states="states329627"/>
+      <char id="Col439197980" label="DNA" states="states329627"/>
+      <char id="Col439197981" label="DNA" states="states329627"/>
+      <char id="Col439197982" label="DNA" states="states329627"/>
+      <char id="Col439197983" label="DNA" states="states329627"/>
+      <char id="Col439197984" label="DNA" states="states329627"/>
+      <char id="Col439197985" label="DNA" states="states329627"/>
+      <char id="Col439197986" label="DNA" states="states329627"/>
+      <char id="Col439197987" label="DNA" states="states329627"/>
+      <char id="Col439197988" label="DNA" states="states329627"/>
+      <char id="Col439197989" label="DNA" states="states329627"/>
+      <char id="Col439197990" label="DNA" states="states329627"/>
+      <char id="Col439197991" label="DNA" states="states329627"/>
+      <char id="Col439197992" label="DNA" states="states329627"/>
+      <char id="Col439197993" label="DNA" states="states329627"/>
+      <char id="Col439197994" label="DNA" states="states329627"/>
+      <char id="Col439197995" label="DNA" states="states329627"/>
+      <char id="Col439197996" label="DNA" states="states329627"/>
+      <char id="Col439197997" label="DNA" states="states329627"/>
+      <char id="Col439197998" label="DNA" states="states329627"/>
+      <char id="Col439197999" label="DNA" states="states329627"/>
+      <char id="Col439198000" label="DNA" states="states329627"/>
+      <char id="Col439198001" label="DNA" states="states329627"/>
+      <char id="Col439198002" label="DNA" states="states329627"/>
+      <char id="Col439198003" label="DNA" states="states329627"/>
+      <char id="Col439198004" label="DNA" states="states329627"/>
+      <char id="Col439198005" label="DNA" states="states329627"/>
+      <char id="Col439198006" label="DNA" states="states329627"/>
+      <char id="Col439198007" label="DNA" states="states329627"/>
+      <char id="Col439198008" label="DNA" states="states329627"/>
+      <char id="Col439198009" label="DNA" states="states329627"/>
+      <char id="Col439198010" label="DNA" states="states329627"/>
+      <char id="Col439198011" label="DNA" states="states329627"/>
+      <char id="Col439198012" label="DNA" states="states329627"/>
+      <char id="Col439198013" label="DNA" states="states329627"/>
+      <char id="Col439198014" label="DNA" states="states329627"/>
+      <char id="Col439198015" label="DNA" states="states329627"/>
+      <char id="Col439198016" label="DNA" states="states329627"/>
+      <char id="Col439198017" label="DNA" states="states329627"/>
+      <char id="Col439198018" label="DNA" states="states329627"/>
+      <char id="Col439198019" label="DNA" states="states329627"/>
+      <char id="Col439198020" label="DNA" states="states329627"/>
+      <char id="Col439198021" label="DNA" states="states329627"/>
+      <char id="Col439198022" label="DNA" states="states329627"/>
+      <char id="Col439198023" label="DNA" states="states329627"/>
+      <char id="Col439198024" label="DNA" states="states329627"/>
+      <char id="Col439198025" label="DNA" states="states329627"/>
+      <char id="Col439198026" label="DNA" states="states329627"/>
+      <char id="Col439198027" label="DNA" states="states329627"/>
+      <char id="Col439198028" label="DNA" states="states329627"/>
+      <char id="Col439198029" label="DNA" states="states329627"/>
+      <char id="Col439198030" label="DNA" states="states329627"/>
+      <char id="Col439198031" label="DNA" states="states329627"/>
+      <char id="Col439198032" label="DNA" states="states329627"/>
+      <char id="Col439198033" label="DNA" states="states329627"/>
+      <char id="Col439198034" label="DNA" states="states329627"/>
+      <char id="Col439198035" label="DNA" states="states329627"/>
+      <char id="Col439198036" label="DNA" states="states329627"/>
+      <char id="Col439198037" label="DNA" states="states329627"/>
+      <char id="Col439198038" label="DNA" states="states329627"/>
+      <char id="Col439198039" label="DNA" states="states329627"/>
+      <char id="Col439198040" label="DNA" states="states329627"/>
+      <char id="Col439198041" label="DNA" states="states329627"/>
+      <char id="Col439198042" label="DNA" states="states329627"/>
+      <char id="Col439198043" label="DNA" states="states329627"/>
+      <char id="Col439198044" label="DNA" states="states329627"/>
+      <char id="Col439198045" label="DNA" states="states329627"/>
+      <char id="Col439198046" label="DNA" states="states329627"/>
+      <char id="Col439198047" label="DNA" states="states329627"/>
+      <char id="Col439198048" label="DNA" states="states329627"/>
+      <char id="Col439198049" label="DNA" states="states329627"/>
+      <char id="Col439198050" label="DNA" states="states329627"/>
+      <char id="Col439198051" label="DNA" states="states329627"/>
+      <char id="Col439198052" label="DNA" states="states329627"/>
+      <char id="Col439198053" label="DNA" states="states329627"/>
+      <char id="Col439198054" label="DNA" states="states329627"/>
+      <char id="Col439198055" label="DNA" states="states329627"/>
+      <char id="Col439198056" label="DNA" states="states329627"/>
+      <char id="Col439198057" label="DNA" states="states329627"/>
+      <char id="Col439198058" label="DNA" states="states329627"/>
+      <char id="Col439198059" label="DNA" states="states329627"/>
+      <char id="Col439198060" label="DNA" states="states329627"/>
+      <char id="Col439198061" label="DNA" states="states329627"/>
+      <char id="Col439198062" label="DNA" states="states329627"/>
+      <char id="Col439198063" label="DNA" states="states329627"/>
+      <char id="Col439198064" label="DNA" states="states329627"/>
+      <char id="Col439198065" label="DNA" states="states329627"/>
+      <char id="Col439198066" label="DNA" states="states329627"/>
+      <char id="Col439198067" label="DNA" states="states329627"/>
+      <char id="Col439198068" label="DNA" states="states329627"/>
+      <char id="Col439198069" label="DNA" states="states329627"/>
+      <char id="Col439198070" label="DNA" states="states329627"/>
+      <char id="Col439198071" label="DNA" states="states329627"/>
+      <char id="Col439198072" label="DNA" states="states329627"/>
+      <char id="Col439198073" label="DNA" states="states329627"/>
+      <char id="Col439198074" label="DNA" states="states329627"/>
+      <char id="Col439198075" label="DNA" states="states329627"/>
+      <char id="Col439198076" label="DNA" states="states329627"/>
+      <char id="Col439198077" label="DNA" states="states329627"/>
+      <char id="Col439198078" label="DNA" states="states329627"/>
+      <char id="Col439198079" label="DNA" states="states329627"/>
+      <char id="Col439198080" label="DNA" states="states329627"/>
+      <char id="Col439198081" label="DNA" states="states329627"/>
+      <char id="Col439198082" label="DNA" states="states329627"/>
+      <char id="Col439198083" label="DNA" states="states329627"/>
+      <char id="Col439198084" label="DNA" states="states329627"/>
+      <char id="Col439198085" label="DNA" states="states329627"/>
+      <char id="Col439198086" label="DNA" states="states329627"/>
+      <char id="Col439198087" label="DNA" states="states329627"/>
+      <char id="Col439198088" label="DNA" states="states329627"/>
+      <char id="Col439198089" label="DNA" states="states329627"/>
+      <char id="Col439198090" label="DNA" states="states329627"/>
+      <char id="Col439198091" label="DNA" states="states329627"/>
+      <char id="Col439198092" label="DNA" states="states329627"/>
+      <char id="Col439198093" label="DNA" states="states329627"/>
+      <char id="Col439198094" label="DNA" states="states329627"/>
+      <char id="Col439198095" label="DNA" states="states329627"/>
+      <char id="Col439198096" label="DNA" states="states329627"/>
+      <char id="Col439198097" label="DNA" states="states329627"/>
+      <char id="Col439198098" label="DNA" states="states329627"/>
+      <char id="Col439198099" label="DNA" states="states329627"/>
+      <char id="Col439198100" label="DNA" states="states329627"/>
+      <char id="Col439198101" label="DNA" states="states329627"/>
+      <char id="Col439198102" label="DNA" states="states329627"/>
+      <char id="Col439198103" label="DNA" states="states329627"/>
+      <char id="Col439198104" label="DNA" states="states329627"/>
+      <char id="Col439198105" label="DNA" states="states329627"/>
+      <char id="Col439198106" label="DNA" states="states329627"/>
+      <char id="Col439198107" label="DNA" states="states329627"/>
+      <char id="Col439198108" label="DNA" states="states329627"/>
+      <char id="Col439198109" label="DNA" states="states329627"/>
+      <char id="Col439198110" label="DNA" states="states329627"/>
+      <char id="Col439198111" label="DNA" states="states329627"/>
+      <char id="Col439198112" label="DNA" states="states329627"/>
+      <char id="Col439198113" label="DNA" states="states329627"/>
+      <char id="Col439198114" label="DNA" states="states329627"/>
+      <char id="Col439198115" label="DNA" states="states329627"/>
+      <char id="Col439198116" label="DNA" states="states329627"/>
+      <char id="Col439198117" label="DNA" states="states329627"/>
+      <char id="Col439198118" label="DNA" states="states329627"/>
+      <char id="Col439198119" label="DNA" states="states329627"/>
+      <char id="Col439198120" label="DNA" states="states329627"/>
+      <char id="Col439198121" label="DNA" states="states329627"/>
+      <char id="Col439198122" label="DNA" states="states329627"/>
+      <char id="Col439198123" label="DNA" states="states329627"/>
+      <char id="Col439198124" label="DNA" states="states329627"/>
+      <char id="Col439198125" label="DNA" states="states329627"/>
+      <char id="Col439198126" label="DNA" states="states329627"/>
+      <char id="Col439198127" label="DNA" states="states329627"/>
+      <char id="Col439198128" label="DNA" states="states329627"/>
+      <char id="Col439198129" label="DNA" states="states329627"/>
+      <char id="Col439198130" label="DNA" states="states329627"/>
+      <char id="Col439198131" label="DNA" states="states329627"/>
+      <char id="Col439198132" label="DNA" states="states329627"/>
+      <char id="Col439198133" label="DNA" states="states329627"/>
+      <char id="Col439198134" label="DNA" states="states329627"/>
+      <char id="Col439198135" label="DNA" states="states329627"/>
+      <char id="Col439198136" label="DNA" states="states329627"/>
+      <char id="Col439198137" label="DNA" states="states329627"/>
+      <char id="Col439198138" label="DNA" states="states329627"/>
+      <char id="Col439198139" label="DNA" states="states329627"/>
+      <char id="Col439198140" label="DNA" states="states329627"/>
+      <char id="Col439198141" label="DNA" states="states329627"/>
+      <char id="Col439198142" label="DNA" states="states329627"/>
+      <char id="Col439198143" label="DNA" states="states329627"/>
+      <char id="Col439198144" label="DNA" states="states329627"/>
+      <char id="Col439198145" label="DNA" states="states329627"/>
+      <char id="Col439198146" label="DNA" states="states329627"/>
+      <char id="Col439198147" label="DNA" states="states329627"/>
+      <char id="Col439198148" label="DNA" states="states329627"/>
+      <char id="Col439198149" label="DNA" states="states329627"/>
+      <char id="Col439198150" label="DNA" states="states329627"/>
+      <char id="Col439198151" label="DNA" states="states329627"/>
+      <char id="Col439198152" label="DNA" states="states329627"/>
+      <char id="Col439198153" label="DNA" states="states329627"/>
+      <char id="Col439198154" label="DNA" states="states329627"/>
+      <char id="Col439198155" label="DNA" states="states329627"/>
+      <char id="Col439198156" label="DNA" states="states329627"/>
+      <char id="Col439198157" label="DNA" states="states329627"/>
+      <char id="Col439198158" label="DNA" states="states329627"/>
+      <char id="Col439198159" label="DNA" states="states329627"/>
+      <char id="Col439198160" label="DNA" states="states329627"/>
+      <char id="Col439198161" label="DNA" states="states329627"/>
+      <char id="Col439198162" label="DNA" states="states329627"/>
+      <char id="Col439198163" label="DNA" states="states329627"/>
+      <char id="Col439198164" label="DNA" states="states329627"/>
+      <char id="Col439198165" label="DNA" states="states329627"/>
+      <char id="Col439198166" label="DNA" states="states329627"/>
+      <char id="Col439198167" label="DNA" states="states329627"/>
+      <char id="Col439198168" label="DNA" states="states329627"/>
+      <char id="Col439198169" label="DNA" states="states329627"/>
+      <char id="Col439198170" label="DNA" states="states329627"/>
+      <char id="Col439198171" label="DNA" states="states329627"/>
+      <char id="Col439198172" label="DNA" states="states329627"/>
+      <char id="Col439198173" label="DNA" states="states329627"/>
+      <char id="Col439198174" label="DNA" states="states329627"/>
+      <char id="Col439198175" label="DNA" states="states329627"/>
+      <char id="Col439198176" label="DNA" states="states329627"/>
+      <char id="Col439198177" label="DNA" states="states329627"/>
+      <char id="Col439198178" label="DNA" states="states329627"/>
+      <char id="Col439198179" label="DNA" states="states329627"/>
+      <char id="Col439198180" label="DNA" states="states329627"/>
+      <char id="Col439198181" label="DNA" states="states329627"/>
+      <char id="Col439198182" label="DNA" states="states329627"/>
+      <char id="Col439198183" label="DNA" states="states329627"/>
+      <char id="Col439198184" label="DNA" states="states329627"/>
+      <char id="Col439198185" label="DNA" states="states329627"/>
+      <char id="Col439198186" label="DNA" states="states329627"/>
+      <char id="Col439198187" label="DNA" states="states329627"/>
+      <char id="Col439198188" label="DNA" states="states329627"/>
+      <char id="Col439198189" label="DNA" states="states329627"/>
+      <char id="Col439198190" label="DNA" states="states329627"/>
+      <char id="Col439198191" label="DNA" states="states329627"/>
+      <char id="Col439198192" label="DNA" states="states329627"/>
+      <char id="Col439198193" label="DNA" states="states329627"/>
+      <char id="Col439198194" label="DNA" states="states329627"/>
+      <char id="Col439198195" label="DNA" states="states329627"/>
+      <char id="Col439198196" label="DNA" states="states329627"/>
+    </format>
+    <matrix>
+      <row id="Row4286196" otu="Tl3643026">
+        <seq>---------------------------------------------------------------------------------CACGCAGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCTGCTCCGGCTGGGGAGTGCCCTCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATACTGGCGGTACCGTTGTGCTCTCCGCCTAGTCGCGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row4286197" otu="Tl3643015">
+        <seq>--------------------------------------------------CCTGCGGAAGGATCATTACTGAGCGCGAAGCCACGCAGGGCGTTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACAT--TTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row4286198" otu="Tl3643002">
+        <seq>---------------GAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCAGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACATATC-TTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCACAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGGCCGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATA?GGGCGAAAGACTAATCAAACCATCTATTACCT-G-------------------------------</seq>
+      </row>
+      <row id="Row4286199" otu="Tl3643017">
+        <seq>-----------------AGTTAAAGTTGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGCGAGGCCACGCAGGACACTT---GTCCTGCGCGGTTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCCACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAGAAAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCAGCTCGGCGTCCCCTAAACGTAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTTGCACTGAGACCTGCCAGAACCCCCCTTTTTTTATGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTCAGGGTTCTCCCTGGGGCACTCGGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGACTGGTGGAATGTGGCTGCCCTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGG----------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row4286200" otu="Tl3643025">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGCGAGGCCACGCAGGACACTT---GTCCTGCGCGGTTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCCACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAGAAAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCAGCTCGGCGTCCCCTAAACGTAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTTGCACTGAGACCTGCCAGAACCCCCCTTTTTTTATGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCAAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTCAGGGTTCTCCCTGGGGCACTCGGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGACTGGTGGAATGTGGCTGCCCTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAAT?TGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TC--------</seq>
+      </row>
+      <row id="Row4286201" otu="Tl3643012">
+        <seq>-------------TGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGCGAGGCCACGCAGGACACTT---GTCCTGCGCGGTTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCCACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAGAAAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCAGCTCGGCGTCCCCTAAACGTAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTTGCACTGAGACCTGCCAGAACCCCCCTTTTTTTATGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGA????????????????????????????????????????????????????????????-??ATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTCAGGGTTCTCCCTGGGGCACTCGGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGACTGGTGGAATGTGGCTGCCCTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCTGGGTTCCTGCCGAAGTTTCCCCCTCAGGATA--</seq>
+      </row>
+      <row id="Row4286202" otu="Tl3643001">
+        <seq>----------------------------------------CGTAGGTGA-?CTGCGG-AGGATCATTACTGAGCGCGAAGCCACGCAGGACGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAACATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCTCGGCGTCCCCTAAACAGAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCCCGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAAAACCCACCTA-TTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGTCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGTGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGGCCGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCAT------------------------------------------</seq>
+      </row>
+      <row id="Row4286203" otu="Tl3643014">
+        <seq>-----------------------------------------GTA-GTGA-CCTGCGG-AGGATCATTACTGAGCGCGAAGCCACGCAGGACGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCTCGGCGTCCCCTAAACAGAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAAAACCCACCTATTTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGTCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT?CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGTGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGGCCGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCA-------------------------------------------</seq>
+      </row>
+      <row id="Row4286204" otu="Tl3643005">
+        <seq>---------------------------------------------------CTGCGG-AGGATCATTACTGAGCGTGAAGCCACGTAGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAACATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCCCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAAAACCCACATA-TTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGTGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTTGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCAT------------------------------------------</seq>
+      </row>
+      <row id="Row4286205" otu="Tl3643003">
+        <seq>---------------GAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGG-AGGATCATTACTGAGCGTGAAGCCACGCAGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACATATC-TTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCACAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGGCCGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATC-------------------------------------------------</seq>
+      </row>
+      <row id="Row4286206" otu="Tl3643022">
+        <seq>---------------------------------------------------------------CATTACTGAGCGCGAGGCCACGCAGGACACTT---GTCCTGCGCGGTTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCCACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAGAAAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCAGCTCGGCGTCCCCTAAACGTAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTTGCACTGAGACCTGCCAGAACCCCCCTTTTTTTATGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTCAGGGTTCTCCCTGGGGCACTCGGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGACTGGTGGAATGTGGCTGCCCTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTGTAACATCTATGCGAGAGTTTGGGGGTCAAACCCATACGCGGAATGAAAGTGAA?GTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGATGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTATGGTGGAGGCTGGCAGCGGTTCTGACGTGCAAATCGATCGTCGAAATTGGGTATAGGGGCGAAAGACTAATC-------------------------------------------------</seq>
+      </row>
+      <row id="Row4286207" otu="Tl3643019">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGCGAAGCCACGCAGGGCGTTT---GTCCTGCGCGGCTGACCCTCCACCCGTGC-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACAT--TTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAGCAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTA?A?GGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAGCACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286208" otu="Tl3643007">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGCGAAGCCACGCAGGGCGTTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACAT--TTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGGGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCTGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286209" otu="Tl3643024">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGCGAAGCCACGCAGGGCGTTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTCGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGCGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACAT--TTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTC-??TTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCCGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCT?TAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286210" otu="Tl3643011">
+        <seq>---GGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGCGAAGCCACGCAGGGCGTTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGCGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACAT--TTTTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGCGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGTTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCAT------------------------------------------</seq>
+      </row>
+      <row id="Row4286211" otu="Tl3643020">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATACCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAATCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TC--------</seq>
+      </row>
+      <row id="Row4286212" otu="Tl3643000">
+        <seq>-TTGGTCATTTAGAGGAA-TAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGC--GGCGCTT---GTCCTGCG-GGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCT-TGGCGGGCCGGGCT---CGACCTAC-----TCCGCTGGGGAGTGCCCGCCAGAG-AGCCCCAACTCGTGCAGTT-GTGCAGTCTGAG--AAAATTTAATAA----AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATACCTGTTCGAGCGTCAGAACA-CCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CC-GCTCGGCGTCCCCTAAACATAGTGGCGG-ACCGTTGTGCTCTCCGCGTAGTC---TATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA----TTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAG-GGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCC----GGGCCCGAGTTGTAATTTGTA-AAGATGCTTTGGGT-TGGGCCTG---TAAGTT-CCTTGGA-CAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTG-CCGCG-CCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCT-TAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAG-CCGATAGCGCACAAGTAGAGTG-TCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAATCAGACTTGGGCGCTGTTGATCCGTTAGGGTTC-CCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGG-GCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCT---GAAGTT--CC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286213" otu="Tl3643006">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACC-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row4286214" otu="Tl3643016">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGACTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCTCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGGCAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286215" otu="Tl3643004">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTGAAAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTG???TAAGTT-CCTTGGA?CAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286216" otu="Tl3643018">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAGGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286217" otu="Tl3643021">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCGAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286218" otu="Tl3642999">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCAGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTCGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCGCAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286219" otu="Tl3643009">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCT?TGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAG?GGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286220" otu="Tl3643010">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGCGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG--??TCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAGGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286221" otu="Tl3643013">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAAGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCGTGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCCGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286222" otu="Tl3643023">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGGCCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTCAGTAACGGCGAGTGAAGCGGTAACAGCTCAAATTTG-AAATCTGGCTCCTTTGGGGCCCGAGTTGTAATTTGTAGAGGATGCTTTGGGTGTGGGCCTGGCCTAAGTT-CCTTGGAACAGGACGTCGTAGAGGGTGAGAATCCCGTATGCGGCTGGTGCCCGCGCCCATGTAAAGCTCTTTCGACGAGTCGAGTTGTTTGGGAATGCAGCTCTAAATGGGTGGTAAATTTCATCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGAGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTGGCAACCAGACTTGGGCGCTGTTGATCCGTTAGGGTTCTCCCTGGGGTACTCAGCAGCGCGCAGGCCAGCATCGGTTTGGGGGGCTGGAGAAAGGCTGGTGGAATGTGGCTGCCTTCGGGCAGTGTTATAGCCACCGGTGGCATGCAGCCTCCCCGGACCGAGGACCGCGCTTCGGCTAGGATGCTGGCGTAATGGTTGTCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCTAACATCTATGCGAGTGTTTGGGTGTCAAACCCATACGCGGAATGAAAGTGAACGTAGGTGAGAACCTGCAAGGGTGCATCATCGACCGATCCTGATGTCTTCGGATGGATTTGAGTAAGAGCATAGCTGTTGGGACCCGAAAGATGGTGAACTATGCCTGAATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATTTGGGTATAGGGGCGAAAGACTAATCGAACCATCTAGTAGCT-GGTTCCTGCCGAAGTTTCCC--TCAGGATAGC</seq>
+      </row>
+      <row id="Row4286223" otu="Tl3643008">
+        <seq>CTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTCCGTAGGTGAACCTGCGGAAGGATCATTACTGAGCGTGAAGCCACGCGGGGCGCTT---GTCCTGCGCGGCTGACCCTCCACCCGTGT-GAACTGATTTTGTTGCTTTGGCGGGCCGGGCT---CGACCTACCGGCTCCGGCTGGGGAGTGCCCGCCAGAGAAGCCCCAACTCGTGCAGTTAGTGCAGTCTGAG-AAAAATTTAATAAG--TAAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTTCGAGCGTCAGAACATCCTCTCAAGCCTGGCTTGGTCTTGGGGTGCG-CCGGCTCGGCGTCCCCTAAACATAGTGGCGGTACCGTTGTGCTCTCCGCGTAGTCACGTATCTCGCGACAGAGTGGCGATGGGACCTGCCAGAACACACATA-TATTTTGGATGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTACCTC-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row4286224" otu="Tl3642998">
+        <seq>------------------------------------------------------------GATCA??ACTGAGCGTGAGGCCACGCTGGGCGCCTGGCGCCGGGCGTGGCTGACCCTCCACCCGTGTCTATCTTCTCATGTTGCTTTGGCGGGCCGGGCCGCGTGCCCTCCTGGCACCTGCTGGGACGTGCCCGCCAGAGCCCCCTTAACGCGTGCTGTTTGTGTGGTCAGAGTGGTAGCAAAATTAGAATAAAACTTTCAACAACGGATCTCTTGGCTCCGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTTAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCCCCGGTATTCCGAGGGGCATGCCTGTCCGAGCGTCAGTACAACCCCTCAAGCCTAGCTTGGTCTTGGGGCGCGCCCTGAGGGGCAGCCCTTAAATGCAGTGGCGGTGCCGTCCGGCTCTACGCGTAGTTATTTCTCTCGCGACAGAGTGGTGACGGGACCTGCCAGAATACCCATC-TTAACAGGTTGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCACCAGGGATTACCTCAGTAACGGCGAGTGAAGCGGC--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+    </matrix>
+  </characters>
+  <trees about="#Tb49604" id="Tb49604" label="Podosphaera ITS 28S" otus="Tls68945" xml:base="http://purl.org/phylo/treebase/phylows/tree/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlTreeBlockWriter@61211325 $Rev$" datatype="xsd:string" id="meta331207" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta href="S22639" id="meta331206" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    <tree about="#Tr118010" id="Tr118010" label="PAUP_1" xsi:type="nex:FloatTree">
+      <meta content="29" datatype="xsd:integer" id="meta331210" property="tb:ntax.tree" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22639" id="meta331209" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+      <node id="Tn18474139"/>
+      <node id="Tn18474157" label="Cystotheca lanestris Ex_Quercus_agrifolia_AB000933_USA" otu="Tl3642998"/>
+      <node id="Tn18474138"/>
+      <node id="Tn18474180"/>
+      <node id="Tn18474177" label="Podosphaera clandestina Ex_Crataegus_monogyna_AB525930_ARG" otu="Tl3643017"/>
+      <node id="Tn18474168" label="Podosphaera clandestina Ex_Crataegus_sp._MG062783_USA" otu="Tl3643022"/>
+      <node id="Tn18474150"/>
+      <node id="Tn18474144" label="Podosphaera clandestina Ex_Crataegus_oxycantha_AB525931_ARG" otu="Tl3643025"/>
+      <node id="Tn18474167" label="Podosphaera clandestina Ex_Crataegus_sp._AB525932_ARG" otu="Tl3643012"/>
+      <node id="Tn18474173"/>
+      <node id="Tn18474171"/>
+      <node id="Tn18474174" label="Podosphaera amelanchieris Ex_Amelanchier_laevis_AB525927_GER" otu="Tl3643002"/>
+      <node id="Tn18474160" label="Podosphaera amelanchieris Ex_Amelanchier_sp._MG016459_WA_USA" otu="Tl3643003"/>
+      <node id="Tn18474143"/>
+      <node id="Tn18474169"/>
+      <node id="Tn18474152"/>
+      <node id="Tn18474161" label="Podosphaera spiraeae Ex_Spiraea_japonica_MF919434_WA_USA" otu="Tl3643005"/>
+      <node id="Tn18474156"/>
+      <node id="Tn18474134" label="Podosphaera aphanis Ex_Rubus_sp._MF919432_WA_USA" otu="Tl3643001"/>
+      <node id="Tn18474155" label="Podosphaera aphanis Ex_Fragaria_sp._MF919433_WA_USA" otu="Tl3643014"/>
+      <node id="Tn18474176"/>
+      <node id="Tn18474158" label="Podosphaera prunicola Ex_Prunus_virginiana_MF770745_WA_USA" otu="Tl3643007"/>
+      <node id="Tn18474141" label="Podosphaera prunicola Ex_Prunus_virginiana_MF770746_WA_USA" otu="Tl3643024"/>
+      <node id="Tn18474135" label="Podosphaera prunicola Ex_Prunus_serotina_LC378576_GER" otu="Tl3643011"/>
+      <node id="Tn18474164"/>
+      <node id="Tn18474162" label="Podosphaera clandestina Ex_Prunus_laurocerasus_AF011317_USA" otu="Tl3643015"/>
+      <node id="Tn18474179" label="Podosphaera prunicola Ex_Prunus_virginiana_KX842346_WA_USA" otu="Tl3643019"/>
+      <node id="Tn18474170"/>
+      <node id="Tn18474142" label="Podosphaera clandestina Ex_Prunus_laurocerasus_AF011316_USA" otu="Tl3643026"/>
+      <node id="Tn18474147"/>
+      <node id="Tn18474178" label="Podosphaera cerasi Ex_Prunus_avium_LC381235_CA_USA" otu="Tl3643006"/>
+      <node id="Tn18474146"/>
+      <node id="Tn18474153" label="Podosphaera cerasi Ex_Prunus_avium_MG937803_OR_USA" otu="Tl3643008"/>
+      <node id="Tn18474149"/>
+      <node id="Tn18474145" label="Podosphaera cerasi Ex_Prunus_avium_MG198703_WA_USA" otu="Tl3643023"/>
+      <node id="Tn18474163"/>
+      <node id="Tn18474140" label="Podosphaera cerasi Ex_Prunus_avium_KX842345_WA_USA" otu="Tl3643016"/>
+      <node id="Tn18474175" label="Podosphaera cerasi Ex_Prunus_avium_KX826855_WA_USA" otu="Tl3643004"/>
+      <node id="Tn18474154" label="Podosphaera cerasi Ex_Prunus_avium_MG076952_WA_USA" otu="Tl3643018"/>
+      <node id="Tn18474137" label="Podosphaera cerasi Ex_Prunus_avium_MG076953_WA_USA" otu="Tl3643021"/>
+      <node id="Tn18474159" label="Podosphaera cerasi Ex_Prunus_avium_MG076954_WA_USA" otu="Tl3642999"/>
+      <node id="Tn18474172" label="Podosphaera cerasi Ex_Prunus_avium_MG076955_WA_USA" otu="Tl3643009"/>
+      <node id="Tn18474166" label="Podosphaera cerasi Ex_Prunus_avium_MG076958_WA_USA" otu="Tl3643010"/>
+      <node id="Tn18474136" label="Podosphaera cerasi Ex_Prunus_avium_MG183669_WA_USA" otu="Tl3643013"/>
+      <node id="Tn18474165"/>
+      <node id="Tn18474148" label="Podosphaera cerasi Ex_Prunus_avium_MG076957_WA_USA" otu="Tl3643020"/>
+      <node id="Tn18474151" label="Podosphaera cerasi Ex_Prunus_avium_MG076956_WA_USA" otu="Tl3643000"/>
+      <edge id="edge331213" length="0.1006535" source="Tn18474139" target="Tn18474157"/>
+      <edge id="edge331215" length="0.1006535" source="Tn18474139" target="Tn18474138"/>
+      <edge id="edge331217" length="0.016252" source="Tn18474138" target="Tn18474180"/>
+      <edge id="edge331219" length="0.001502" source="Tn18474180" target="Tn18474177"/>
+      <edge id="edge331221" length="0.005826" source="Tn18474180" target="Tn18474168"/>
+      <edge id="edge331223" length="6.79E-4" source="Tn18474180" target="Tn18474150"/>
+      <edge id="edge331225" length="0.0" source="Tn18474150" target="Tn18474144"/>
+      <edge id="edge331227" length="6.94E-4" source="Tn18474150" target="Tn18474167"/>
+      <edge id="edge331229" length="1.51E-4" source="Tn18474138" target="Tn18474173"/>
+      <edge id="edge331231" length="0.004401" source="Tn18474173" target="Tn18474171"/>
+      <edge id="edge331233" length="0.0" source="Tn18474171" target="Tn18474174"/>
+      <edge id="edge331235" length="0.0" source="Tn18474171" target="Tn18474160"/>
+      <edge id="edge331237" length="5.49E-4" source="Tn18474173" target="Tn18474143"/>
+      <edge id="edge331239" length="0.0" source="Tn18474143" target="Tn18474169"/>
+      <edge id="edge331241" length="0.002124" source="Tn18474169" target="Tn18474152"/>
+      <edge id="edge331243" length="0.002962" source="Tn18474152" target="Tn18474161"/>
+      <edge id="edge331245" length="0.004895" source="Tn18474152" target="Tn18474156"/>
+      <edge id="edge331247" length="0.001413" source="Tn18474156" target="Tn18474134"/>
+      <edge id="edge331249" length="0.0" source="Tn18474156" target="Tn18474155"/>
+      <edge id="edge331251" length="0.001241" source="Tn18474169" target="Tn18474176"/>
+      <edge id="edge331253" length="0.001332" source="Tn18474176" target="Tn18474158"/>
+      <edge id="edge331255" length="0.002005" source="Tn18474176" target="Tn18474141"/>
+      <edge id="edge331257" length="0.0" source="Tn18474176" target="Tn18474135"/>
+      <edge id="edge331259" length="0.0" source="Tn18474176" target="Tn18474164"/>
+      <edge id="edge331261" length="0.0" source="Tn18474164" target="Tn18474162"/>
+      <edge id="edge331263" length="0.002002" source="Tn18474164" target="Tn18474179"/>
+      <edge id="edge331265" length="0.002329" source="Tn18474143" target="Tn18474170"/>
+      <edge id="edge331267" length="0.0093" source="Tn18474170" target="Tn18474142"/>
+      <edge id="edge331269" length="0.001114" source="Tn18474170" target="Tn18474147"/>
+      <edge id="edge331271" length="0.0" source="Tn18474147" target="Tn18474178"/>
+      <edge id="edge331273" length="0.0" source="Tn18474147" target="Tn18474146"/>
+      <edge id="edge331275" length="0.0" source="Tn18474146" target="Tn18474153"/>
+      <edge id="edge331277" length="0.0" source="Tn18474146" target="Tn18474149"/>
+      <edge id="edge331279" length="0.002007" source="Tn18474149" target="Tn18474145"/>
+      <edge id="edge331281" length="6.54E-4" source="Tn18474149" target="Tn18474163"/>
+      <edge id="edge331283" length="0.001996" source="Tn18474163" target="Tn18474140"/>
+      <edge id="edge331285" length="0.0" source="Tn18474163" target="Tn18474175"/>
+      <edge id="edge331287" length="6.64E-4" source="Tn18474163" target="Tn18474154"/>
+      <edge id="edge331289" length="6.64E-4" source="Tn18474163" target="Tn18474137"/>
+      <edge id="edge331291" length="0.001996" source="Tn18474163" target="Tn18474159"/>
+      <edge id="edge331293" length="0.0" source="Tn18474163" target="Tn18474172"/>
+      <edge id="edge331295" length="0.001332" source="Tn18474163" target="Tn18474166"/>
+      <edge id="edge331297" length="0.0" source="Tn18474163" target="Tn18474136"/>
+      <edge id="edge331299" length="0.001329" source="Tn18474163" target="Tn18474165"/>
+      <edge id="edge331301" length="0.0" source="Tn18474165" target="Tn18474148"/>
+      <edge id="edge331303" length="0.001401" source="Tn18474165" target="Tn18474151"/>
+    </tree>
+  </trees>
+</nex:nexml>

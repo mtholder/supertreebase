@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nex:nexml xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tb="http://purl.org/phylo/treebase/2.0/terms#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#S22691" generator="org.nexml.model.impl.DocumentImpl" id="S22691" version="0.9" xml:base="http://purl.org/phylo/treebase/phylows/study/TB2:">
+  <meta content="Generated on Tue May 09 19:25:05 UTC 2023" datatype="xsd:string" id="meta297518" property="skos:changeNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlDocumentWriter@7cde2878 $Rev$" datatype="xsd:string" id="meta297517" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta297516" property="prism:number" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta297515" property="prism:volume" xsi:type="nex:LiteralMeta"/>
+  <meta content=" Fungal Biology" datatype="xsd:string" id="meta297514" property="dc:publisher" xsi:type="nex:LiteralMeta"/>
+  <meta content=" Fungal Biology" datatype="xsd:string" id="meta297513" property="prism:publicationName" xsi:type="nex:LiteralMeta"/>
+  <meta content="Gene duplication" datatype="xsd:string" id="meta297512" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="Protein family" datatype="xsd:string" id="meta297511" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="Lecanoromycetes" datatype="xsd:string" id="meta297510" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="Ribitol" datatype="xsd:string" id="meta297509" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="Polyol transporter" datatype="xsd:string" id="meta297508" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="Lichen" datatype="xsd:string" id="meta297507" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta297506" property="prism:doi" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018" datatype="xsd:string" id="meta297505" property="prism:publicationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="Sakamoto K." datatype="xsd:string" id="meta297504" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Yamamoto Y." datatype="xsd:string" id="meta297503" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Sonoda M." datatype="xsd:string" id="meta297502" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Yamamoto K." datatype="xsd:string" id="meta297501" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Yoshino K." datatype="xsd:string" id="meta297500" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Yoshino K., Yamamoto K., Sonoda M., Yamamoto Y., &amp; Sakamoto K." datatype="xsd:string" id="meta297499" property="dc:creator" xsi:type="nex:LiteralMeta"/>
+  <meta content="The evolutionary history of polyol transporter proteins and their involvement in lichenized Ascomycota" datatype="xsd:string" id="meta297498" property="dc:title" xsi:type="nex:LiteralMeta"/>
+  <meta content="Yoshino K., Yamamoto K., Sonoda M., Yamamoto Y., &amp; Sakamoto K. 2018. The evolutionary history of polyol transporter proteins and their involvement in lichenized Ascomycota.  Fungal Biology, ." datatype="xsd:string" id="meta297497" property="dcterms:bibliographicCitation" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-05-03" datatype="xsd:string" id="meta297496" property="prism:creationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-07-21" datatype="xsd:string" id="meta297495" property="prism:modificationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-07-21" datatype="xsd:string" id="meta297494" property="dc:date" xsi:type="nex:LiteralMeta"/>
+  <meta content="The evolutionary history of polyol transporter proteins and their involvement in lichenized Ascomycota" datatype="xsd:string" id="meta297493" property="tb:title.study" xsi:type="nex:LiteralMeta"/>
+  <meta datatype="xsd:anySimpleType" id="meta297492" property="tb:identifier.study.tb1" xsi:type="nex:LiteralMeta"/>
+  <meta content="22691" datatype="xsd:string" id="meta297491" property="tb:identifier.study" xsi:type="nex:LiteralMeta"/>
+  <meta content="Study" datatype="xsd:string" id="meta297489" property="prism:section" xsi:type="nex:LiteralMeta"/>
+  <otus about="#Tls63860" id="Tls63860" label="Tree" xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@254f77a7 $Rev$" datatype="xsd:string" id="meta297520" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <otu about="#Tl3191914" id="Tl3191914" label="Schizosaccharomyces pombe Itr2">
+      <meta content="26385" datatype="xsd:long" id="meta297527" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta297526" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta297525" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta297524" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta297523" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297522" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191986" id="Tl3191986" label="Schizosaccharomyces pombe Itr1">
+      <meta content="26385" datatype="xsd:long" id="meta297534" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta297533" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta297532" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta297531" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta297530" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297529" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208867" id="Tl3208867" label="Saccharomyces cerevisiae Itr2">
+      <meta content="25995" datatype="xsd:long" id="meta297541" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297540" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297539" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297538" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297537" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297536" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191989" id="Tl3191989" label="Tuber melanosporum Hxt1">
+      <meta content="31866" datatype="xsd:long" id="meta297548" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="73971" datatype="xsd:long" id="meta297547" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/39416" id="meta297546" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Tuber melanosporum" datatype="xsd:string" id="meta297545" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3096480" id="meta297544" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297543" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191929" id="Tl3191929" label="Tuber melanosporum 2281">
+      <meta content="31866" datatype="xsd:long" id="meta297555" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="73971" datatype="xsd:long" id="meta297554" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/39416" id="meta297553" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Tuber melanosporum" datatype="xsd:string" id="meta297552" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3096480" id="meta297551" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297550" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191963" id="Tl3191963" label="Tuber borchii Hxt1">
+      <meta content="31857" datatype="xsd:long" id="meta297562" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="73951" datatype="xsd:long" id="meta297561" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/42251" id="meta297560" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Tuber borchii" datatype="xsd:string" id="meta297559" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1454765" id="meta297558" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297557" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191885" id="Tl3191885" label="Trichoderma harzianum Gtt1">
+      <meta content="617214" datatype="xsd:long" id="meta297568" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="826057" datatype="xsd:long" id="meta297567" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Trichoderma harzianum" datatype="xsd:string" id="meta297566" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3217474" id="meta297565" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297564" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208879" id="Tl3208879" label="Thermothelomyces thermophila Lat1">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297570" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208891" id="Tl3208891" label="Neurospora crassa Lat1">
+      <meta content="19068" datatype="xsd:long" id="meta297577" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="44380" datatype="xsd:long" id="meta297576" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5141" id="meta297575" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Neurospora crassa" datatype="xsd:string" id="meta297574" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3153358" id="meta297573" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297572" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191950" id="Tl3191950" label="Colletotrichum graminicola Hxt5">
+      <meta content="628429" datatype="xsd:long" id="meta297584" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842535" datatype="xsd:long" id="meta297583" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31870" id="meta297582" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Colletotrichum graminicola" datatype="xsd:string" id="meta297581" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3062836" id="meta297580" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297579" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191940" id="Tl3191940" label="Colletotrichum graminicola Hxt3">
+      <meta content="628429" datatype="xsd:long" id="meta297591" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842535" datatype="xsd:long" id="meta297590" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31870" id="meta297589" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Colletotrichum graminicola" datatype="xsd:string" id="meta297588" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3062836" id="meta297587" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297586" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191971" id="Tl3191971" label="Colletotrichum graminicola Hxt2">
+      <meta content="628429" datatype="xsd:long" id="meta297598" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842535" datatype="xsd:long" id="meta297597" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31870" id="meta297596" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Colletotrichum graminicola" datatype="xsd:string" id="meta297595" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3062836" id="meta297594" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297593" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191908" id="Tl3191908" label="Colletotrichum graminicola Hxt1">
+      <meta content="628429" datatype="xsd:long" id="meta297605" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842535" datatype="xsd:long" id="meta297604" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31870" id="meta297603" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Colletotrichum graminicola" datatype="xsd:string" id="meta297602" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3062836" id="meta297601" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297600" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191934" id="Tl3191934" label="Botrytis cinerea Frt1">
+      <meta content="3810" datatype="xsd:long" id="meta297613" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="9107" datatype="xsd:long" id="meta297612" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Botryotinia fuckeliana" datatype="xsd:string" id="meta297611" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/40559" id="meta297610" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Botrytis cinerea" datatype="xsd:string" id="meta297609" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3117283" id="meta297608" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297607" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191888" id="Tl3191888" label="Aspergillus niger MstA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297615" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191961" id="Tl3191961" label="Aspergillus nidulans XtrD">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297617" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191893" id="Tl3191893" label="Aspergillus nidulans MstC">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297619" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191966" id="Tl3191966" label="Aspergillus nidulans MstA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297621" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191968" id="Tl3191968" label="Zygosaccharomyces rouxii Fsy1">
+      <meta content="31337" datatype="xsd:long" id="meta297628" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="73106" datatype="xsd:long" id="meta297627" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4956" id="meta297626" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Zygosaccharomyces rouxii" datatype="xsd:string" id="meta297625" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3204060" id="meta297624" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297623" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191898" id="Tl3191898" label="Torulaspora delbrueckii Lgt1">
+      <meta content="29241" datatype="xsd:long" id="meta297635" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="68143" datatype="xsd:long" id="meta297634" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4950" id="meta297633" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Torulaspora delbrueckii" datatype="xsd:string" id="meta297632" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3217335" id="meta297631" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297630" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191965" id="Tl3191965" label="Schizosaccharomyces pombe Ght6">
+      <meta content="26385" datatype="xsd:long" id="meta297642" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta297641" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta297640" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta297639" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta297638" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297637" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191935" id="Tl3191935" label="Schizosaccharomyces pombe Ght5">
+      <meta content="26385" datatype="xsd:long" id="meta297649" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta297648" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta297647" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta297646" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta297645" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297644" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191925" id="Tl3191925" label="Schizosaccharomyces pombe Ght3">
+      <meta content="26385" datatype="xsd:long" id="meta297656" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta297655" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta297654" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta297653" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta297652" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297651" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191926" id="Tl3191926" label="Schizosaccharomyces pombe Ght2">
+      <meta content="26385" datatype="xsd:long" id="meta297663" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta297662" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta297661" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta297660" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta297659" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297658" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191906" id="Tl3191906" label="Schizosaccharomyces pombe Ght1">
+      <meta content="26385" datatype="xsd:long" id="meta297670" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta297669" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta297668" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta297667" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta297666" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297665" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191922" id="Tl3191922" label="Scheffersomyces stipitis Sut3">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297672" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191947" id="Tl3191947" label="Scheffersomyces stipitis Sut2">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297674" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191916" id="Tl3191916" label="Scheffersomyces stipitis Sut1">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297676" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191920" id="Tl3191920" label="Saccharomyces pastorianus Fsy1">
+      <meta content="56402" datatype="xsd:long" id="meta297683" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="127999" datatype="xsd:long" id="meta297682" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/27292" id="meta297681" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces pastorianus" datatype="xsd:string" id="meta297680" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3230071" id="meta297679" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297678" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191891" id="Tl3191891" label="Saccharomyces cerevisiae Hxt7">
+      <meta content="25995" datatype="xsd:long" id="meta297690" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297689" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297688" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297687" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297686" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297685" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191900" id="Tl3191900" label="Saccharomyces cerevisiae Hxt6">
+      <meta content="25995" datatype="xsd:long" id="meta297697" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297696" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297695" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297694" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297693" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297692" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191919" id="Tl3191919" label="Saccharomyces cerevisiae Hxt5">
+      <meta content="25995" datatype="xsd:long" id="meta297704" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297703" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297702" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297701" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297700" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297699" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191982" id="Tl3191982" label="Saccharomyces cerevisiae Hxt4">
+      <meta content="25995" datatype="xsd:long" id="meta297711" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297710" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297709" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297708" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297707" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297706" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191993" id="Tl3191993" label="Saccharomyces cerevisiae Hxt3">
+      <meta content="25995" datatype="xsd:long" id="meta297718" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297717" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297716" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297715" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297714" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297713" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191932" id="Tl3191932" label="Saccharomyces cerevisiae Hxt2">
+      <meta content="25995" datatype="xsd:long" id="meta297725" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297724" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297723" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297722" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297721" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297720" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191979" id="Tl3191979" label="Saccharomyces cerevisiae Hxt1">
+      <meta content="25995" datatype="xsd:long" id="meta297732" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297731" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297730" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297729" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297728" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297727" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191913" id="Tl3191913" label="Saccharomyces cerevisiae Gal2">
+      <meta content="25995" datatype="xsd:long" id="meta297739" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297738" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297737" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297736" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297735" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297734" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191889" id="Tl3191889" label="Kluyveromyces lactis Rag1">
+      <meta content="15025" datatype="xsd:long" id="meta297746" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta297745" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta297744" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta297743" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta297742" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297741" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191933" id="Tl3191933" label="Kluyveromyces lactis Kht2">
+      <meta content="15025" datatype="xsd:long" id="meta297753" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta297752" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta297751" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta297750" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta297749" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297748" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191887" id="Tl3191887" label="Kluyveromyces lactis Kht1">
+      <meta content="15025" datatype="xsd:long" id="meta297760" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta297759" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta297758" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta297757" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta297756" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297755" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191944" id="Tl3191944" label="Kluyveromyces lactis Hgt1">
+      <meta content="15025" datatype="xsd:long" id="meta297767" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta297766" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta297765" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta297764" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta297763" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297762" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191892" id="Tl3191892" label="Kluyveromyces lactis Frt1">
+      <meta content="15025" datatype="xsd:long" id="meta297774" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta297773" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta297772" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta297771" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta297770" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297769" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191948" id="Tl3191948" label="Candida intermedia Gxs1">
+      <meta content="67945" datatype="xsd:long" id="meta297781" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="143398" datatype="xsd:long" id="meta297780" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/45354" id="meta297779" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Candida intermedia" datatype="xsd:string" id="meta297778" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2642652" id="meta297777" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297776" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191977" id="Tl3191977" label="Candida intermedia Gxf1">
+      <meta content="67945" datatype="xsd:long" id="meta297788" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="143398" datatype="xsd:long" id="meta297787" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/45354" id="meta297786" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Candida intermedia" datatype="xsd:string" id="meta297785" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2642652" id="meta297784" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297783" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191938" id="Tl3191938" label="Candida albicans Hgt1">
+      <meta content="4753" datatype="xsd:long" id="meta297795" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="11478" datatype="xsd:long" id="meta297794" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5476" id="meta297793" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Candida albicans" datatype="xsd:string" id="meta297792" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4773781" id="meta297791" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297790" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191951" id="Tl3191951" label="Ambrosiozyma monospora Lat1">
+      <meta content="66999" datatype="xsd:long" id="meta297802" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="142297" datatype="xsd:long" id="meta297801" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/43982" id="meta297800" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Ambrosiozyma monospora" datatype="xsd:string" id="meta297799" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3188776" id="meta297798" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297797" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191943" id="Tl3191943" label="Saccharomyces cerevisiae Hxt11">
+      <meta content="25995" datatype="xsd:long" id="meta297809" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297808" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297807" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297806" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297805" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297804" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191946" id="Tl3191946" label="Saccharomyces cerevisiae Hxt17">
+      <meta content="25995" datatype="xsd:long" id="meta297816" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297815" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297814" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297813" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297812" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297811" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191931" id="Tl3191931" label="Saccharomyces cerevisiae Hxt16">
+      <meta content="25995" datatype="xsd:long" id="meta297823" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297822" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297821" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297820" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297819" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297818" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191936" id="Tl3191936" label="Saccharomyces cerevisiae Hxt13">
+      <meta content="25995" datatype="xsd:long" id="meta297830" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297829" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297828" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297827" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297826" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297825" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191960" id="Tl3191960" label="Saccharomyces cerevisiae Hxt15">
+      <meta content="25995" datatype="xsd:long" id="meta297837" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297836" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297835" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297834" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297833" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297832" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208876" id="Tl3208876" label="Saccharomyces cerevisiae Itr1">
+      <meta content="25995" datatype="xsd:long" id="meta297844" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297843" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297842" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297841" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297840" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297839" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208868" id="Tl3208868" label="Saccharomyces cerevisiae Stl1">
+      <meta content="25995" datatype="xsd:long" id="meta297851" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta297850" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta297849" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta297848" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta297847" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297846" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191980" id="Tl3191980" label="Debaryomyces hansenii Syl2">
+      <meta content="46305" datatype="xsd:long" id="meta297858" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta297857" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta297856" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta297855" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta297854" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297853" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191952" id="Tl3191952" label="Ramalina conduplicans Rbt1">
+      <meta content="325107" datatype="xsd:long" id="meta297865" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="367067" datatype="xsd:long" id="meta297864" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/372067" id="meta297863" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Ramalina conduplicans" datatype="xsd:string" id="meta297862" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3256358" id="meta297861" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297860" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191910" id="Tl3191910" label="Xanthoria parietina 1618183">
+      <meta content="31019" datatype="xsd:long" id="meta297872" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="72423" datatype="xsd:long" id="meta297871" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/107463" id="meta297870" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Xanthoria parietina" datatype="xsd:string" id="meta297869" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872149" id="meta297868" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297867" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191964" id="Tl3191964" label="Usnea florida 817483">
+      <meta content="115851" datatype="xsd:long" id="meta297879" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="427382" datatype="xsd:long" id="meta297878" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/111620" id="meta297877" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Usnea florida" datatype="xsd:string" id="meta297876" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871937" id="meta297875" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297874" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191987" id="Tl3191987" label="Umbilicaria pustulata SLM34536">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297881" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191909" id="Tl3191909" label="Trypethelium eluteriae 440123">
+      <meta content="319073" datatype="xsd:long" id="meta297888" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492517" datatype="xsd:long" id="meta297887" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364715" id="meta297886" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Trypethelium eluteriae" datatype="xsd:string" id="meta297885" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3037285" id="meta297884" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297883" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191918" id="Tl3191918" label="Symbiotaphrina kochii 778756">
+      <meta content="64460" datatype="xsd:long" id="meta297895" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="139193" datatype="xsd:long" id="meta297894" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/40221" id="meta297893" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Symbiotaphrina kochii" datatype="xsd:string" id="meta297892" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1454453" id="meta297891" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297890" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191985" id="Tl3191985" label="Sclerophora sanguinea 241678">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297897" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208888" id="Tl3208888" label="Saitoella complicata XP_019021487">
+      <meta content="26034" datatype="xsd:long" id="meta297904" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60916" datatype="xsd:long" id="meta297903" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5606" id="meta297902" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saitoella complicata" datatype="xsd:string" id="meta297901" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3046688" id="meta297900" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297899" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191957" id="Tl3191957" label="Pyronema omphalodes CCX06871">
+      <meta content="36441" datatype="xsd:long" id="meta297911" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="98449" datatype="xsd:long" id="meta297910" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/337075" id="meta297909" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Pyronema omphalodes" datatype="xsd:string" id="meta297908" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1453264" id="meta297907" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297906" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208861" id="Tl3208861" label="Pseudocercospora fijiensis XP_007930618">
+      <meta content="423212" datatype="xsd:long" id="meta297918" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="413452" datatype="xsd:long" id="meta297917" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/513417" id="meta297916" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Pseudocercospora fijiensis" datatype="xsd:string" id="meta297915" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3200282" id="meta297914" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297913" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208885" id="Tl3208885" label="Phaeoacremonium minimum XP_007914611">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297920" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191972" id="Tl3191972" label="Lobaria pulmonaria 1075510">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297922" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208874" id="Tl3208874" label="Glarea lozoyensis XP_008087870">
+      <meta content="108541" datatype="xsd:long" id="meta297929" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="425668" datatype="xsd:long" id="meta297928" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/101852" id="meta297927" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Glarea lozoyensis" datatype="xsd:string" id="meta297926" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3287355" id="meta297925" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297924" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191907" id="Tl3191907" label="Endocarpon pusillum 4708">
+      <meta content="319091" datatype="xsd:long" id="meta297936" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492529" datatype="xsd:long" id="meta297935" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364733" id="meta297934" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Endocarpon pusillum" datatype="xsd:string" id="meta297933" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3035071" id="meta297932" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297931" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208859" id="Tl3208859" label="Dactylellina haptotyla XP_011106430">
+      <meta content="41513" datatype="xsd:long" id="meta297943" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="96803" datatype="xsd:long" id="meta297942" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/430498" id="meta297941" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Dactylellina haptotyla" datatype="xsd:string" id="meta297940" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3293949" id="meta297939" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297938" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191911" id="Tl3191911" label="Cladonia grayi 3543">
+      <meta content="56437" datatype="xsd:long" id="meta297950" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="128032" datatype="xsd:long" id="meta297949" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/27339" id="meta297948" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Cladonia grayi" datatype="xsd:string" id="meta297947" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871698" id="meta297946" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297945" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208857" id="Tl3208857" label="Aspergillus nomius XP_015407194">
+      <meta content="2601" datatype="xsd:long" id="meta297957" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="6121" datatype="xsd:long" id="meta297956" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/41061" id="meta297955" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Aspergillus nomius" datatype="xsd:string" id="meta297954" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3046726" id="meta297953" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297952" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191974" id="Tl3191974" label="Xylona heveae 33643">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297959" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191984" id="Tl3191984" label="Xanthoria parietina 1660360">
+      <meta content="31019" datatype="xsd:long" id="meta297966" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="72423" datatype="xsd:long" id="meta297965" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/107463" id="meta297964" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Xanthoria parietina" datatype="xsd:string" id="meta297963" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872149" id="meta297962" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297961" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191930" id="Tl3191930" label="Usnea florida 816522">
+      <meta content="115851" datatype="xsd:long" id="meta297973" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="427382" datatype="xsd:long" id="meta297972" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/111620" id="meta297971" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Usnea florida" datatype="xsd:string" id="meta297970" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871937" id="meta297969" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297968" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208858" id="Tl3208858" label="Uncinocarpus reesii XP_002583310">
+      <meta content="30251" datatype="xsd:long" id="meta297980" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="70610" datatype="xsd:long" id="meta297979" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/33188" id="meta297978" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Uncinocarpus reesii" datatype="xsd:string" id="meta297977" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3203639" id="meta297976" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297975" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191975" id="Tl3191975" label="Umbilicaria pustulata SLM35888">
+      <meta content="635313" datatype="xsd:long" id="meta297985" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="850325" datatype="xsd:long" id="meta297984" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3037844" id="meta297983" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297982" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191978" id="Tl3191978" label="Trypethelium eluteriae 500005">
+      <meta content="319073" datatype="xsd:long" id="meta297992" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492517" datatype="xsd:long" id="meta297991" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364715" id="meta297990" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Trypethelium eluteriae" datatype="xsd:string" id="meta297989" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3037285" id="meta297988" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297987" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191939" id="Tl3191939" label="Trinosporium guianense 1001925">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297994" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208865" id="Tl3208865" label="Thermothelomyces thermophila XP_003667183">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297996" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191927" id="Tl3191927" label="Sclerophora sanguinea 136594">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta297998" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191958" id="Tl3191958" label="Pyronema omphalodes CCX32903">
+      <meta content="36441" datatype="xsd:long" id="meta298005" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="98449" datatype="xsd:long" id="meta298004" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/337075" id="meta298003" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Pyronema omphalodes" datatype="xsd:string" id="meta298002" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1453264" id="meta298001" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298000" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208855" id="Tl3208855" label="Phialocephala scopiformis XP_018072650">
+      <meta content="21764" datatype="xsd:long" id="meta298012" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="50623" datatype="xsd:long" id="meta298011" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/149040" id="meta298010" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Phialocephala scopiformis" datatype="xsd:string" id="meta298009" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3262201" id="meta298008" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298007" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191976" id="Tl3191976" label="Neolecta irregularis OLL27129">
+      <meta content="18895" datatype="xsd:long" id="meta298019" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="44023" datatype="xsd:long" id="meta298018" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/48691" id="meta298017" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Neolecta irregularis" datatype="xsd:string" id="meta298016" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3197706" id="meta298015" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298014" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208875" id="Tl3208875" label="Ramalina conduplicans Lat2">
+      <meta content="325107" datatype="xsd:long" id="meta298026" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="367067" datatype="xsd:long" id="meta298025" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/372067" id="meta298024" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Ramalina conduplicans" datatype="xsd:string" id="meta298023" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3256358" id="meta298022" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298021" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191928" id="Tl3191928" label="Lobaria pulmonaria 1261078">
+      <meta content="620921" datatype="xsd:long" id="meta298033" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="831471" datatype="xsd:long" id="meta298032" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/86794" id="meta298031" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Lobaria pulmonaria" datatype="xsd:string" id="meta298030" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:442021" id="meta298029" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298028" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191903" id="Tl3191903" label="Glonium stellatum OCL04378">
+      <meta content="428151" datatype="xsd:long" id="meta298040" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="563980" datatype="xsd:long" id="meta298039" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/574774" id="meta298038" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Glonium stellatum" datatype="xsd:string" id="meta298037" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3058238" id="meta298036" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298035" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191901" id="Tl3191901" label="Endocarpon pusillum 1090">
+      <meta content="319091" datatype="xsd:long" id="meta298047" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492529" datatype="xsd:long" id="meta298046" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364733" id="meta298045" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Endocarpon pusillum" datatype="xsd:string" id="meta298044" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3035071" id="meta298043" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298042" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191967" id="Tl3191967" label="Diplodia seriata KKY19172">
+      <meta content="40465" datatype="xsd:long" id="meta298054" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="94084" datatype="xsd:long" id="meta298053" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/420778" id="meta298052" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Diplodia seriata" datatype="xsd:string" id="meta298051" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3086572" id="meta298050" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298049" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208884" id="Tl3208884" label="Dactylellina haptotyla XP_011106845">
+      <meta content="41513" datatype="xsd:long" id="meta298061" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="96803" datatype="xsd:long" id="meta298060" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/430498" id="meta298059" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Dactylellina haptotyla" datatype="xsd:string" id="meta298058" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3293949" id="meta298057" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298056" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191959" id="Tl3191959" label="Coccidioides immitis KMU91130">
+      <meta content="6529" datatype="xsd:long" id="meta298068" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="15841" datatype="xsd:long" id="meta298067" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5501" id="meta298066" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Coccidioides immitis" datatype="xsd:string" id="meta298065" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3264217" id="meta298064" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298063" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191953" id="Tl3191953" label="Cladonia grayi 2664">
+      <meta content="56437" datatype="xsd:long" id="meta298075" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="128032" datatype="xsd:long" id="meta298074" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/27339" id="meta298073" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Cladonia grayi" datatype="xsd:string" id="meta298072" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871698" id="meta298071" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298070" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191981" id="Tl3191981" label="Xanthoria parietina 1602355">
+      <meta content="31019" datatype="xsd:long" id="meta298082" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="72423" datatype="xsd:long" id="meta298081" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/107463" id="meta298080" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Xanthoria parietina" datatype="xsd:string" id="meta298079" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872149" id="meta298078" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298077" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191894" id="Tl3191894" label="Usnea florida 815118">
+      <meta content="115851" datatype="xsd:long" id="meta298089" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="427382" datatype="xsd:long" id="meta298088" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/111620" id="meta298087" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Usnea florida" datatype="xsd:string" id="meta298086" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871937" id="meta298085" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298084" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191884" id="Tl3191884" label="Umbilicaria pustulata SLM39237">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298091" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191983" id="Tl3191983" label="Trypethelium eluteriae 128538">
+      <meta content="319073" datatype="xsd:long" id="meta298098" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492517" datatype="xsd:long" id="meta298097" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364715" id="meta298096" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Trypethelium eluteriae" datatype="xsd:string" id="meta298095" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3037285" id="meta298094" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298093" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191942" id="Tl3191942" label="Symbiotaphrina kochii 658577">
+      <meta content="64460" datatype="xsd:long" id="meta298105" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="139193" datatype="xsd:long" id="meta298104" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/40221" id="meta298103" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Symbiotaphrina kochii" datatype="xsd:string" id="meta298102" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1454453" id="meta298101" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298100" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191896" id="Tl3191896" label="Sclerophora sanguinea 184654">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298107" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208854" id="Tl3208854" label="Schizosaccharomyces japonicus XP_002175189">
+      <meta content="26384" datatype="xsd:long" id="meta298114" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61649" datatype="xsd:long" id="meta298113" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4897" id="meta298112" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces japonicus" datatype="xsd:string" id="meta298111" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3023413" id="meta298110" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298109" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191883" id="Tl3191883" label="Pyronema omphalodes CCX04720">
+      <meta content="36441" datatype="xsd:long" id="meta298121" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="98449" datatype="xsd:long" id="meta298120" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/337075" id="meta298119" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Pyronema omphalodes" datatype="xsd:string" id="meta298118" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1453264" id="meta298117" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298116" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191921" id="Tl3191921" label="Penicillium nordicum KOS37549">
+      <meta content="208851" datatype="xsd:long" id="meta298128" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="452542" datatype="xsd:long" id="meta298127" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/229535" id="meta298126" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Penicillium nordicum" datatype="xsd:string" id="meta298125" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1451740" id="meta298124" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298123" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191992" id="Tl3191992" label="Oidiodendron maius KIN01525">
+      <meta content="19479" datatype="xsd:long" id="meta298135" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="45354" datatype="xsd:long" id="meta298134" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/78148" id="meta298133" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Oidiodendron maius" datatype="xsd:string" id="meta298132" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3212887" id="meta298131" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298130" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191954" id="Tl3191954" label="Lobaria pulmonaria 1267150">
+      <meta content="16160" datatype="xsd:long" id="meta298142" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="37821" datatype="xsd:long" id="meta298141" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/86794" id="meta298140" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Lobaria pulmonaria" datatype="xsd:string" id="meta298139" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872019" id="meta298138" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298137" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191905" id="Tl3191905" label="Endocarpon pusillum 5810">
+      <meta content="319091" datatype="xsd:long" id="meta298149" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492529" datatype="xsd:long" id="meta298148" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364733" id="meta298147" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Endocarpon pusillum" datatype="xsd:string" id="meta298146" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3035071" id="meta298145" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298144" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208863" id="Tl3208863" label="Diplodia corticola XP_020129849">
+      <meta content="40466" datatype="xsd:long" id="meta298156" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="94087" datatype="xsd:long" id="meta298155" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/548935" id="meta298154" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Diplodia corticola" datatype="xsd:string" id="meta298153" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:9730067" id="meta298152" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298151" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191962" id="Tl3191962" label="Daldinia sp. OTB11998">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298158" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191949" id="Tl3191949" label="Cladonia grayi 1746">
+      <meta content="56437" datatype="xsd:long" id="meta298165" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="128032" datatype="xsd:long" id="meta298164" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/27339" id="meta298163" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Cladonia grayi" datatype="xsd:string" id="meta298162" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871698" id="meta298161" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298160" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208864" id="Tl3208864" label="Arthrobotrys oligospora XP_011123148">
+      <meta content="2397" datatype="xsd:long" id="meta298172" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="5716" datatype="xsd:long" id="meta298171" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/13349" id="meta298170" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Arthrobotrys oligospora" datatype="xsd:string" id="meta298169" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3060372" id="meta298168" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298167" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191973" id="Tl3191973" label="Debaryomyces hansenii Syl1">
+      <meta content="46305" datatype="xsd:long" id="meta298179" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta298178" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta298177" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta298176" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta298175" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298174" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191994" id="Tl3191994" label="Debaryomyces hansenii Stl1">
+      <meta content="46305" datatype="xsd:long" id="meta298186" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta298185" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta298184" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta298183" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta298182" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298181" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191937" id="Tl3191937" label="Debaryomyces hansenii Sgl1">
+      <meta content="46305" datatype="xsd:long" id="meta298193" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta298192" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta298191" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta298190" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta298189" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298188" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191895" id="Tl3191895" label="Debaryomyces hansenii Syi1">
+      <meta content="46305" datatype="xsd:long" id="meta298200" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta298199" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta298198" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta298197" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta298196" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298195" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208872" id="Tl3208872" label="Candida albicans Stl1">
+      <meta content="4753" datatype="xsd:long" id="meta298207" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="11478" datatype="xsd:long" id="meta298206" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5476" id="meta298205" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Candida albicans" datatype="xsd:string" id="meta298204" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4773781" id="meta298203" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298202" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191912" id="Tl3191912" label="Ambrosiozyma monospora Lat2">
+      <meta content="66999" datatype="xsd:long" id="meta298214" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="142297" datatype="xsd:long" id="meta298213" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/43982" id="meta298212" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Ambrosiozyma monospora" datatype="xsd:string" id="meta298211" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3188776" id="meta298210" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298209" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+  </otus>
+  <otus about="#Tls63859" id="Tls63859" label="Taxa" xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@254f77a7 $Rev$" datatype="xsd:string" id="meta298216" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <otu about="#Tl3191914" id="Tl3191914" label="Schizosaccharomyces pombe Itr2">
+      <meta content="26385" datatype="xsd:long" id="meta298223" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta298222" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta298221" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta298220" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta298219" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298218" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191986" id="Tl3191986" label="Schizosaccharomyces pombe Itr1">
+      <meta content="26385" datatype="xsd:long" id="meta298230" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta298229" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta298228" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta298227" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta298226" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298225" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208867" id="Tl3208867" label="Saccharomyces cerevisiae Itr2">
+      <meta content="25995" datatype="xsd:long" id="meta298237" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298236" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298235" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298234" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298233" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298232" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191989" id="Tl3191989" label="Tuber melanosporum Hxt1">
+      <meta content="31866" datatype="xsd:long" id="meta298244" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="73971" datatype="xsd:long" id="meta298243" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/39416" id="meta298242" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Tuber melanosporum" datatype="xsd:string" id="meta298241" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3096480" id="meta298240" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298239" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191929" id="Tl3191929" label="Tuber melanosporum 2281">
+      <meta content="31866" datatype="xsd:long" id="meta298251" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="73971" datatype="xsd:long" id="meta298250" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/39416" id="meta298249" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Tuber melanosporum" datatype="xsd:string" id="meta298248" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3096480" id="meta298247" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298246" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191963" id="Tl3191963" label="Tuber borchii Hxt1">
+      <meta content="31857" datatype="xsd:long" id="meta298258" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="73951" datatype="xsd:long" id="meta298257" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/42251" id="meta298256" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Tuber borchii" datatype="xsd:string" id="meta298255" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1454765" id="meta298254" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298253" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191885" id="Tl3191885" label="Trichoderma harzianum Gtt1">
+      <meta content="617214" datatype="xsd:long" id="meta298264" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="826057" datatype="xsd:long" id="meta298263" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Trichoderma harzianum" datatype="xsd:string" id="meta298262" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3217474" id="meta298261" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298260" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208879" id="Tl3208879" label="Thermothelomyces thermophila Lat1">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298266" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208891" id="Tl3208891" label="Neurospora crassa Lat1">
+      <meta content="19068" datatype="xsd:long" id="meta298273" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="44380" datatype="xsd:long" id="meta298272" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5141" id="meta298271" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Neurospora crassa" datatype="xsd:string" id="meta298270" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3153358" id="meta298269" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298268" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191950" id="Tl3191950" label="Colletotrichum graminicola Hxt5">
+      <meta content="628429" datatype="xsd:long" id="meta298280" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842535" datatype="xsd:long" id="meta298279" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31870" id="meta298278" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Colletotrichum graminicola" datatype="xsd:string" id="meta298277" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3062836" id="meta298276" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298275" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191940" id="Tl3191940" label="Colletotrichum graminicola Hxt3">
+      <meta content="628429" datatype="xsd:long" id="meta298287" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842535" datatype="xsd:long" id="meta298286" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31870" id="meta298285" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Colletotrichum graminicola" datatype="xsd:string" id="meta298284" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3062836" id="meta298283" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298282" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191971" id="Tl3191971" label="Colletotrichum graminicola Hxt2">
+      <meta content="628429" datatype="xsd:long" id="meta298294" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842535" datatype="xsd:long" id="meta298293" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31870" id="meta298292" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Colletotrichum graminicola" datatype="xsd:string" id="meta298291" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3062836" id="meta298290" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298289" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191908" id="Tl3191908" label="Colletotrichum graminicola Hxt1">
+      <meta content="628429" datatype="xsd:long" id="meta298301" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842535" datatype="xsd:long" id="meta298300" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31870" id="meta298299" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Colletotrichum graminicola" datatype="xsd:string" id="meta298298" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3062836" id="meta298297" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298296" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191934" id="Tl3191934" label="Botrytis cinerea Frt1">
+      <meta content="3810" datatype="xsd:long" id="meta298309" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="9107" datatype="xsd:long" id="meta298308" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Botryotinia fuckeliana" datatype="xsd:string" id="meta298307" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/40559" id="meta298306" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Botrytis cinerea" datatype="xsd:string" id="meta298305" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3117283" id="meta298304" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298303" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191888" id="Tl3191888" label="Aspergillus niger MstA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298311" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191961" id="Tl3191961" label="Aspergillus nidulans XtrD">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298313" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191893" id="Tl3191893" label="Aspergillus nidulans MstC">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298315" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191966" id="Tl3191966" label="Aspergillus nidulans MstA">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298317" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191968" id="Tl3191968" label="Zygosaccharomyces rouxii Fsy1">
+      <meta content="31337" datatype="xsd:long" id="meta298324" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="73106" datatype="xsd:long" id="meta298323" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4956" id="meta298322" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Zygosaccharomyces rouxii" datatype="xsd:string" id="meta298321" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3204060" id="meta298320" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298319" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191898" id="Tl3191898" label="Torulaspora delbrueckii Lgt1">
+      <meta content="29241" datatype="xsd:long" id="meta298331" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="68143" datatype="xsd:long" id="meta298330" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4950" id="meta298329" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Torulaspora delbrueckii" datatype="xsd:string" id="meta298328" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3217335" id="meta298327" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298326" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191965" id="Tl3191965" label="Schizosaccharomyces pombe Ght6">
+      <meta content="26385" datatype="xsd:long" id="meta298338" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta298337" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta298336" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta298335" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta298334" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298333" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191935" id="Tl3191935" label="Schizosaccharomyces pombe Ght5">
+      <meta content="26385" datatype="xsd:long" id="meta298345" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta298344" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta298343" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta298342" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta298341" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298340" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191925" id="Tl3191925" label="Schizosaccharomyces pombe Ght3">
+      <meta content="26385" datatype="xsd:long" id="meta298352" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta298351" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta298350" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta298349" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta298348" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298347" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191926" id="Tl3191926" label="Schizosaccharomyces pombe Ght2">
+      <meta content="26385" datatype="xsd:long" id="meta298359" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta298358" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta298357" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta298356" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta298355" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298354" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191906" id="Tl3191906" label="Schizosaccharomyces pombe Ght1">
+      <meta content="26385" datatype="xsd:long" id="meta298366" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61651" datatype="xsd:long" id="meta298365" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4896" id="meta298364" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces pombe" datatype="xsd:string" id="meta298363" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" id="meta298362" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298361" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191922" id="Tl3191922" label="Scheffersomyces stipitis Sut3">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298368" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191947" id="Tl3191947" label="Scheffersomyces stipitis Sut2">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298370" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191916" id="Tl3191916" label="Scheffersomyces stipitis Sut1">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298372" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191920" id="Tl3191920" label="Saccharomyces pastorianus Fsy1">
+      <meta content="56402" datatype="xsd:long" id="meta298379" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="127999" datatype="xsd:long" id="meta298378" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/27292" id="meta298377" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces pastorianus" datatype="xsd:string" id="meta298376" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3230071" id="meta298375" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298374" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191891" id="Tl3191891" label="Saccharomyces cerevisiae Hxt7">
+      <meta content="25995" datatype="xsd:long" id="meta298386" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298385" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298384" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298383" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298382" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298381" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191900" id="Tl3191900" label="Saccharomyces cerevisiae Hxt6">
+      <meta content="25995" datatype="xsd:long" id="meta298393" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298392" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298391" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298390" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298389" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298388" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191919" id="Tl3191919" label="Saccharomyces cerevisiae Hxt5">
+      <meta content="25995" datatype="xsd:long" id="meta298400" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298399" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298398" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298397" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298396" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298395" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191982" id="Tl3191982" label="Saccharomyces cerevisiae Hxt4">
+      <meta content="25995" datatype="xsd:long" id="meta298407" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298406" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298405" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298404" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298403" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298402" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191993" id="Tl3191993" label="Saccharomyces cerevisiae Hxt3">
+      <meta content="25995" datatype="xsd:long" id="meta298414" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298413" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298412" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298411" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298410" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298409" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191932" id="Tl3191932" label="Saccharomyces cerevisiae Hxt2">
+      <meta content="25995" datatype="xsd:long" id="meta298421" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298420" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298419" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298418" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298417" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298416" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191979" id="Tl3191979" label="Saccharomyces cerevisiae Hxt1">
+      <meta content="25995" datatype="xsd:long" id="meta298428" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298427" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298426" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298425" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298424" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298423" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191913" id="Tl3191913" label="Saccharomyces cerevisiae Gal2">
+      <meta content="25995" datatype="xsd:long" id="meta298435" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298434" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298433" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298432" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298431" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298430" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191889" id="Tl3191889" label="Kluyveromyces lactis Rag1">
+      <meta content="15025" datatype="xsd:long" id="meta298442" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta298441" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta298440" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta298439" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta298438" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298437" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191933" id="Tl3191933" label="Kluyveromyces lactis Kht2">
+      <meta content="15025" datatype="xsd:long" id="meta298449" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta298448" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta298447" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta298446" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta298445" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298444" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191887" id="Tl3191887" label="Kluyveromyces lactis Kht1">
+      <meta content="15025" datatype="xsd:long" id="meta298456" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta298455" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta298454" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta298453" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta298452" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298451" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191944" id="Tl3191944" label="Kluyveromyces lactis Hgt1">
+      <meta content="15025" datatype="xsd:long" id="meta298463" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta298462" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta298461" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta298460" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta298459" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298458" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191892" id="Tl3191892" label="Kluyveromyces lactis Frt1">
+      <meta content="15025" datatype="xsd:long" id="meta298470" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35294" datatype="xsd:long" id="meta298469" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/28985" id="meta298468" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kluyveromyces lactis" datatype="xsd:string" id="meta298467" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1319526" id="meta298466" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298465" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191948" id="Tl3191948" label="Candida intermedia Gxs1">
+      <meta content="67945" datatype="xsd:long" id="meta298477" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="143398" datatype="xsd:long" id="meta298476" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/45354" id="meta298475" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Candida intermedia" datatype="xsd:string" id="meta298474" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2642652" id="meta298473" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298472" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191977" id="Tl3191977" label="Candida intermedia Gxf1">
+      <meta content="67945" datatype="xsd:long" id="meta298484" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="143398" datatype="xsd:long" id="meta298483" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/45354" id="meta298482" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Candida intermedia" datatype="xsd:string" id="meta298481" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2642652" id="meta298480" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298479" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191938" id="Tl3191938" label="Candida albicans Hgt1">
+      <meta content="4753" datatype="xsd:long" id="meta298491" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="11478" datatype="xsd:long" id="meta298490" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5476" id="meta298489" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Candida albicans" datatype="xsd:string" id="meta298488" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4773781" id="meta298487" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298486" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191951" id="Tl3191951" label="Ambrosiozyma monospora Lat1">
+      <meta content="66999" datatype="xsd:long" id="meta298498" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="142297" datatype="xsd:long" id="meta298497" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/43982" id="meta298496" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Ambrosiozyma monospora" datatype="xsd:string" id="meta298495" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3188776" id="meta298494" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298493" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191943" id="Tl3191943" label="Saccharomyces cerevisiae Hxt11">
+      <meta content="25995" datatype="xsd:long" id="meta298505" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298504" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298503" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298502" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298501" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298500" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191946" id="Tl3191946" label="Saccharomyces cerevisiae Hxt17">
+      <meta content="25995" datatype="xsd:long" id="meta298512" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298511" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298510" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298509" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298508" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298507" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191931" id="Tl3191931" label="Saccharomyces cerevisiae Hxt16">
+      <meta content="25995" datatype="xsd:long" id="meta298519" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298518" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298517" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298516" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298515" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298514" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191936" id="Tl3191936" label="Saccharomyces cerevisiae Hxt13">
+      <meta content="25995" datatype="xsd:long" id="meta298526" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298525" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298524" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298523" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298522" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298521" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191960" id="Tl3191960" label="Saccharomyces cerevisiae Hxt15">
+      <meta content="25995" datatype="xsd:long" id="meta298533" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298532" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298531" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298530" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298529" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298528" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208876" id="Tl3208876" label="Saccharomyces cerevisiae Itr1">
+      <meta content="25995" datatype="xsd:long" id="meta298540" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298539" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298538" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298537" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298536" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298535" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208868" id="Tl3208868" label="Saccharomyces cerevisiae Stl1">
+      <meta content="25995" datatype="xsd:long" id="meta298547" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60823" datatype="xsd:long" id="meta298546" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4932" id="meta298545" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saccharomyces cerevisiae" datatype="xsd:string" id="meta298544" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872294" id="meta298543" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298542" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191980" id="Tl3191980" label="Debaryomyces hansenii Syl2">
+      <meta content="46305" datatype="xsd:long" id="meta298554" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta298553" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta298552" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta298551" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta298550" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298549" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191952" id="Tl3191952" label="Ramalina conduplicans Rbt1">
+      <meta content="325107" datatype="xsd:long" id="meta298561" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="367067" datatype="xsd:long" id="meta298560" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/372067" id="meta298559" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Ramalina conduplicans" datatype="xsd:string" id="meta298558" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3256358" id="meta298557" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298556" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191910" id="Tl3191910" label="Xanthoria parietina 1618183">
+      <meta content="31019" datatype="xsd:long" id="meta298568" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="72423" datatype="xsd:long" id="meta298567" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/107463" id="meta298566" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Xanthoria parietina" datatype="xsd:string" id="meta298565" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872149" id="meta298564" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298563" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191964" id="Tl3191964" label="Usnea florida 817483">
+      <meta content="115851" datatype="xsd:long" id="meta298575" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="427382" datatype="xsd:long" id="meta298574" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/111620" id="meta298573" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Usnea florida" datatype="xsd:string" id="meta298572" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871937" id="meta298571" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298570" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191987" id="Tl3191987" label="Umbilicaria pustulata SLM34536">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298577" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191909" id="Tl3191909" label="Trypethelium eluteriae 440123">
+      <meta content="319073" datatype="xsd:long" id="meta298584" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492517" datatype="xsd:long" id="meta298583" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364715" id="meta298582" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Trypethelium eluteriae" datatype="xsd:string" id="meta298581" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3037285" id="meta298580" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298579" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191918" id="Tl3191918" label="Symbiotaphrina kochii 778756">
+      <meta content="64460" datatype="xsd:long" id="meta298591" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="139193" datatype="xsd:long" id="meta298590" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/40221" id="meta298589" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Symbiotaphrina kochii" datatype="xsd:string" id="meta298588" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1454453" id="meta298587" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298586" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191985" id="Tl3191985" label="Sclerophora sanguinea 241678">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298593" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208888" id="Tl3208888" label="Saitoella complicata XP_019021487">
+      <meta content="26034" datatype="xsd:long" id="meta298600" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="60916" datatype="xsd:long" id="meta298599" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5606" id="meta298598" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Saitoella complicata" datatype="xsd:string" id="meta298597" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3046688" id="meta298596" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298595" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191957" id="Tl3191957" label="Pyronema omphalodes CCX06871">
+      <meta content="36441" datatype="xsd:long" id="meta298607" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="98449" datatype="xsd:long" id="meta298606" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/337075" id="meta298605" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Pyronema omphalodes" datatype="xsd:string" id="meta298604" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1453264" id="meta298603" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298602" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208861" id="Tl3208861" label="Pseudocercospora fijiensis XP_007930618">
+      <meta content="423212" datatype="xsd:long" id="meta298614" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="413452" datatype="xsd:long" id="meta298613" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/513417" id="meta298612" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Pseudocercospora fijiensis" datatype="xsd:string" id="meta298611" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3200282" id="meta298610" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298609" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208885" id="Tl3208885" label="Phaeoacremonium minimum XP_007914611">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298616" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191972" id="Tl3191972" label="Lobaria pulmonaria 1075510">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298618" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208874" id="Tl3208874" label="Glarea lozoyensis XP_008087870">
+      <meta content="108541" datatype="xsd:long" id="meta298625" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="425668" datatype="xsd:long" id="meta298624" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/101852" id="meta298623" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Glarea lozoyensis" datatype="xsd:string" id="meta298622" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3287355" id="meta298621" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298620" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191907" id="Tl3191907" label="Endocarpon pusillum 4708">
+      <meta content="319091" datatype="xsd:long" id="meta298632" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492529" datatype="xsd:long" id="meta298631" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364733" id="meta298630" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Endocarpon pusillum" datatype="xsd:string" id="meta298629" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3035071" id="meta298628" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298627" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208859" id="Tl3208859" label="Dactylellina haptotyla XP_011106430">
+      <meta content="41513" datatype="xsd:long" id="meta298639" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="96803" datatype="xsd:long" id="meta298638" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/430498" id="meta298637" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Dactylellina haptotyla" datatype="xsd:string" id="meta298636" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3293949" id="meta298635" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298634" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191911" id="Tl3191911" label="Cladonia grayi 3543">
+      <meta content="56437" datatype="xsd:long" id="meta298646" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="128032" datatype="xsd:long" id="meta298645" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/27339" id="meta298644" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Cladonia grayi" datatype="xsd:string" id="meta298643" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871698" id="meta298642" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298641" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208857" id="Tl3208857" label="Aspergillus nomius XP_015407194">
+      <meta content="2601" datatype="xsd:long" id="meta298653" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="6121" datatype="xsd:long" id="meta298652" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/41061" id="meta298651" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Aspergillus nomius" datatype="xsd:string" id="meta298650" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3046726" id="meta298649" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298648" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191974" id="Tl3191974" label="Xylona heveae 33643">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298655" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191984" id="Tl3191984" label="Xanthoria parietina 1660360">
+      <meta content="31019" datatype="xsd:long" id="meta298662" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="72423" datatype="xsd:long" id="meta298661" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/107463" id="meta298660" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Xanthoria parietina" datatype="xsd:string" id="meta298659" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872149" id="meta298658" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298657" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191930" id="Tl3191930" label="Usnea florida 816522">
+      <meta content="115851" datatype="xsd:long" id="meta298669" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="427382" datatype="xsd:long" id="meta298668" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/111620" id="meta298667" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Usnea florida" datatype="xsd:string" id="meta298666" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871937" id="meta298665" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298664" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208858" id="Tl3208858" label="Uncinocarpus reesii XP_002583310">
+      <meta content="30251" datatype="xsd:long" id="meta298676" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="70610" datatype="xsd:long" id="meta298675" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/33188" id="meta298674" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Uncinocarpus reesii" datatype="xsd:string" id="meta298673" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3203639" id="meta298672" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298671" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191975" id="Tl3191975" label="Umbilicaria pustulata SLM35888">
+      <meta content="635313" datatype="xsd:long" id="meta298681" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="850325" datatype="xsd:long" id="meta298680" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3037844" id="meta298679" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298678" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191978" id="Tl3191978" label="Trypethelium eluteriae 500005">
+      <meta content="319073" datatype="xsd:long" id="meta298688" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492517" datatype="xsd:long" id="meta298687" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364715" id="meta298686" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Trypethelium eluteriae" datatype="xsd:string" id="meta298685" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3037285" id="meta298684" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298683" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191939" id="Tl3191939" label="Trinosporium guianense 1001925">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298690" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208865" id="Tl3208865" label="Thermothelomyces thermophila XP_003667183">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298692" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191927" id="Tl3191927" label="Sclerophora sanguinea 136594">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298694" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191958" id="Tl3191958" label="Pyronema omphalodes CCX32903">
+      <meta content="36441" datatype="xsd:long" id="meta298701" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="98449" datatype="xsd:long" id="meta298700" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/337075" id="meta298699" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Pyronema omphalodes" datatype="xsd:string" id="meta298698" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1453264" id="meta298697" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298696" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208855" id="Tl3208855" label="Phialocephala scopiformis XP_018072650">
+      <meta content="21764" datatype="xsd:long" id="meta298708" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="50623" datatype="xsd:long" id="meta298707" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/149040" id="meta298706" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Phialocephala scopiformis" datatype="xsd:string" id="meta298705" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3262201" id="meta298704" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298703" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191976" id="Tl3191976" label="Neolecta irregularis OLL27129">
+      <meta content="18895" datatype="xsd:long" id="meta298715" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="44023" datatype="xsd:long" id="meta298714" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/48691" id="meta298713" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Neolecta irregularis" datatype="xsd:string" id="meta298712" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3197706" id="meta298711" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298710" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208875" id="Tl3208875" label="Ramalina conduplicans Lat2">
+      <meta content="325107" datatype="xsd:long" id="meta298722" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="367067" datatype="xsd:long" id="meta298721" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/372067" id="meta298720" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Ramalina conduplicans" datatype="xsd:string" id="meta298719" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3256358" id="meta298718" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298717" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191928" id="Tl3191928" label="Lobaria pulmonaria 1261078">
+      <meta content="620921" datatype="xsd:long" id="meta298729" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="831471" datatype="xsd:long" id="meta298728" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/86794" id="meta298727" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Lobaria pulmonaria" datatype="xsd:string" id="meta298726" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:442021" id="meta298725" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298724" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191903" id="Tl3191903" label="Glonium stellatum OCL04378">
+      <meta content="428151" datatype="xsd:long" id="meta298736" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="563980" datatype="xsd:long" id="meta298735" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/574774" id="meta298734" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Glonium stellatum" datatype="xsd:string" id="meta298733" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3058238" id="meta298732" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298731" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191901" id="Tl3191901" label="Endocarpon pusillum 1090">
+      <meta content="319091" datatype="xsd:long" id="meta298743" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492529" datatype="xsd:long" id="meta298742" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364733" id="meta298741" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Endocarpon pusillum" datatype="xsd:string" id="meta298740" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3035071" id="meta298739" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298738" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191967" id="Tl3191967" label="Diplodia seriata KKY19172">
+      <meta content="40465" datatype="xsd:long" id="meta298750" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="94084" datatype="xsd:long" id="meta298749" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/420778" id="meta298748" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Diplodia seriata" datatype="xsd:string" id="meta298747" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3086572" id="meta298746" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298745" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208884" id="Tl3208884" label="Dactylellina haptotyla XP_011106845">
+      <meta content="41513" datatype="xsd:long" id="meta298757" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="96803" datatype="xsd:long" id="meta298756" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/430498" id="meta298755" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Dactylellina haptotyla" datatype="xsd:string" id="meta298754" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3293949" id="meta298753" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298752" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191959" id="Tl3191959" label="Coccidioides immitis KMU91130">
+      <meta content="6529" datatype="xsd:long" id="meta298764" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="15841" datatype="xsd:long" id="meta298763" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5501" id="meta298762" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Coccidioides immitis" datatype="xsd:string" id="meta298761" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3264217" id="meta298760" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298759" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191953" id="Tl3191953" label="Cladonia grayi 2664">
+      <meta content="56437" datatype="xsd:long" id="meta298771" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="128032" datatype="xsd:long" id="meta298770" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/27339" id="meta298769" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Cladonia grayi" datatype="xsd:string" id="meta298768" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871698" id="meta298767" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298766" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191981" id="Tl3191981" label="Xanthoria parietina 1602355">
+      <meta content="31019" datatype="xsd:long" id="meta298778" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="72423" datatype="xsd:long" id="meta298777" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/107463" id="meta298776" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Xanthoria parietina" datatype="xsd:string" id="meta298775" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872149" id="meta298774" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298773" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191894" id="Tl3191894" label="Usnea florida 815118">
+      <meta content="115851" datatype="xsd:long" id="meta298785" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="427382" datatype="xsd:long" id="meta298784" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/111620" id="meta298783" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Usnea florida" datatype="xsd:string" id="meta298782" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871937" id="meta298781" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298780" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191884" id="Tl3191884" label="Umbilicaria pustulata SLM39237">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298787" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191983" id="Tl3191983" label="Trypethelium eluteriae 128538">
+      <meta content="319073" datatype="xsd:long" id="meta298794" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492517" datatype="xsd:long" id="meta298793" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364715" id="meta298792" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Trypethelium eluteriae" datatype="xsd:string" id="meta298791" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3037285" id="meta298790" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298789" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191942" id="Tl3191942" label="Symbiotaphrina kochii 658577">
+      <meta content="64460" datatype="xsd:long" id="meta298801" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="139193" datatype="xsd:long" id="meta298800" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/40221" id="meta298799" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Symbiotaphrina kochii" datatype="xsd:string" id="meta298798" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1454453" id="meta298797" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298796" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191896" id="Tl3191896" label="Sclerophora sanguinea 184654">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298803" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208854" id="Tl3208854" label="Schizosaccharomyces japonicus XP_002175189">
+      <meta content="26384" datatype="xsd:long" id="meta298810" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="61649" datatype="xsd:long" id="meta298809" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4897" id="meta298808" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Schizosaccharomyces japonicus" datatype="xsd:string" id="meta298807" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3023413" id="meta298806" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298805" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191883" id="Tl3191883" label="Pyronema omphalodes CCX04720">
+      <meta content="36441" datatype="xsd:long" id="meta298817" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="98449" datatype="xsd:long" id="meta298816" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/337075" id="meta298815" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Pyronema omphalodes" datatype="xsd:string" id="meta298814" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1453264" id="meta298813" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298812" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191921" id="Tl3191921" label="Penicillium nordicum KOS37549">
+      <meta content="208851" datatype="xsd:long" id="meta298824" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="452542" datatype="xsd:long" id="meta298823" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/229535" id="meta298822" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Penicillium nordicum" datatype="xsd:string" id="meta298821" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1451740" id="meta298820" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298819" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191992" id="Tl3191992" label="Oidiodendron maius KIN01525">
+      <meta content="19479" datatype="xsd:long" id="meta298831" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="45354" datatype="xsd:long" id="meta298830" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/78148" id="meta298829" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Oidiodendron maius" datatype="xsd:string" id="meta298828" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3212887" id="meta298827" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298826" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191954" id="Tl3191954" label="Lobaria pulmonaria 1267150">
+      <meta content="16160" datatype="xsd:long" id="meta298838" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="37821" datatype="xsd:long" id="meta298837" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/86794" id="meta298836" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Lobaria pulmonaria" datatype="xsd:string" id="meta298835" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872019" id="meta298834" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298833" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191905" id="Tl3191905" label="Endocarpon pusillum 5810">
+      <meta content="319091" datatype="xsd:long" id="meta298845" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="492529" datatype="xsd:long" id="meta298844" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/364733" id="meta298843" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Endocarpon pusillum" datatype="xsd:string" id="meta298842" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3035071" id="meta298841" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298840" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208863" id="Tl3208863" label="Diplodia corticola XP_020129849">
+      <meta content="40466" datatype="xsd:long" id="meta298852" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="94087" datatype="xsd:long" id="meta298851" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/548935" id="meta298850" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Diplodia corticola" datatype="xsd:string" id="meta298849" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:9730067" id="meta298848" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298847" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191962" id="Tl3191962" label="Daldinia sp. OTB11998">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298854" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191949" id="Tl3191949" label="Cladonia grayi 1746">
+      <meta content="56437" datatype="xsd:long" id="meta298861" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="128032" datatype="xsd:long" id="meta298860" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/27339" id="meta298859" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Cladonia grayi" datatype="xsd:string" id="meta298858" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871698" id="meta298857" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298856" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208864" id="Tl3208864" label="Arthrobotrys oligospora XP_011123148">
+      <meta content="2397" datatype="xsd:long" id="meta298868" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="5716" datatype="xsd:long" id="meta298867" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/13349" id="meta298866" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Arthrobotrys oligospora" datatype="xsd:string" id="meta298865" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3060372" id="meta298864" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298863" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191973" id="Tl3191973" label="Debaryomyces hansenii Syl1">
+      <meta content="46305" datatype="xsd:long" id="meta298875" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta298874" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta298873" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta298872" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta298871" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298870" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191994" id="Tl3191994" label="Debaryomyces hansenii Stl1">
+      <meta content="46305" datatype="xsd:long" id="meta298882" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta298881" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta298880" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta298879" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta298878" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298877" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191937" id="Tl3191937" label="Debaryomyces hansenii Sgl1">
+      <meta content="46305" datatype="xsd:long" id="meta298889" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta298888" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta298887" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta298886" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta298885" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298884" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191895" id="Tl3191895" label="Debaryomyces hansenii Syi1">
+      <meta content="46305" datatype="xsd:long" id="meta298896" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="108536" datatype="xsd:long" id="meta298895" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4959" id="meta298894" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Debaryomyces hansenii" datatype="xsd:string" id="meta298893" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3872286" id="meta298892" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298891" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3208872" id="Tl3208872" label="Candida albicans Stl1">
+      <meta content="4753" datatype="xsd:long" id="meta298903" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="11478" datatype="xsd:long" id="meta298902" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5476" id="meta298901" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Candida albicans" datatype="xsd:string" id="meta298900" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4773781" id="meta298899" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298898" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3191912" id="Tl3191912" label="Ambrosiozyma monospora Lat2">
+      <meta content="66999" datatype="xsd:long" id="meta298910" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="142297" datatype="xsd:long" id="meta298909" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/43982" id="meta298908" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Ambrosiozyma monospora" datatype="xsd:string" id="meta298907" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3188776" id="meta298906" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22691" id="meta298905" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+  </otus>
+</nex:nexml>

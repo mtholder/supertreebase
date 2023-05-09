@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nex:nexml xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tb="http://purl.org/phylo/treebase/2.0/terms#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#S22656" generator="org.nexml.model.impl.DocumentImpl" id="S22656" version="0.9" xml:base="http://purl.org/phylo/treebase/phylows/study/TB2:">
+  <meta content="Generated on Tue May 09 19:25:52 UTC 2023" datatype="xsd:string" id="meta326950" property="skos:changeNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlDocumentWriter@318eb884 $Rev$" datatype="xsd:string" id="meta326949" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta326948" property="prism:number" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta326947" property="prism:volume" xsi:type="nex:LiteralMeta"/>
+  <meta content="Evolutionary Ecology" datatype="xsd:string" id="meta326946" property="dc:publisher" xsi:type="nex:LiteralMeta"/>
+  <meta content="Evolutionary Ecology" datatype="xsd:string" id="meta326945" property="prism:publicationName" xsi:type="nex:LiteralMeta"/>
+  <meta content="speciation" datatype="xsd:string" id="meta326944" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="Pleistocene glaciations" datatype="xsd:string" id="meta326943" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="plant phylogeography" datatype="xsd:string" id="meta326942" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="paleo distribution models" datatype="xsd:string" id="meta326941" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="gene flow" datatype="xsd:string" id="meta326940" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="climatic niche differentiation" datatype="xsd:string" id="meta326939" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="10.1007/s10682-018-9938-3" datatype="xsd:string" id="meta326938" property="prism:doi" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018" datatype="xsd:string" id="meta326937" property="prism:publicationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="Sersic A." datatype="xsd:string" id="meta326936" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Johnson L." datatype="xsd:string" id="meta326935" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Chan L." datatype="xsd:string" id="meta326934" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Iglesias M.D." datatype="xsd:string" id="meta326933" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Espíndola A." datatype="xsd:string" id="meta326932" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Cosacov A." datatype="xsd:string" id="meta326931" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Baranzelli M.C." datatype="xsd:string" id="meta326930" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Baranzelli M.C., Cosacov A., Espíndola A., Iglesias M.D., Chan L., Johnson L., &amp; Sersic A." datatype="xsd:string" id="meta326929" property="dc:creator" xsi:type="nex:LiteralMeta"/>
+  <meta content="Echoes of the whispering land: interacting roles of vicariance and selection in shaping the evolutionary divergence of two Calceolaria (Calceolariaceae) species from Patagonia and Malvinas/Falkland Islands" datatype="xsd:string" id="meta326928" property="dc:title" xsi:type="nex:LiteralMeta"/>
+  <meta content="Baranzelli M.C., Cosacov A., Espíndola A., Iglesias M.D., Chan L., Johnson L., &amp; Sersic A. 2018. Echoes of the whispering land: interacting roles of vicariance and selection in shaping the evolutionary divergence of two Calceolaria (Calceolariaceae) species from Patagonia and Malvinas/Falkland Islands. Evolutionary Ecology, ." datatype="xsd:string" id="meta326927" property="dcterms:bibliographicCitation" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-04-26" datatype="xsd:string" id="meta326926" property="prism:creationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-06-30" datatype="xsd:string" id="meta326925" property="prism:modificationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-06-30" datatype="xsd:string" id="meta326924" property="dc:date" xsi:type="nex:LiteralMeta"/>
+  <meta content="Echoes of the whispering land: interacting roles of vicariance and selection in shaping the evolutionary divergence of two Calceolaria (Calceolariaceae) species from Patagonia and Malvinas/Falkland Islands" datatype="xsd:string" id="meta326923" property="tb:title.study" xsi:type="nex:LiteralMeta"/>
+  <meta datatype="xsd:anySimpleType" id="meta326922" property="tb:identifier.study.tb1" xsi:type="nex:LiteralMeta"/>
+  <meta content="22656" datatype="xsd:string" id="meta326921" property="tb:identifier.study" xsi:type="nex:LiteralMeta"/>
+  <meta content="Study" datatype="xsd:string" id="meta326919" property="prism:section" xsi:type="nex:LiteralMeta"/>
+  <otus about="#Tls64060" id="Tls64060" label="Taxa" xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@82ca34b $Rev$" datatype="xsd:string" id="meta326952" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <otu about="#Tl3221728" id="Tl3221728" label="Calceolaria uniflora Hap_1">
+      <meta content="217805" datatype="xsd:long" id="meta326959" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta326958" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta326957" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta326956" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta326955" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta326954" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221729" id="Tl3221729" label="Calceolaria uniflora Hap_2">
+      <meta content="217805" datatype="xsd:long" id="meta326966" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta326965" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta326964" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta326963" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta326962" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta326961" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221727" id="Tl3221727" label="Calceolaria fothergillii Hap_3">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta326968" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221710" id="Tl3221710" label="Calceolaria uniflora Hap_4">
+      <meta content="217805" datatype="xsd:long" id="meta326975" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta326974" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta326973" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta326972" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta326971" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta326970" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221708" id="Tl3221708" label="Calceolaria uniflora Hap_5">
+      <meta content="217805" datatype="xsd:long" id="meta326982" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta326981" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta326980" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta326979" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta326978" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta326977" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221722" id="Tl3221722" label="Calceolaria uniflora Hap_6">
+      <meta content="217805" datatype="xsd:long" id="meta326989" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta326988" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta326987" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta326986" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta326985" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta326984" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221714" id="Tl3221714" label="Calceolaria uniflora Hap_7">
+      <meta content="217805" datatype="xsd:long" id="meta326996" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta326995" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta326994" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta326993" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta326992" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta326991" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221707" id="Tl3221707" label="Calceolaria uniflora Hap_8">
+      <meta content="217805" datatype="xsd:long" id="meta327003" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327002" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327001" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327000" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta326999" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta326998" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221719" id="Tl3221719" label="Calceolaria uniflora Hap_9">
+      <meta content="217805" datatype="xsd:long" id="meta327010" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327009" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327008" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327007" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327006" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327005" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221705" id="Tl3221705" label="Calceolaria uniflora Hap_10">
+      <meta content="217805" datatype="xsd:long" id="meta327017" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327016" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327015" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327014" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327013" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327012" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221711" id="Tl3221711" label="Calceolaria uniflora Hap_11">
+      <meta content="217805" datatype="xsd:long" id="meta327024" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327023" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327022" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327021" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327020" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327019" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221723" id="Tl3221723" label="Calceolaria uniflora Hap_12">
+      <meta content="217805" datatype="xsd:long" id="meta327031" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327030" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327029" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327028" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327027" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327026" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221716" id="Tl3221716" label="Calceolaria uniflora Hap_13">
+      <meta content="217805" datatype="xsd:long" id="meta327038" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327037" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327036" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327035" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327034" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327033" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221724" id="Tl3221724" label="Calceolaria uniflora Hap_14">
+      <meta content="217805" datatype="xsd:long" id="meta327045" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327044" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327043" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327042" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327041" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327040" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221715" id="Tl3221715" label="Calceolaria uniflora Hap_15">
+      <meta content="217805" datatype="xsd:long" id="meta327052" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327051" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327050" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327049" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327048" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327047" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221720" id="Tl3221720" label="Calceolaria uniflora Hap_16">
+      <meta content="217805" datatype="xsd:long" id="meta327059" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327058" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327057" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327056" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327055" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327054" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221721" id="Tl3221721" label="Calceolaria uniflora Hap_17">
+      <meta content="217805" datatype="xsd:long" id="meta327066" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327065" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327064" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327063" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327062" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327061" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221717" id="Tl3221717" label="Calceolaria uniflora Hap_18">
+      <meta content="217805" datatype="xsd:long" id="meta327073" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327072" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327071" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327070" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327069" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327068" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+  </otus>
+  <otus about="#Tls64059" id="Tls64059" label="Taxa" xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@82ca34b $Rev$" datatype="xsd:string" id="meta327075" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <otu about="#Tl3221712" id="Tl3221712" label="Calceolaria fothergillii Hap_1">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327077" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221713" id="Tl3221713" label="Calceolaria fothergillii Hap_2">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327079" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221725" id="Tl3221725" label="Calceolaria fothergillii Hap_21">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327081" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221706" id="Tl3221706" label="Calceolaria fothergillii Hap_22">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327083" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221705" id="Tl3221705" label="Calceolaria uniflora Hap_10">
+      <meta content="217805" datatype="xsd:long" id="meta327090" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327089" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327088" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327087" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327086" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327085" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221711" id="Tl3221711" label="Calceolaria uniflora Hap_11">
+      <meta content="217805" datatype="xsd:long" id="meta327097" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327096" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327095" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327094" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327093" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327092" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221723" id="Tl3221723" label="Calceolaria uniflora Hap_12">
+      <meta content="217805" datatype="xsd:long" id="meta327104" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327103" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327102" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327101" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327100" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327099" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221716" id="Tl3221716" label="Calceolaria uniflora Hap_13">
+      <meta content="217805" datatype="xsd:long" id="meta327111" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327110" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327109" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327108" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327107" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327106" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221724" id="Tl3221724" label="Calceolaria uniflora Hap_14">
+      <meta content="217805" datatype="xsd:long" id="meta327118" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327117" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327116" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327115" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327114" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327113" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221715" id="Tl3221715" label="Calceolaria uniflora Hap_15">
+      <meta content="217805" datatype="xsd:long" id="meta327125" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327124" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327123" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327122" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327121" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327120" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221720" id="Tl3221720" label="Calceolaria uniflora Hap_16">
+      <meta content="217805" datatype="xsd:long" id="meta327132" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327131" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327130" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327129" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327128" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327127" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221721" id="Tl3221721" label="Calceolaria uniflora Hap_17">
+      <meta content="217805" datatype="xsd:long" id="meta327139" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327138" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327137" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327136" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327135" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327134" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221717" id="Tl3221717" label="Calceolaria uniflora Hap_18">
+      <meta content="217805" datatype="xsd:long" id="meta327146" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327145" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327144" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327143" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327142" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327141" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221718" id="Tl3221718" label="Calceolaria uniflora Hap_19">
+      <meta content="217805" datatype="xsd:long" id="meta327153" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327152" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327151" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327150" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327149" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327148" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221709" id="Tl3221709" label="Calceolaria uniflora Hap_20">
+      <meta content="217805" datatype="xsd:long" id="meta327160" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327159" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327158" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327157" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327156" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327155" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221726" id="Tl3221726" label="Calceolaria uniflora Hap_3">
+      <meta content="217805" datatype="xsd:long" id="meta327167" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327166" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327165" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327164" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327163" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327162" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221710" id="Tl3221710" label="Calceolaria uniflora Hap_4">
+      <meta content="217805" datatype="xsd:long" id="meta327174" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327173" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327172" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327171" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327170" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327169" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221708" id="Tl3221708" label="Calceolaria uniflora Hap_5">
+      <meta content="217805" datatype="xsd:long" id="meta327181" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327180" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327179" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327178" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327177" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327176" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221722" id="Tl3221722" label="Calceolaria uniflora Hap_6">
+      <meta content="217805" datatype="xsd:long" id="meta327188" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327187" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327186" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327185" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327184" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327183" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221714" id="Tl3221714" label="Calceolaria uniflora Hap_7">
+      <meta content="217805" datatype="xsd:long" id="meta327195" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327194" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327193" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327192" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327191" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327190" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221707" id="Tl3221707" label="Calceolaria uniflora Hap_8">
+      <meta content="217805" datatype="xsd:long" id="meta327202" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327201" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327200" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327199" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327198" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327197" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3221719" id="Tl3221719" label="Calceolaria uniflora Hap_9">
+      <meta content="217805" datatype="xsd:long" id="meta327209" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="284567" datatype="xsd:long" id="meta327208" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/240999" id="meta327207" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Calceolaria uniflora" datatype="xsd:string" id="meta327206" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5889166" id="meta327205" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327204" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+  </otus>
+  <characters about="#M46403" id="M46403" label="Calceolaria fothergillii cpDNA both markers" otus="Tls64059" xml:base="http://purl.org/phylo/treebase/phylows/matrix/TB2:" xsi:type="nex:DnaSeqs">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlMatrixWriter@563292fb $Rev$" datatype="xsd:string" id="meta327234" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta content="46403" datatype="xsd:long" id="meta327233" property="tb:identifier.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="32" datatype="xsd:integer" id="meta327232" property="tb:nchar.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="22" datatype="xsd:integer" id="meta327231" property="tb:ntax.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="DNA" datatype="xsd:string" id="meta327230" property="tb:type.matrix" xsi:type="nex:LiteralMeta"/>
+    <format>
+      <states id="states327211">
+        <state id="state327212" symbol="A"/>
+        <state id="state327213" symbol="C"/>
+        <state id="state327214" symbol="G"/>
+        <state id="state327215" symbol="T"/>
+        <uncertain_state_set id="uncertain_state_set327216" symbol="K">
+          <member state="state327215"/>
+          <member state="state327214"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327217" symbol="M">
+          <member state="state327212"/>
+          <member state="state327213"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327218" symbol="R">
+          <member state="state327214"/>
+          <member state="state327212"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327219" symbol="S">
+          <member state="state327214"/>
+          <member state="state327213"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327220" symbol="W">
+          <member state="state327215"/>
+          <member state="state327212"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327221" symbol="Y">
+          <member state="state327215"/>
+          <member state="state327213"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327222" symbol="B">
+          <member state="state327215"/>
+          <member state="state327214"/>
+          <member state="state327213"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327223" symbol="D">
+          <member state="state327215"/>
+          <member state="state327214"/>
+          <member state="state327212"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327224" symbol="H">
+          <member state="state327215"/>
+          <member state="state327214"/>
+          <member state="state327212"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327225" symbol="V">
+          <member state="state327214"/>
+          <member state="state327212"/>
+          <member state="state327213"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327226" symbol="N">
+          <member state="state327215"/>
+          <member state="state327214"/>
+          <member state="state327213"/>
+          <member state="state327212"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327227" symbol="X">
+          <member state="state327215"/>
+          <member state="state327214"/>
+          <member state="state327213"/>
+          <member state="state327212"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327228" symbol="-"/>
+        <uncertain_state_set id="uncertain_state_set327229" symbol="?">
+          <member state="uncertain_state_set327228"/>
+          <member state="state327213"/>
+          <member state="state327215"/>
+          <member state="state327214"/>
+          <member state="state327212"/>
+        </uncertain_state_set>
+      </states>
+      <char id="Col408243089" label="DNA" states="states327211"/>
+      <char id="Col408243090" label="DNA" states="states327211"/>
+      <char id="Col408243091" label="DNA" states="states327211"/>
+      <char id="Col408243092" label="DNA" states="states327211"/>
+      <char id="Col408243093" label="DNA" states="states327211"/>
+      <char id="Col408243094" label="DNA" states="states327211"/>
+      <char id="Col408243095" label="DNA" states="states327211"/>
+      <char id="Col408243096" label="DNA" states="states327211"/>
+      <char id="Col408243097" label="DNA" states="states327211"/>
+      <char id="Col408243098" label="DNA" states="states327211"/>
+      <char id="Col408243099" label="DNA" states="states327211"/>
+      <char id="Col408243100" label="DNA" states="states327211"/>
+      <char id="Col408243101" label="DNA" states="states327211"/>
+      <char id="Col408243102" label="DNA" states="states327211"/>
+      <char id="Col408243103" label="DNA" states="states327211"/>
+      <char id="Col408243104" label="DNA" states="states327211"/>
+      <char id="Col408243105" label="DNA" states="states327211"/>
+      <char id="Col408243106" label="DNA" states="states327211"/>
+      <char id="Col408243107" label="DNA" states="states327211"/>
+      <char id="Col408243108" label="DNA" states="states327211"/>
+      <char id="Col408243109" label="DNA" states="states327211"/>
+      <char id="Col408243110" label="DNA" states="states327211"/>
+      <char id="Col408243111" label="DNA" states="states327211"/>
+      <char id="Col408243112" label="DNA" states="states327211"/>
+      <char id="Col408243113" label="DNA" states="states327211"/>
+      <char id="Col408243114" label="DNA" states="states327211"/>
+      <char id="Col408243115" label="DNA" states="states327211"/>
+      <char id="Col408243116" label="DNA" states="states327211"/>
+      <char id="Col408243117" label="DNA" states="states327211"/>
+      <char id="Col408243118" label="DNA" states="states327211"/>
+      <char id="Col408243119" label="DNA" states="states327211"/>
+      <char id="Col408243120" label="DNA" states="states327211"/>
+    </format>
+    <matrix>
+      <row id="Row3854474" otu="Tl3221712">
+        <seq>CTATTAAATGGAACTACAAAAAAAAATTGTGG</seq>
+      </row>
+      <row id="Row3854475" otu="Tl3221713">
+        <seq>CTATTAAATGGAACTACAATTAATTATTGTGG</seq>
+      </row>
+      <row id="Row3854476" otu="Tl3221725">
+        <seq>CTATTAAATGGAACTACAATTAATTAATGTGG</seq>
+      </row>
+      <row id="Row3854477" otu="Tl3221706">
+        <seq>CTATTAAATGGAATTGTGGTTAATTAATGTGG</seq>
+      </row>
+      <row id="Row3854478" otu="Tl3221705">
+        <seq>CTTAAAATCGAAATCACAATATTTTTTTGGGT</seq>
+      </row>
+      <row id="Row3854479" otu="Tl3221711">
+        <seq>CTTAAAATCGAAATCACAATATTTTTTTAGGT</seq>
+      </row>
+      <row id="Row3854480" otu="Tl3221723">
+        <seq>CTTTTTATCGAAACTACAATATTTTTTTGGGT</seq>
+      </row>
+      <row id="Row3854481" otu="Tl3221716">
+        <seq>CTTAAAATCGAAACTACAATATTTTTTGGGGT</seq>
+      </row>
+      <row id="Row3854482" otu="Tl3221724">
+        <seq>CTTTTAATCGAAGCTACAATATTTTTTTGTGT</seq>
+      </row>
+      <row id="Row3854483" otu="Tl3221715">
+        <seq>CTTTTAATCAAAACTACAATATTTTTTTGTGT</seq>
+      </row>
+      <row id="Row3854484" otu="Tl3221720">
+        <seq>CTTTTAATCGAAACTACAATATTTTTTTGGAT</seq>
+      </row>
+      <row id="Row3854485" otu="Tl3221721">
+        <seq>CTTTTAATCGACACTACAATATTTTTTTGTGT</seq>
+      </row>
+      <row id="Row3854486" otu="Tl3221717">
+        <seq>CCTTTTATCGAAACTACAATATTTTTTTGTGT</seq>
+      </row>
+      <row id="Row3854487" otu="Tl3221718">
+        <seq>CTTTTTTTCGAAACTACAATATTTTTTTGTGT</seq>
+      </row>
+      <row id="Row3854488" otu="Tl3221709">
+        <seq>ATTTTTATCGAAACTACAATATTTTTTTGTGT</seq>
+      </row>
+      <row id="Row3854489" otu="Tl3221726">
+        <seq>CTTAAAATCGAAACTACAATATTTTTTTGGGT</seq>
+      </row>
+      <row id="Row3854490" otu="Tl3221710">
+        <seq>CTTTTTATCGAAACTACAATTTTTTTTTGTGT</seq>
+      </row>
+      <row id="Row3854491" otu="Tl3221708">
+        <seq>CTTTTTATCGAAACTACAATTTTTTTTTGGGT</seq>
+      </row>
+      <row id="Row3854492" otu="Tl3221722">
+        <seq>CTTTTTATCGAAACTACAATATTTTTTTGTGT</seq>
+      </row>
+      <row id="Row3854493" otu="Tl3221714">
+        <seq>CTTTTAATCGAAACTACAATATTTTTTTGTGT</seq>
+      </row>
+      <row id="Row3854494" otu="Tl3221707">
+        <seq>CTTTTAATCGAAACTACAATATTTTTTTGGGT</seq>
+      </row>
+      <row id="Row3854495" otu="Tl3221719">
+        <seq>CTTAAAATCGAAACTGTGGTATTTTTTTGGGT</seq>
+      </row>
+    </matrix>
+  </characters>
+  <characters about="#M46404" id="M46404" label="Calceolaria fothergillii nrDNA 18" otus="Tls64060" xml:base="http://purl.org/phylo/treebase/phylows/matrix/TB2:" xsi:type="nex:DnaSeqs">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlMatrixWriter@563292fb $Rev$" datatype="xsd:string" id="meta327313" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta content="46404" datatype="xsd:long" id="meta327312" property="tb:identifier.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="21" datatype="xsd:integer" id="meta327311" property="tb:nchar.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="18" datatype="xsd:integer" id="meta327310" property="tb:ntax.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="DNA" datatype="xsd:string" id="meta327309" property="tb:type.matrix" xsi:type="nex:LiteralMeta"/>
+    <format>
+      <states id="states327290">
+        <state id="state327291" symbol="A"/>
+        <state id="state327292" symbol="C"/>
+        <state id="state327293" symbol="G"/>
+        <state id="state327294" symbol="T"/>
+        <uncertain_state_set id="uncertain_state_set327295" symbol="K">
+          <member state="state327294"/>
+          <member state="state327293"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327296" symbol="M">
+          <member state="state327292"/>
+          <member state="state327291"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327297" symbol="R">
+          <member state="state327291"/>
+          <member state="state327293"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327298" symbol="S">
+          <member state="state327292"/>
+          <member state="state327293"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327299" symbol="W">
+          <member state="state327294"/>
+          <member state="state327291"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327300" symbol="Y">
+          <member state="state327292"/>
+          <member state="state327294"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327301" symbol="B">
+          <member state="state327292"/>
+          <member state="state327294"/>
+          <member state="state327293"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327302" symbol="D">
+          <member state="state327294"/>
+          <member state="state327291"/>
+          <member state="state327293"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327303" symbol="H">
+          <member state="state327294"/>
+          <member state="state327291"/>
+          <member state="state327293"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327304" symbol="V">
+          <member state="state327292"/>
+          <member state="state327291"/>
+          <member state="state327293"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327305" symbol="N">
+          <member state="state327292"/>
+          <member state="state327294"/>
+          <member state="state327293"/>
+          <member state="state327291"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327306" symbol="X">
+          <member state="state327292"/>
+          <member state="state327294"/>
+          <member state="state327293"/>
+          <member state="state327291"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set327307" symbol="-"/>
+        <uncertain_state_set id="uncertain_state_set327308" symbol="?">
+          <member state="state327294"/>
+          <member state="state327292"/>
+          <member state="state327293"/>
+          <member state="state327291"/>
+          <member state="uncertain_state_set327307"/>
+        </uncertain_state_set>
+      </states>
+      <char id="Col408243121" label="DNA" states="states327290"/>
+      <char id="Col408243122" label="DNA" states="states327290"/>
+      <char id="Col408243123" label="DNA" states="states327290"/>
+      <char id="Col408243124" label="DNA" states="states327290"/>
+      <char id="Col408243125" label="DNA" states="states327290"/>
+      <char id="Col408243126" label="DNA" states="states327290"/>
+      <char id="Col408243127" label="DNA" states="states327290"/>
+      <char id="Col408243128" label="DNA" states="states327290"/>
+      <char id="Col408243129" label="DNA" states="states327290"/>
+      <char id="Col408243130" label="DNA" states="states327290"/>
+      <char id="Col408243131" label="DNA" states="states327290"/>
+      <char id="Col408243132" label="DNA" states="states327290"/>
+      <char id="Col408243133" label="DNA" states="states327290"/>
+      <char id="Col408243134" label="DNA" states="states327290"/>
+      <char id="Col408243135" label="DNA" states="states327290"/>
+      <char id="Col408243136" label="DNA" states="states327290"/>
+      <char id="Col408243137" label="DNA" states="states327290"/>
+      <char id="Col408243138" label="DNA" states="states327290"/>
+      <char id="Col408243139" label="DNA" states="states327290"/>
+      <char id="Col408243140" label="DNA" states="states327290"/>
+      <char id="Col408243141" label="DNA" states="states327290"/>
+    </format>
+    <matrix>
+      <row id="Row3854496" otu="Tl3221728">
+        <seq>TGTGTCCCTATAGCGAGTTTA</seq>
+      </row>
+      <row id="Row3854497" otu="Tl3221729">
+        <seq>TATGTCCGGATATTAAGTTTA</seq>
+      </row>
+      <row id="Row3854498" otu="Tl3221727">
+        <seq>TAGGCCTGGCACTTAGAAGAG</seq>
+      </row>
+      <row id="Row3854499" otu="Tl3221710">
+        <seq>TGTGTCCCTATATTGAGTTTA</seq>
+      </row>
+      <row id="Row3854500" otu="Tl3221708">
+        <seq>TATGCCTGGATATTAAGTTTA</seq>
+      </row>
+      <row id="Row3854501" otu="Tl3221722">
+        <seq>CATTCCTGGATATTAAGTTTA</seq>
+      </row>
+      <row id="Row3854502" otu="Tl3221714">
+        <seq>CATGCCTGGATATTAAGTTTA</seq>
+      </row>
+      <row id="Row3854503" otu="Tl3221707">
+        <seq>CGTGTCCCGATATTGAGTTTA</seq>
+      </row>
+      <row id="Row3854504" otu="Tl3221719">
+        <seq>TGTGTCCCTATATCGAGTTTA</seq>
+      </row>
+      <row id="Row3854505" otu="Tl3221705">
+        <seq>CGTGTCCCTATAGCGAGTTTA</seq>
+      </row>
+      <row id="Row3854506" otu="Tl3221711">
+        <seq>CATGCCTGGATAGTAAGTTTA</seq>
+      </row>
+      <row id="Row3854507" otu="Tl3221723">
+        <seq>CGTGCCTGGATAGTGAGTTTA</seq>
+      </row>
+      <row id="Row3854508" otu="Tl3221716">
+        <seq>GGTGTCCCTATATCGAGTTTA</seq>
+      </row>
+      <row id="Row3854509" otu="Tl3221724">
+        <seq>GATTCCTGGATATTAAGTTTA</seq>
+      </row>
+      <row id="Row3854510" otu="Tl3221715">
+        <seq>TGTGTCCCGATAGCGAGTTTA</seq>
+      </row>
+      <row id="Row3854511" otu="Tl3221720">
+        <seq>TGTGTTCCTATAGCGAGTTTA</seq>
+      </row>
+      <row id="Row3854512" otu="Tl3221721">
+        <seq>AATGCCTGGATATTAAGTTTA</seq>
+      </row>
+      <row id="Row3854513" otu="Tl3221717">
+        <seq>TGTGACCCTATAGCGAGTTTA</seq>
+      </row>
+    </matrix>
+  </characters>
+  <trees about="#Tb46657" id="Tb46657" label="Calceolaria fothergillii nrDNA" otus="Tls64060" xml:base="http://purl.org/phylo/treebase/phylows/tree/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlTreeBlockWriter@302fd909 $Rev$" datatype="xsd:string" id="meta327355" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta href="S22656" id="meta327354" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    <tree about="#Tr112466" id="Tr112466" label="PAUP_1" xsi:type="nex:FloatTree">
+      <meta content="18" datatype="xsd:integer" id="meta327361" property="tb:ntax.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Unrated" datatype="xsd:string" id="meta327360" property="tb:quality.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Single" datatype="xsd:string" id="meta327359" property="tb:type.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Species Tree" datatype="xsd:string" id="meta327358" property="tb:kind.tree" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327357" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+      <node id="Tn17612154"/>
+      <node id="Tn17612176" label="Calceolaria fothergillii Hap_3" otu="Tl3221727"/>
+      <node id="Tn17612170"/>
+      <node id="Tn17612159" label="Calceolaria uniflora Hap_5" otu="Tl3221708"/>
+      <node id="Tn17612166"/>
+      <node id="Tn17612164"/>
+      <node id="Tn17612186" label="Calceolaria uniflora Hap_17" otu="Tl3221721"/>
+      <node id="Tn17612169"/>
+      <node id="Tn17612180" label="Calceolaria uniflora Hap_7" otu="Tl3221714"/>
+      <node id="Tn17612153"/>
+      <node id="Tn17612171" label="Calceolaria uniflora Hap_6" otu="Tl3221722"/>
+      <node id="Tn17612179" label="Calceolaria uniflora Hap_14" otu="Tl3221724"/>
+      <node id="Tn17612167"/>
+      <node id="Tn17612163" label="Calceolaria uniflora Hap_11" otu="Tl3221711"/>
+      <node id="Tn17612161"/>
+      <node id="Tn17612175" label="Calceolaria uniflora Hap_12" otu="Tl3221723"/>
+      <node id="Tn17612162"/>
+      <node id="Tn17612152" label="Calceolaria uniflora Hap_2" otu="Tl3221729"/>
+      <node id="Tn17612165"/>
+      <node id="Tn17612185" label="Calceolaria uniflora Hap_8" otu="Tl3221707"/>
+      <node id="Tn17612182"/>
+      <node id="Tn17612155" label="Calceolaria uniflora Hap_4" otu="Tl3221710"/>
+      <node id="Tn17612177"/>
+      <node id="Tn17612178"/>
+      <node id="Tn17612173" label="Calceolaria uniflora Hap_9" otu="Tl3221719"/>
+      <node id="Tn17612172" label="Calceolaria uniflora Hap_13" otu="Tl3221716"/>
+      <node id="Tn17612183"/>
+      <node id="Tn17612168" label="Calceolaria uniflora Hap_10" otu="Tl3221705"/>
+      <node id="Tn17612160"/>
+      <node id="Tn17612184" label="Calceolaria uniflora Hap_15" otu="Tl3221715"/>
+      <node id="Tn17612181"/>
+      <node id="Tn17612174" label="Calceolaria uniflora Hap_18" otu="Tl3221717"/>
+      <node id="Tn17612157"/>
+      <node id="Tn17612156" label="Calceolaria uniflora Hap_1" otu="Tl3221728"/>
+      <node id="Tn17612158" label="Calceolaria uniflora Hap_16" otu="Tl3221720"/>
+      <edge id="edge327364" length="37.716293" source="Tn17612154" target="Tn17612176"/>
+      <edge id="edge327366" length="37.716293" source="Tn17612154" target="Tn17612170"/>
+      <edge id="edge327368" length="0.001392" source="Tn17612170" target="Tn17612159"/>
+      <edge id="edge327370" length="0.054094" source="Tn17612170" target="Tn17612166"/>
+      <edge id="edge327372" length="0.0" source="Tn17612166" target="Tn17612164"/>
+      <edge id="edge327374" length="0.061907" source="Tn17612164" target="Tn17612186"/>
+      <edge id="edge327376" length="0.0" source="Tn17612164" target="Tn17612169"/>
+      <edge id="edge327378" length="0.0" source="Tn17612169" target="Tn17612180"/>
+      <edge id="edge327380" length="0.054779" source="Tn17612169" target="Tn17612153"/>
+      <edge id="edge327382" length="0.0" source="Tn17612153" target="Tn17612171"/>
+      <edge id="edge327384" length="0.062942" source="Tn17612153" target="Tn17612179"/>
+      <edge id="edge327386" length="0.055474" source="Tn17612166" target="Tn17612167"/>
+      <edge id="edge327388" length="0.0" source="Tn17612167" target="Tn17612163"/>
+      <edge id="edge327390" length="0.107471" source="Tn17612167" target="Tn17612161"/>
+      <edge id="edge327392" length="0.0" source="Tn17612161" target="Tn17612175"/>
+      <edge id="edge327394" length="0.209564" source="Tn17612161" target="Tn17612162"/>
+      <edge id="edge327396" length="0.196716" source="Tn17612162" target="Tn17612152"/>
+      <edge id="edge327398" length="0.084319" source="Tn17612162" target="Tn17612165"/>
+      <edge id="edge327400" length="5.38414E-8" source="Tn17612165" target="Tn17612185"/>
+      <edge id="edge327402" length="0.127158" source="Tn17612165" target="Tn17612182"/>
+      <edge id="edge327404" length="0.0" source="Tn17612182" target="Tn17612155"/>
+      <edge id="edge327406" length="0.059754" source="Tn17612182" target="Tn17612177"/>
+      <edge id="edge327408" length="0.0" source="Tn17612177" target="Tn17612178"/>
+      <edge id="edge327410" length="0.0" source="Tn17612178" target="Tn17612173"/>
+      <edge id="edge327412" length="0.061813" source="Tn17612178" target="Tn17612172"/>
+      <edge id="edge327414" length="0.061741" source="Tn17612177" target="Tn17612183"/>
+      <edge id="edge327416" length="0.053389" source="Tn17612183" target="Tn17612168"/>
+      <edge id="edge327418" length="0.0" source="Tn17612183" target="Tn17612160"/>
+      <edge id="edge327420" length="0.058136" source="Tn17612160" target="Tn17612184"/>
+      <edge id="edge327422" length="0.0" source="Tn17612160" target="Tn17612181"/>
+      <edge id="edge327424" length="0.058047" source="Tn17612181" target="Tn17612174"/>
+      <edge id="edge327426" length="0.0" source="Tn17612181" target="Tn17612157"/>
+      <edge id="edge327428" length="0.0" source="Tn17612157" target="Tn17612156"/>
+      <edge id="edge327430" length="0.056803" source="Tn17612157" target="Tn17612158"/>
+    </tree>
+  </trees>
+  <trees about="#Tb46656" id="Tb46656" label="Calceolaria fothergillii cpDNA both markers" otus="Tls64059" xml:base="http://purl.org/phylo/treebase/phylows/tree/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlTreeBlockWriter@302fd909 $Rev$" datatype="xsd:string" id="meta327433" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta href="S22656" id="meta327432" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    <tree about="#Tr112465" id="Tr112465" label="PAUP_1" xsi:type="nex:FloatTree">
+      <meta content="22" datatype="xsd:integer" id="meta327439" property="tb:ntax.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Unrated" datatype="xsd:string" id="meta327438" property="tb:quality.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Single" datatype="xsd:string" id="meta327437" property="tb:type.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Species Tree" datatype="xsd:string" id="meta327436" property="tb:kind.tree" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S22656" id="meta327435" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+      <node id="Tn17612121"/>
+      <node id="Tn17612144"/>
+      <node id="Tn17612149" label="Calceolaria fothergillii Hap_1" otu="Tl3221712"/>
+      <node id="Tn17612138"/>
+      <node id="Tn17612118" label="Calceolaria fothergillii Hap_2" otu="Tl3221713"/>
+      <node id="Tn17612136"/>
+      <node id="Tn17612147" label="Calceolaria fothergillii Hap_21" otu="Tl3221725"/>
+      <node id="Tn17612142" label="Calceolaria fothergillii Hap_22" otu="Tl3221706"/>
+      <node id="Tn17612128"/>
+      <node id="Tn17612127"/>
+      <node id="Tn17612135" label="Calceolaria uniflora Hap_7" otu="Tl3221714"/>
+      <node id="Tn17612122"/>
+      <node id="Tn17612112" label="Calceolaria uniflora Hap_14" otu="Tl3221724"/>
+      <node id="Tn17612145"/>
+      <node id="Tn17612137" label="Calceolaria uniflora Hap_15" otu="Tl3221715"/>
+      <node id="Tn17612117" label="Calceolaria uniflora Hap_17" otu="Tl3221721"/>
+      <node id="Tn17612115"/>
+      <node id="Tn17612141"/>
+      <node id="Tn17612134"/>
+      <node id="Tn17612109" label="Calceolaria uniflora Hap_8" otu="Tl3221707"/>
+      <node id="Tn17612150" label="Calceolaria uniflora Hap_16" otu="Tl3221720"/>
+      <node id="Tn17612133"/>
+      <node id="Tn17612130" label="Calceolaria uniflora Hap_9" otu="Tl3221719"/>
+      <node id="Tn17612123"/>
+      <node id="Tn17612116"/>
+      <node id="Tn17612125" label="Calceolaria uniflora Hap_3" otu="Tl3221726"/>
+      <node id="Tn17612151" label="Calceolaria uniflora Hap_13" otu="Tl3221716"/>
+      <node id="Tn17612140"/>
+      <node id="Tn17612143" label="Calceolaria uniflora Hap_10" otu="Tl3221705"/>
+      <node id="Tn17612131" label="Calceolaria uniflora Hap_11" otu="Tl3221711"/>
+      <node id="Tn17612146"/>
+      <node id="Tn17612124"/>
+      <node id="Tn17612113" label="Calceolaria uniflora Hap_12" otu="Tl3221723"/>
+      <node id="Tn17612114"/>
+      <node id="Tn17612119" label="Calceolaria uniflora Hap_4" otu="Tl3221710"/>
+      <node id="Tn17612132" label="Calceolaria uniflora Hap_5" otu="Tl3221708"/>
+      <node id="Tn17612126"/>
+      <node id="Tn17612120" label="Calceolaria uniflora Hap_20" otu="Tl3221709"/>
+      <node id="Tn17612148"/>
+      <node id="Tn17612139" label="Calceolaria uniflora Hap_19" otu="Tl3221718"/>
+      <node id="Tn17612129"/>
+      <node id="Tn17612110" label="Calceolaria uniflora Hap_6" otu="Tl3221722"/>
+      <node id="Tn17612111" label="Calceolaria uniflora Hap_18" otu="Tl3221717"/>
+      <edge id="edge327442" length="0.184477" source="Tn17612121" target="Tn17612144"/>
+      <edge id="edge327444" length="0.111383" source="Tn17612144" target="Tn17612149"/>
+      <edge id="edge327446" length="0.028918" source="Tn17612144" target="Tn17612138"/>
+      <edge id="edge327448" length="0.0" source="Tn17612138" target="Tn17612118"/>
+      <edge id="edge327450" length="0.032116" source="Tn17612138" target="Tn17612136"/>
+      <edge id="edge327452" length="0.0" source="Tn17612136" target="Tn17612147"/>
+      <edge id="edge327454" length="0.175355" source="Tn17612136" target="Tn17612142"/>
+      <edge id="edge327456" length="0.184477" source="Tn17612121" target="Tn17612128"/>
+      <edge id="edge327458" length="0.0" source="Tn17612128" target="Tn17612127"/>
+      <edge id="edge327460" length="0.0" source="Tn17612127" target="Tn17612135"/>
+      <edge id="edge327462" length="0.0" source="Tn17612127" target="Tn17612122"/>
+      <edge id="edge327464" length="0.032208" source="Tn17612122" target="Tn17612112"/>
+      <edge id="edge327466" length="0.0" source="Tn17612122" target="Tn17612145"/>
+      <edge id="edge327468" length="0.032911" source="Tn17612145" target="Tn17612137"/>
+      <edge id="edge327470" length="0.033068" source="Tn17612145" target="Tn17612117"/>
+      <edge id="edge327472" length="0.0" source="Tn17612128" target="Tn17612115"/>
+      <edge id="edge327474" length="0.032913" source="Tn17612115" target="Tn17612141"/>
+      <edge id="edge327476" length="0.0" source="Tn17612141" target="Tn17612134"/>
+      <edge id="edge327478" length="0.0" source="Tn17612134" target="Tn17612109"/>
+      <edge id="edge327480" length="0.032062" source="Tn17612134" target="Tn17612150"/>
+      <edge id="edge327482" length="0.066386" source="Tn17612141" target="Tn17612133"/>
+      <edge id="edge327484" length="0.133215" source="Tn17612133" target="Tn17612130"/>
+      <edge id="edge327486" length="0.0" source="Tn17612133" target="Tn17612123"/>
+      <edge id="edge327488" length="0.0" source="Tn17612123" target="Tn17612116"/>
+      <edge id="edge327490" length="0.0" source="Tn17612116" target="Tn17612125"/>
+      <edge id="edge327492" length="0.031775" source="Tn17612116" target="Tn17612151"/>
+      <edge id="edge327494" length="0.064291" source="Tn17612123" target="Tn17612140"/>
+      <edge id="edge327496" length="0.0" source="Tn17612140" target="Tn17612143"/>
+      <edge id="edge327498" length="0.031773" source="Tn17612140" target="Tn17612131"/>
+      <edge id="edge327500" length="0.033068" source="Tn17612115" target="Tn17612146"/>
+      <edge id="edge327502" length="0.0" source="Tn17612146" target="Tn17612124"/>
+      <edge id="edge327504" length="0.033068" source="Tn17612124" target="Tn17612113"/>
+      <edge id="edge327506" length="0.033224" source="Tn17612124" target="Tn17612114"/>
+      <edge id="edge327508" length="0.0" source="Tn17612114" target="Tn17612119"/>
+      <edge id="edge327510" length="0.033224" source="Tn17612114" target="Tn17612132"/>
+      <edge id="edge327512" length="0.0" source="Tn17612146" target="Tn17612126"/>
+      <edge id="edge327514" length="0.034533" source="Tn17612126" target="Tn17612120"/>
+      <edge id="edge327516" length="0.0" source="Tn17612126" target="Tn17612148"/>
+      <edge id="edge327518" length="0.033224" source="Tn17612148" target="Tn17612139"/>
+      <edge id="edge327520" length="0.0" source="Tn17612148" target="Tn17612129"/>
+      <edge id="edge327522" length="0.0" source="Tn17612129" target="Tn17612110"/>
+      <edge id="edge327524" length="0.032024" source="Tn17612129" target="Tn17612111"/>
+    </tree>
+  </trees>
+</nex:nexml>
