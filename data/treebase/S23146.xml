@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nex:nexml xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tb="http://purl.org/phylo/treebase/2.0/terms#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#S23146" generator="org.nexml.model.impl.DocumentImpl" id="S23146" version="0.9" xml:base="http://purl.org/phylo/treebase/phylows/study/TB2:">
+  <meta content="Generated on Tue May 09 16:14:32 UTC 2023" datatype="xsd:string" id="meta837213" property="skos:changeNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlDocumentWriter@4f06dd4b $Rev$" datatype="xsd:string" id="meta837212" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta837211" property="prism:number" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta837210" property="prism:volume" xsi:type="nex:LiteralMeta"/>
+  <meta content="BMC Evolutionary Biology" datatype="xsd:string" id="meta837209" property="dc:publisher" xsi:type="nex:LiteralMeta"/>
+  <meta content="BMC Evolutionary Biology" datatype="xsd:string" id="meta837208" property="prism:publicationName" xsi:type="nex:LiteralMeta"/>
+  <meta content="vacuole " datatype="xsd:string" id="meta837207" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="oxidative stress" datatype="xsd:string" id="meta837206" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="parasite" datatype="xsd:string" id="meta837205" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="hydrogen peroxide" datatype="xsd:string" id="meta837204" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="ascorbic acid" datatype="xsd:string" id="meta837203" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="" datatype="xsd:string" id="meta837202" property="prism:doi" xsi:type="nex:LiteralMeta"/>
+  <meta content="2019" datatype="xsd:string" id="meta837201" property="prism:publicationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="Vasta G.R." datatype="xsd:string" id="meta837200" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Amzel M." datatype="xsd:string" id="meta837199" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Bachvaroff T.R." datatype="xsd:string" id="meta837198" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Di lella S." datatype="xsd:string" id="meta837197" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Schott E.J." datatype="xsd:string" id="meta837196" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Schott E.J., Di lella S., Bachvaroff T.R., Amzel M., &amp; Vasta G.R." datatype="xsd:string" id="meta837195" property="dc:creator" xsi:type="nex:LiteralMeta"/>
+  <meta content="Lacking catalase, a protistan parasite draws on its photosynthetic ancestry to complete an antioxidant repertoire for intracellular survival" datatype="xsd:string" id="meta837194" property="dc:title" xsi:type="nex:LiteralMeta"/>
+  <meta content="Schott E.J., Di lella S., Bachvaroff T.R., Amzel M., &amp; Vasta G.R. 2019. Lacking catalase, a protistan parasite draws on its photosynthetic ancestry to complete an antioxidant repertoire for intracellular survival. BMC Evolutionary Biology, ." datatype="xsd:string" id="meta837193" property="dcterms:bibliographicCitation" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-08-06" datatype="xsd:string" id="meta837192" property="prism:creationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-08-24" datatype="xsd:string" id="meta837191" property="prism:modificationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2018-08-24" datatype="xsd:string" id="meta837190" property="dc:date" xsi:type="nex:LiteralMeta"/>
+  <meta content="Lacking catalase, a protistan parasite draws on its photosynthetic ancestry to complete an antioxidant repertoire for intracellular survival" datatype="xsd:string" id="meta837189" property="tb:title.study" xsi:type="nex:LiteralMeta"/>
+  <meta datatype="xsd:anySimpleType" id="meta837188" property="tb:identifier.study.tb1" xsi:type="nex:LiteralMeta"/>
+  <meta content="23146" datatype="xsd:string" id="meta837187" property="tb:identifier.study" xsi:type="nex:LiteralMeta"/>
+  <meta content="Study" datatype="xsd:string" id="meta837185" property="prism:section" xsi:type="nex:LiteralMeta"/>
+  <otus about="#Tls64670" id="Tls64670" label="APX taxa" xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@6a6b7c08 $Rev$" datatype="xsd:string" id="meta837215" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <otu about="#Tl3284303" id="Tl3284303" label=" Nicotiana tabacum BAA78553 stromal">
+      <meta content="607445" datatype="xsd:long" id="meta837222" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="811259" datatype="xsd:long" id="meta837221" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4097" id="meta837220" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Nicotiana tabacum" datatype="xsd:string" id="meta837219" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:457728" id="meta837218" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837217" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284335" id="Tl3284335" label="Nicotiana tabacum XP 016469841 APX6 chloroplastic isoformX1 ">
+      <meta content="607445" datatype="xsd:long" id="meta837229" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="811259" datatype="xsd:long" id="meta837228" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4097" id="meta837227" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Nicotiana tabacum" datatype="xsd:string" id="meta837226" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:457728" id="meta837225" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837224" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284326" id="Tl3284326" label="Nicotiana tabacum BAA78552 thylakoid bound APX">
+      <meta content="607445" datatype="xsd:long" id="meta837236" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="811259" datatype="xsd:long" id="meta837235" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4097" id="meta837234" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Nicotiana tabacum" datatype="xsd:string" id="meta837233" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:457728" id="meta837232" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837231" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284319" id="Tl3284319" label="Nicotiana tabacum XP 016437245 APX6 chloroplastic isoformX2 ">
+      <meta content="607445" datatype="xsd:long" id="meta837243" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="811259" datatype="xsd:long" id="meta837242" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4097" id="meta837241" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Nicotiana tabacum" datatype="xsd:string" id="meta837240" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:457728" id="meta837239" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837238" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284336" id="Tl3284336" label="Medicago truncatula XP 003602044 ">
+      <meta content="17129" datatype="xsd:long" id="meta837251" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="40133" datatype="xsd:long" id="meta837250" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Medicago truncatula" datatype="xsd:string" id="meta837249" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/3880" id="meta837248" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Medicago truncatula Gaertn." datatype="xsd:string" id="meta837247" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5844142" id="meta837246" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837245" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284345" id="Tl3284345" label="Nicotiana tabacum pdb 1IYN BAC10691 stromal ">
+      <meta content="607445" datatype="xsd:long" id="meta837258" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="811259" datatype="xsd:long" id="meta837257" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4097" id="meta837256" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Nicotiana tabacum" datatype="xsd:string" id="meta837255" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:457728" id="meta837254" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837253" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284301" id="Tl3284301" label="Amborella trichopoda XP 006847188 ">
+      <meta content="1165" datatype="xsd:long" id="meta837265" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="3058" datatype="xsd:long" id="meta837264" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/13333" id="meta837263" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Amborella trichopoda" datatype="xsd:string" id="meta837262" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3497094" id="meta837261" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837260" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284312" id="Tl3284312" label="Populus euphratica XP 011027505 ">
+      <meta content="33424" datatype="xsd:long" id="meta837273" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="77208" datatype="xsd:long" id="meta837272" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Populus euphratica" datatype="xsd:string" id="meta837271" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/75702" id="meta837270" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Turanga euphratica" datatype="xsd:string" id="meta837269" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:9195829" id="meta837268" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837267" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284341" id="Tl3284341" label="Jatropha curcas XP 012078303 ">
+      <meta content="635511" datatype="xsd:long" id="meta837278" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="850523" datatype="xsd:long" id="meta837277" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:455884" id="meta837276" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837275" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284298" id="Tl3284298" label="Elaeis guineensis XP 010930723 ">
+      <meta content="9781" datatype="xsd:long" id="meta837286" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="23423" datatype="xsd:long" id="meta837285" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Elaeis guineensis" datatype="xsd:string" id="meta837284" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/51953" id="meta837283" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Elaeis guineensis Jacq." datatype="xsd:string" id="meta837282" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:477481" id="meta837281" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837280" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284309" id="Tl3284309" label="Phoenix dactylifera XP 017696878 ">
+      <meta content="65873" datatype="xsd:long" id="meta837293" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="140957" datatype="xsd:long" id="meta837292" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/42345" id="meta837291" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Phoenix dactylifera" datatype="xsd:string" id="meta837290" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2662206" id="meta837289" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837288" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284294" id="Tl3284294" label="Brachypodium distachyon XP 003578843 ">
+      <meta content="3914" datatype="xsd:long" id="meta837301" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="9326" datatype="xsd:long" id="meta837300" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Brachypodium distachyon" datatype="xsd:string" id="meta837299" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/15368" id="meta837298" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Brachypodium distachyum (L.) P. Beauv., 1812" datatype="xsd:string" id="meta837297" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5391202" id="meta837296" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837295" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284315" id="Tl3284315" label="Setaria italica XP 004977222 ">
+      <meta content="621736" datatype="xsd:long" id="meta837308" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="832573" datatype="xsd:long" id="meta837307" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/4555" id="meta837306" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Setaria italica" datatype="xsd:string" id="meta837305" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:466093" id="meta837304" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837303" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284323" id="Tl3284323" label="Unknown diatom Oxyrrhis marina LB1974 c35849 g1 i1">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837310" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284325" id="Tl3284325" label="Phaeodactylum tricornutum CCAP 105 XP 002181744 5">
+      <meta content="21515" datatype="xsd:long" id="meta837317" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="50049" datatype="xsd:long" id="meta837316" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/2850" id="meta837315" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Phaeodactylum tricornutum" datatype="xsd:string" id="meta837314" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:430871" id="meta837313" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837312" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284338" id="Tl3284338" label="Thalassiosira pseudonana CCMP1335 XP 002291359 ">
+      <meta content="28842" datatype="xsd:long" id="meta837324" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="67265" datatype="xsd:long" id="meta837323" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/35128" id="meta837322" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Thalassiosira pseudonana" datatype="xsd:string" id="meta837321" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3868640" id="meta837320" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837319" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284332" id="Tl3284332" label="Phaeodactylum tricornutum CCAP 1055XP 002181742 ">
+      <meta content="21515" datatype="xsd:long" id="meta837331" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="50049" datatype="xsd:long" id="meta837330" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/2850" id="meta837329" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Phaeodactylum tricornutum" datatype="xsd:string" id="meta837328" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:430871" id="meta837327" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837326" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284340" id="Tl3284340" label="Guillardia theta 1 88361">
+      <meta content="74763" datatype="xsd:long" id="meta837338" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="151881" datatype="xsd:long" id="meta837337" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/55529" id="meta837336" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Guillardia theta" datatype="xsd:string" id="meta837335" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3526530" id="meta837334" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837333" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284317" id="Tl3284317" label="Vitrella brassicaformis  c1399 g1 i1">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837340" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284295" id="Tl3284295" label="Vitrella brassicaformis c15866 g1 i1 2">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837342" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284339" id="Tl3284339" label="Vitrella brassicaformis c15866 g1 i3">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837344" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284344" id="Tl3284344" label="Vitrella brassicaformis c15866 g1 i2">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837346" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284316" id="Tl3284316" label="Vitrella brassicaformis c15866 g1 i1">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837348" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284306" id="Tl3284306" label="Scrippsiella trochoidea comp104639 c0 seq1">
+      <meta content="85746" datatype="xsd:long" id="meta837355" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="164461" datatype="xsd:long" id="meta837354" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/71861" id="meta837353" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Scrippsiella trochoidea" datatype="xsd:string" id="meta837352" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4774861" id="meta837351" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837350" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284297" id="Tl3284297" label="Scrippsiella trochoidea comp104639 c0 seq2">
+      <meta content="85746" datatype="xsd:long" id="meta837362" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="164461" datatype="xsd:long" id="meta837361" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/71861" id="meta837360" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Scrippsiella trochoidea" datatype="xsd:string" id="meta837359" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4774861" id="meta837358" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837357" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284324" id="Tl3284324" label="Karenia brevis comp142743 c1 seq1">
+      <meta content="14928" datatype="xsd:long" id="meta837369" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35062" datatype="xsd:long" id="meta837368" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/156230" id="meta837367" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Karenia brevis" datatype="xsd:string" id="meta837366" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3321263" id="meta837365" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837364" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284327" id="Tl3284327" label="Karenia brevis comp115489 c0 seq1">
+      <meta content="14928" datatype="xsd:long" id="meta837376" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35062" datatype="xsd:long" id="meta837375" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/156230" id="meta837374" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Karenia brevis" datatype="xsd:string" id="meta837373" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3321263" id="meta837372" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837371" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284328" id="Tl3284328" label="Crypthecodinium cohnii comp45534 c0 seq1">
+      <meta content="7584" datatype="xsd:long" id="meta837383" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="18306" datatype="xsd:long" id="meta837382" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/2866" id="meta837381" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Crypthecodinium cohnii" datatype="xsd:string" id="meta837380" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5436908" id="meta837379" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837378" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284313" id="Tl3284313" label="Crypthecodinium cohnii comp39938 c0 seq1">
+      <meta content="7584" datatype="xsd:long" id="meta837390" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="18306" datatype="xsd:long" id="meta837389" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/2866" id="meta837388" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Crypthecodinium cohnii" datatype="xsd:string" id="meta837387" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5436908" id="meta837386" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837385" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284334" id="Tl3284334" label="Scrippsiella trochoidea comp94602 c0 seq1">
+      <meta content="85746" datatype="xsd:long" id="meta837397" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="164461" datatype="xsd:long" id="meta837396" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/71861" id="meta837395" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Scrippsiella trochoidea" datatype="xsd:string" id="meta837394" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4774861" id="meta837393" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837392" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284302" id="Tl3284302" label="Karlodinium veneficum  comp13947 c0 seq1">
+      <meta content="354785" datatype="xsd:long" id="meta837405" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="839399" datatype="xsd:long" id="meta837404" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Karlodinium veneficum" datatype="xsd:string" id="meta837403" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/407301" id="meta837402" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Karlodinium micrum" datatype="xsd:string" id="meta837401" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1491321" id="meta837400" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837399" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284346" id="Tl3284346" label="Symbiodinium sp. clc MMETSP1123 1 contig 2706">
+      <meta content="267850" datatype="xsd:long" id="meta837413" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="323725" datatype="xsd:long" id="meta837412" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Symbiodinium sp. clade B" datatype="xsd:string" id="meta837411" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/304322" id="meta837410" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Symbiodinium clade B" datatype="xsd:string" id="meta837409" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:10261821" id="meta837408" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837407" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284329" id="Tl3284329" label="Amphidinium carterae comp657 c0 seq1">
+      <meta content="635512" datatype="xsd:long" id="meta837419" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="850524" datatype="xsd:long" id="meta837418" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Amhidinium carterae comp7140 c0 seq1" datatype="xsd:string" id="meta837417" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1977028" id="meta837416" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837415" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284320" id="Tl3284320" label="Karlodinium veneficum comp8423 c0 seq1">
+      <meta content="354785" datatype="xsd:long" id="meta837426" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="385991" datatype="xsd:long" id="meta837425" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/407301" id="meta837424" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Karlodinium veneficum" datatype="xsd:string" id="meta837423" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3321268" id="meta837422" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837421" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284342" id="Tl3284342" label="Oxyrrhis marina LB1974 c41711 g1 i1">
+      <meta content="50483" datatype="xsd:long" id="meta837433" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="119788" datatype="xsd:long" id="meta837432" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/2969" id="meta837431" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Oxyrrhis marina" datatype="xsd:string" id="meta837430" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4774792" id="meta837429" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837428" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284304" id="Tl3284304" label="Oxyrrhis marina unk c89384 g1 i1">
+      <meta content="50483" datatype="xsd:long" id="meta837440" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="119788" datatype="xsd:long" id="meta837439" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/2969" id="meta837438" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Oxyrrhis marina" datatype="xsd:string" id="meta837437" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4774792" id="meta837436" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837435" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284305" id="Tl3284305" label="Akashiwo sanguinea comp2849 c0 seq1">
+      <meta content="628293" datatype="xsd:long" id="meta837447" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842123" datatype="xsd:long" id="meta837446" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/143672" id="meta837445" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Akashiwo sanguinea" datatype="xsd:string" id="meta837444" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1489797" id="meta837443" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837442" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284296" id="Tl3284296" label="Akashiwo sanguinea comp20110 c0 seq1">
+      <meta content="628293" datatype="xsd:long" id="meta837454" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842123" datatype="xsd:long" id="meta837453" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/143672" id="meta837452" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Akashiwo sanguinea" datatype="xsd:string" id="meta837451" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1489797" id="meta837450" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837449" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284337" id="Tl3284337" label="Kryptoperidinium foliaceaum comp225609 c11 seq4">
+      <meta content="153315" datatype="xsd:long" id="meta837461" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="228815" datatype="xsd:long" id="meta837460" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/160619" id="meta837459" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kryptoperidinium foliaceum" datatype="xsd:string" id="meta837458" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:428017" id="meta837457" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837456" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284318" id="Tl3284318" label="Crypthecodinium cohnii comp17987 c1 seq1">
+      <meta content="7584" datatype="xsd:long" id="meta837468" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="18306" datatype="xsd:long" id="meta837467" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/2866" id="meta837466" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Crypthecodinium cohnii" datatype="xsd:string" id="meta837465" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5436908" id="meta837464" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837463" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284321" id="Tl3284321" label="Scrippsiella trochoidea comp83567 c2 seq1">
+      <meta content="85746" datatype="xsd:long" id="meta837475" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="164461" datatype="xsd:long" id="meta837474" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/71861" id="meta837473" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Scrippsiella trochoidea" datatype="xsd:string" id="meta837472" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4774861" id="meta837471" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837470" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284292" id="Tl3284292" label="Amhidinium carterae comp7140 c0 seq1">
+      <meta content="635512" datatype="xsd:long" id="meta837480" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="850524" datatype="xsd:long" id="meta837479" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1977028" id="meta837478" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837477" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284310" id="Tl3284310" label="Symbiodinium sp. clc MMETSP1123 1 contig 17332">
+      <meta content="267850" datatype="xsd:long" id="meta837488" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="323725" datatype="xsd:long" id="meta837487" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Symbiodinium sp. clade B" datatype="xsd:string" id="meta837486" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/304322" id="meta837485" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Symbiodinium clade B" datatype="xsd:string" id="meta837484" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:10261821" id="meta837483" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837482" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284300" id="Tl3284300" label="Akashiwo sanguinea comp38740 c0 seq1">
+      <meta content="628293" datatype="xsd:long" id="meta837495" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842123" datatype="xsd:long" id="meta837494" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/143672" id="meta837493" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Akashiwo sanguinea" datatype="xsd:string" id="meta837492" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1489797" id="meta837491" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837490" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284343" id="Tl3284343" label="Karenia brevis comp118584 c0 seq1">
+      <meta content="14928" datatype="xsd:long" id="meta837502" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="35062" datatype="xsd:long" id="meta837501" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/156230" id="meta837500" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Karenia brevis" datatype="xsd:string" id="meta837499" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3321263" id="meta837498" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837497" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284322" id="Tl3284322" label="Akashiwo sanguinea comp16595 c0 seq1">
+      <meta content="628293" datatype="xsd:long" id="meta837509" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="842123" datatype="xsd:long" id="meta837508" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/143672" id="meta837507" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Akashiwo sanguinea" datatype="xsd:string" id="meta837506" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1489797" id="meta837505" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837504" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284330" id="Tl3284330" label="Symbiodinium sp clc MMETSP1123 1 contig 26331">
+      <meta content="267850" datatype="xsd:long" id="meta837517" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="323725" datatype="xsd:long" id="meta837516" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Symbiodinium sp. clade B" datatype="xsd:string" id="meta837515" property="skos:prefLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/304322" id="meta837514" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Symbiodinium clade B" datatype="xsd:string" id="meta837513" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:10261821" id="meta837512" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837511" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284308" id="Tl3284308" label="Amphidinium carterae comp6815 c0 seq1">
+      <meta content="635512" datatype="xsd:long" id="meta837523" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="850524" datatype="xsd:long" id="meta837522" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta content="Amhidinium carterae comp7140 c0 seq1" datatype="xsd:string" id="meta837521" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1977028" id="meta837520" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837519" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284307" id="Tl3284307" label="Kryptoperidinium foliaceum comp223782 c2 seq28">
+      <meta content="153315" datatype="xsd:long" id="meta837530" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="228815" datatype="xsd:long" id="meta837529" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/160619" id="meta837528" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Kryptoperidinium foliaceum" datatype="xsd:string" id="meta837527" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:428017" id="meta837526" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837525" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284293" id="Tl3284293" label="Crypthecodinium cohnii comp40137 c0 seq13">
+      <meta content="7584" datatype="xsd:long" id="meta837537" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="18306" datatype="xsd:long" id="meta837536" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/2866" id="meta837535" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Crypthecodinium cohnii" datatype="xsd:string" id="meta837534" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5436908" id="meta837533" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837532" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284299" id="Tl3284299" label="Scrippsiella trochoidea comp114700 c0 seq1">
+      <meta content="85746" datatype="xsd:long" id="meta837544" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="164461" datatype="xsd:long" id="meta837543" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/71861" id="meta837542" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Scrippsiella trochoidea" datatype="xsd:string" id="meta837541" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4774861" id="meta837540" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837539" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284314" id="Tl3284314" label="Hematodinium EST63350">
+      <meta content="163092" datatype="xsd:long" id="meta837551" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="238051" datatype="xsd:long" id="meta837550" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/173654" id="meta837549" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Hematodinium sp." datatype="xsd:string" id="meta837548" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:10198370" id="meta837547" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837546" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284311" id="Tl3284311" label="Perkinsus marinus ATCC 50983 XP 002767290 ">
+      <meta content="58761" datatype="xsd:long" id="meta837558" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="131659" datatype="xsd:long" id="meta837557" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31276" id="meta837556" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Perkinsus marinus" datatype="xsd:string" id="meta837555" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3291231" id="meta837554" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837553" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284333" id="Tl3284333" label="Perkinsus marinus ATCC 50983 XP 002777381 ">
+      <meta content="58761" datatype="xsd:long" id="meta837565" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="131659" datatype="xsd:long" id="meta837564" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31276" id="meta837563" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Perkinsus marinus" datatype="xsd:string" id="meta837562" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3291231" id="meta837561" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837560" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl3284331" id="Tl3284331" label="Perkinsus marinus ATCC 5098 XP 002767285 3">
+      <meta content="58761" datatype="xsd:long" id="meta837572" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="131659" datatype="xsd:long" id="meta837571" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/31276" id="meta837570" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Perkinsus marinus" datatype="xsd:string" id="meta837569" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3291231" id="meta837568" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta837567" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+  </otus>
+  <characters about="#M46907" id="M46907" label="APX alignment by muscle" otus="Tls64670" xml:base="http://purl.org/phylo/treebase/phylows/matrix/TB2:" xsi:type="nex:ProteinSeqs">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlMatrixWriter@6ea6bc81 $Rev$" datatype="xsd:string" id="meta837603" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta content="46907" datatype="xsd:long" id="meta837602" property="tb:identifier.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="347" datatype="xsd:integer" id="meta837601" property="tb:nchar.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="55" datatype="xsd:integer" id="meta837600" property="tb:ntax.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="Protein" datatype="xsd:string" id="meta837599" property="tb:type.matrix" xsi:type="nex:LiteralMeta"/>
+    <format>
+      <states id="states837574">
+        <state id="state837575" symbol="A"/>
+        <state id="state837576" symbol="B"/>
+        <state id="state837577" symbol="C"/>
+        <state id="state837578" symbol="D"/>
+        <state id="state837579" symbol="E"/>
+        <state id="state837580" symbol="F"/>
+        <state id="state837581" symbol="G"/>
+        <state id="state837582" symbol="H"/>
+        <state id="state837583" symbol="I"/>
+        <state id="state837584" symbol="K"/>
+        <state id="state837585" symbol="L"/>
+        <state id="state837586" symbol="M"/>
+        <state id="state837587" symbol="N"/>
+        <state id="state837588" symbol="P"/>
+        <state id="state837589" symbol="Q"/>
+        <state id="state837590" symbol="R"/>
+        <state id="state837591" symbol="S"/>
+        <state id="state837592" symbol="T"/>
+        <state id="state837593" symbol="U"/>
+        <state id="state837594" symbol="V"/>
+        <state id="state837595" symbol="W"/>
+        <state id="state837596" symbol="Y"/>
+        <state id="state837597" symbol="Z"/>
+        <uncertain_state_set id="uncertain_state_set837598" symbol="X">
+          <member state="state837584"/>
+          <member state="state837595"/>
+          <member state="state837578"/>
+          <member state="state837586"/>
+          <member state="state837588"/>
+          <member state="state837596"/>
+          <member state="state837591"/>
+          <member state="state837579"/>
+          <member state="state837581"/>
+          <member state="state837580"/>
+          <member state="state837577"/>
+          <member state="state837583"/>
+          <member state="state837585"/>
+          <member state="state837589"/>
+          <member state="state837594"/>
+          <member state="state837597"/>
+          <member state="state837592"/>
+          <member state="state837593"/>
+          <member state="state837575"/>
+          <member state="state837576"/>
+          <member state="state837590"/>
+          <member state="state837582"/>
+          <member state="state837587"/>
+        </uncertain_state_set>
+      </states>
+      <char id="Col409826650" label="Protein" states="states837574"/>
+      <char id="Col409826651" label="Protein" states="states837574"/>
+      <char id="Col409826652" label="Protein" states="states837574"/>
+      <char id="Col409826653" label="Protein" states="states837574"/>
+      <char id="Col409826654" label="Protein" states="states837574"/>
+      <char id="Col409826655" label="Protein" states="states837574"/>
+      <char id="Col409826656" label="Protein" states="states837574"/>
+      <char id="Col409826657" label="Protein" states="states837574"/>
+      <char id="Col409826658" label="Protein" states="states837574"/>
+      <char id="Col409826659" label="Protein" states="states837574"/>
+      <char id="Col409826660" label="Protein" states="states837574"/>
+      <char id="Col409826661" label="Protein" states="states837574"/>
+      <char id="Col409826662" label="Protein" states="states837574"/>
+      <char id="Col409826663" label="Protein" states="states837574"/>
+      <char id="Col409826664" label="Protein" states="states837574"/>
+      <char id="Col409826665" label="Protein" states="states837574"/>
+      <char id="Col409826666" label="Protein" states="states837574"/>
+      <char id="Col409826667" label="Protein" states="states837574"/>
+      <char id="Col409826668" label="Protein" states="states837574"/>
+      <char id="Col409826669" label="Protein" states="states837574"/>
+      <char id="Col409826670" label="Protein" states="states837574"/>
+      <char id="Col409826671" label="Protein" states="states837574"/>
+      <char id="Col409826672" label="Protein" states="states837574"/>
+      <char id="Col409826673" label="Protein" states="states837574"/>
+      <char id="Col409826674" label="Protein" states="states837574"/>
+      <char id="Col409826675" label="Protein" states="states837574"/>
+      <char id="Col409826676" label="Protein" states="states837574"/>
+      <char id="Col409826677" label="Protein" states="states837574"/>
+      <char id="Col409826678" label="Protein" states="states837574"/>
+      <char id="Col409826679" label="Protein" states="states837574"/>
+      <char id="Col409826680" label="Protein" states="states837574"/>
+      <char id="Col409826681" label="Protein" states="states837574"/>
+      <char id="Col409826682" label="Protein" states="states837574"/>
+      <char id="Col409826683" label="Protein" states="states837574"/>
+      <char id="Col409826684" label="Protein" states="states837574"/>
+      <char id="Col409826685" label="Protein" states="states837574"/>
+      <char id="Col409826686" label="Protein" states="states837574"/>
+      <char id="Col409826687" label="Protein" states="states837574"/>
+      <char id="Col409826688" label="Protein" states="states837574"/>
+      <char id="Col409826689" label="Protein" states="states837574"/>
+      <char id="Col409826690" label="Protein" states="states837574"/>
+      <char id="Col409826691" label="Protein" states="states837574"/>
+      <char id="Col409826692" label="Protein" states="states837574"/>
+      <char id="Col409826693" label="Protein" states="states837574"/>
+      <char id="Col409826694" label="Protein" states="states837574"/>
+      <char id="Col409826695" label="Protein" states="states837574"/>
+      <char id="Col409826696" label="Protein" states="states837574"/>
+      <char id="Col409826697" label="Protein" states="states837574"/>
+      <char id="Col409826698" label="Protein" states="states837574"/>
+      <char id="Col409826699" label="Protein" states="states837574"/>
+      <char id="Col409826700" label="Protein" states="states837574"/>
+      <char id="Col409826701" label="Protein" states="states837574"/>
+      <char id="Col409826702" label="Protein" states="states837574"/>
+      <char id="Col409826703" label="Protein" states="states837574"/>
+      <char id="Col409826704" label="Protein" states="states837574"/>
+      <char id="Col409826705" label="Protein" states="states837574"/>
+      <char id="Col409826706" label="Protein" states="states837574"/>
+      <char id="Col409826707" label="Protein" states="states837574"/>
+      <char id="Col409826708" label="Protein" states="states837574"/>
+      <char id="Col409826709" label="Protein" states="states837574"/>
+      <char id="Col409826710" label="Protein" states="states837574"/>
+      <char id="Col409826711" label="Protein" states="states837574"/>
+      <char id="Col409826712" label="Protein" states="states837574"/>
+      <char id="Col409826713" label="Protein" states="states837574"/>
+      <char id="Col409826714" label="Protein" states="states837574"/>
+      <char id="Col409826715" label="Protein" states="states837574"/>
+      <char id="Col409826716" label="Protein" states="states837574"/>
+      <char id="Col409826717" label="Protein" states="states837574"/>
+      <char id="Col409826718" label="Protein" states="states837574"/>
+      <char id="Col409826719" label="Protein" states="states837574"/>
+      <char id="Col409826720" label="Protein" states="states837574"/>
+      <char id="Col409826721" label="Protein" states="states837574"/>
+      <char id="Col409826722" label="Protein" states="states837574"/>
+      <char id="Col409826723" label="Protein" states="states837574"/>
+      <char id="Col409826724" label="Protein" states="states837574"/>
+      <char id="Col409826725" label="Protein" states="states837574"/>
+      <char id="Col409826726" label="Protein" states="states837574"/>
+      <char id="Col409826727" label="Protein" states="states837574"/>
+      <char id="Col409826728" label="Protein" states="states837574"/>
+      <char id="Col409826729" label="Protein" states="states837574"/>
+      <char id="Col409826730" label="Protein" states="states837574"/>
+      <char id="Col409826731" label="Protein" states="states837574"/>
+      <char id="Col409826732" label="Protein" states="states837574"/>
+      <char id="Col409826733" label="Protein" states="states837574"/>
+      <char id="Col409826734" label="Protein" states="states837574"/>
+      <char id="Col409826735" label="Protein" states="states837574"/>
+      <char id="Col409826736" label="Protein" states="states837574"/>
+      <char id="Col409826737" label="Protein" states="states837574"/>
+      <char id="Col409826738" label="Protein" states="states837574"/>
+      <char id="Col409826739" label="Protein" states="states837574"/>
+      <char id="Col409826740" label="Protein" states="states837574"/>
+      <char id="Col409826741" label="Protein" states="states837574"/>
+      <char id="Col409826742" label="Protein" states="states837574"/>
+      <char id="Col409826743" label="Protein" states="states837574"/>
+      <char id="Col409826744" label="Protein" states="states837574"/>
+      <char id="Col409826745" label="Protein" states="states837574"/>
+      <char id="Col409826746" label="Protein" states="states837574"/>
+      <char id="Col409826747" label="Protein" states="states837574"/>
+      <char id="Col409826748" label="Protein" states="states837574"/>
+      <char id="Col409826749" label="Protein" states="states837574"/>
+      <char id="Col409826750" label="Protein" states="states837574"/>
+      <char id="Col409826751" label="Protein" states="states837574"/>
+      <char id="Col409826752" label="Protein" states="states837574"/>
+      <char id="Col409826753" label="Protein" states="states837574"/>
+      <char id="Col409826754" label="Protein" states="states837574"/>
+      <char id="Col409826755" label="Protein" states="states837574"/>
+      <char id="Col409826756" label="Protein" states="states837574"/>
+      <char id="Col409826757" label="Protein" states="states837574"/>
+      <char id="Col409826758" label="Protein" states="states837574"/>
+      <char id="Col409826759" label="Protein" states="states837574"/>
+      <char id="Col409826760" label="Protein" states="states837574"/>
+      <char id="Col409826761" label="Protein" states="states837574"/>
+      <char id="Col409826762" label="Protein" states="states837574"/>
+      <char id="Col409826763" label="Protein" states="states837574"/>
+      <char id="Col409826764" label="Protein" states="states837574"/>
+      <char id="Col409826765" label="Protein" states="states837574"/>
+      <char id="Col409826766" label="Protein" states="states837574"/>
+      <char id="Col409826767" label="Protein" states="states837574"/>
+      <char id="Col409826768" label="Protein" states="states837574"/>
+      <char id="Col409826769" label="Protein" states="states837574"/>
+      <char id="Col409826770" label="Protein" states="states837574"/>
+      <char id="Col409826771" label="Protein" states="states837574"/>
+      <char id="Col409826772" label="Protein" states="states837574"/>
+      <char id="Col409826773" label="Protein" states="states837574"/>
+      <char id="Col409826774" label="Protein" states="states837574"/>
+      <char id="Col409826775" label="Protein" states="states837574"/>
+      <char id="Col409826776" label="Protein" states="states837574"/>
+      <char id="Col409826777" label="Protein" states="states837574"/>
+      <char id="Col409826778" label="Protein" states="states837574"/>
+      <char id="Col409826779" label="Protein" states="states837574"/>
+      <char id="Col409826780" label="Protein" states="states837574"/>
+      <char id="Col409826781" label="Protein" states="states837574"/>
+      <char id="Col409826782" label="Protein" states="states837574"/>
+      <char id="Col409826783" label="Protein" states="states837574"/>
+      <char id="Col409826784" label="Protein" states="states837574"/>
+      <char id="Col409826785" label="Protein" states="states837574"/>
+      <char id="Col409826786" label="Protein" states="states837574"/>
+      <char id="Col409826787" label="Protein" states="states837574"/>
+      <char id="Col409826788" label="Protein" states="states837574"/>
+      <char id="Col409826789" label="Protein" states="states837574"/>
+      <char id="Col409826790" label="Protein" states="states837574"/>
+      <char id="Col409826791" label="Protein" states="states837574"/>
+      <char id="Col409826792" label="Protein" states="states837574"/>
+      <char id="Col409826793" label="Protein" states="states837574"/>
+      <char id="Col409826794" label="Protein" states="states837574"/>
+      <char id="Col409826795" label="Protein" states="states837574"/>
+      <char id="Col409826796" label="Protein" states="states837574"/>
+      <char id="Col409826797" label="Protein" states="states837574"/>
+      <char id="Col409826798" label="Protein" states="states837574"/>
+      <char id="Col409826799" label="Protein" states="states837574"/>
+      <char id="Col409826800" label="Protein" states="states837574"/>
+      <char id="Col409826801" label="Protein" states="states837574"/>
+      <char id="Col409826802" label="Protein" states="states837574"/>
+      <char id="Col409826803" label="Protein" states="states837574"/>
+      <char id="Col409826804" label="Protein" states="states837574"/>
+      <char id="Col409826805" label="Protein" states="states837574"/>
+      <char id="Col409826806" label="Protein" states="states837574"/>
+      <char id="Col409826807" label="Protein" states="states837574"/>
+      <char id="Col409826808" label="Protein" states="states837574"/>
+      <char id="Col409826809" label="Protein" states="states837574"/>
+      <char id="Col409826810" label="Protein" states="states837574"/>
+      <char id="Col409826811" label="Protein" states="states837574"/>
+      <char id="Col409826812" label="Protein" states="states837574"/>
+      <char id="Col409826813" label="Protein" states="states837574"/>
+      <char id="Col409826814" label="Protein" states="states837574"/>
+      <char id="Col409826815" label="Protein" states="states837574"/>
+      <char id="Col409826816" label="Protein" states="states837574"/>
+      <char id="Col409826817" label="Protein" states="states837574"/>
+      <char id="Col409826818" label="Protein" states="states837574"/>
+      <char id="Col409826819" label="Protein" states="states837574"/>
+      <char id="Col409826820" label="Protein" states="states837574"/>
+      <char id="Col409826821" label="Protein" states="states837574"/>
+      <char id="Col409826822" label="Protein" states="states837574"/>
+      <char id="Col409826823" label="Protein" states="states837574"/>
+      <char id="Col409826824" label="Protein" states="states837574"/>
+      <char id="Col409826825" label="Protein" states="states837574"/>
+      <char id="Col409826826" label="Protein" states="states837574"/>
+      <char id="Col409826827" label="Protein" states="states837574"/>
+      <char id="Col409826828" label="Protein" states="states837574"/>
+      <char id="Col409826829" label="Protein" states="states837574"/>
+      <char id="Col409826830" label="Protein" states="states837574"/>
+      <char id="Col409826831" label="Protein" states="states837574"/>
+      <char id="Col409826832" label="Protein" states="states837574"/>
+      <char id="Col409826833" label="Protein" states="states837574"/>
+      <char id="Col409826834" label="Protein" states="states837574"/>
+      <char id="Col409826835" label="Protein" states="states837574"/>
+      <char id="Col409826836" label="Protein" states="states837574"/>
+      <char id="Col409826837" label="Protein" states="states837574"/>
+      <char id="Col409826838" label="Protein" states="states837574"/>
+      <char id="Col409826839" label="Protein" states="states837574"/>
+      <char id="Col409826840" label="Protein" states="states837574"/>
+      <char id="Col409826841" label="Protein" states="states837574"/>
+      <char id="Col409826842" label="Protein" states="states837574"/>
+      <char id="Col409826843" label="Protein" states="states837574"/>
+      <char id="Col409826844" label="Protein" states="states837574"/>
+      <char id="Col409826845" label="Protein" states="states837574"/>
+      <char id="Col409826846" label="Protein" states="states837574"/>
+      <char id="Col409826847" label="Protein" states="states837574"/>
+      <char id="Col409826848" label="Protein" states="states837574"/>
+      <char id="Col409826849" label="Protein" states="states837574"/>
+      <char id="Col409826850" label="Protein" states="states837574"/>
+      <char id="Col409826851" label="Protein" states="states837574"/>
+      <char id="Col409826852" label="Protein" states="states837574"/>
+      <char id="Col409826853" label="Protein" states="states837574"/>
+      <char id="Col409826854" label="Protein" states="states837574"/>
+      <char id="Col409826855" label="Protein" states="states837574"/>
+      <char id="Col409826856" label="Protein" states="states837574"/>
+      <char id="Col409826857" label="Protein" states="states837574"/>
+      <char id="Col409826858" label="Protein" states="states837574"/>
+      <char id="Col409826859" label="Protein" states="states837574"/>
+      <char id="Col409826860" label="Protein" states="states837574"/>
+      <char id="Col409826861" label="Protein" states="states837574"/>
+      <char id="Col409826862" label="Protein" states="states837574"/>
+      <char id="Col409826863" label="Protein" states="states837574"/>
+      <char id="Col409826864" label="Protein" states="states837574"/>
+      <char id="Col409826865" label="Protein" states="states837574"/>
+      <char id="Col409826866" label="Protein" states="states837574"/>
+      <char id="Col409826867" label="Protein" states="states837574"/>
+      <char id="Col409826868" label="Protein" states="states837574"/>
+      <char id="Col409826869" label="Protein" states="states837574"/>
+      <char id="Col409826870" label="Protein" states="states837574"/>
+      <char id="Col409826871" label="Protein" states="states837574"/>
+      <char id="Col409826872" label="Protein" states="states837574"/>
+      <char id="Col409826873" label="Protein" states="states837574"/>
+      <char id="Col409826874" label="Protein" states="states837574"/>
+      <char id="Col409826875" label="Protein" states="states837574"/>
+      <char id="Col409826876" label="Protein" states="states837574"/>
+      <char id="Col409826877" label="Protein" states="states837574"/>
+      <char id="Col409826878" label="Protein" states="states837574"/>
+      <char id="Col409826879" label="Protein" states="states837574"/>
+      <char id="Col409826880" label="Protein" states="states837574"/>
+      <char id="Col409826881" label="Protein" states="states837574"/>
+      <char id="Col409826882" label="Protein" states="states837574"/>
+      <char id="Col409826883" label="Protein" states="states837574"/>
+      <char id="Col409826884" label="Protein" states="states837574"/>
+      <char id="Col409826885" label="Protein" states="states837574"/>
+      <char id="Col409826886" label="Protein" states="states837574"/>
+      <char id="Col409826887" label="Protein" states="states837574"/>
+      <char id="Col409826888" label="Protein" states="states837574"/>
+      <char id="Col409826889" label="Protein" states="states837574"/>
+      <char id="Col409826890" label="Protein" states="states837574"/>
+      <char id="Col409826891" label="Protein" states="states837574"/>
+      <char id="Col409826892" label="Protein" states="states837574"/>
+      <char id="Col409826893" label="Protein" states="states837574"/>
+      <char id="Col409826894" label="Protein" states="states837574"/>
+      <char id="Col409826895" label="Protein" states="states837574"/>
+      <char id="Col409826896" label="Protein" states="states837574"/>
+      <char id="Col409826897" label="Protein" states="states837574"/>
+      <char id="Col409826898" label="Protein" states="states837574"/>
+      <char id="Col409826899" label="Protein" states="states837574"/>
+      <char id="Col409826900" label="Protein" states="states837574"/>
+      <char id="Col409826901" label="Protein" states="states837574"/>
+      <char id="Col409826902" label="Protein" states="states837574"/>
+      <char id="Col409826903" label="Protein" states="states837574"/>
+      <char id="Col409826904" label="Protein" states="states837574"/>
+      <char id="Col409826905" label="Protein" states="states837574"/>
+      <char id="Col409826906" label="Protein" states="states837574"/>
+      <char id="Col409826907" label="Protein" states="states837574"/>
+      <char id="Col409826908" label="Protein" states="states837574"/>
+      <char id="Col409826909" label="Protein" states="states837574"/>
+      <char id="Col409826910" label="Protein" states="states837574"/>
+      <char id="Col409826911" label="Protein" states="states837574"/>
+      <char id="Col409826912" label="Protein" states="states837574"/>
+      <char id="Col409826913" label="Protein" states="states837574"/>
+      <char id="Col409826914" label="Protein" states="states837574"/>
+      <char id="Col409826915" label="Protein" states="states837574"/>
+      <char id="Col409826916" label="Protein" states="states837574"/>
+      <char id="Col409826917" label="Protein" states="states837574"/>
+      <char id="Col409826918" label="Protein" states="states837574"/>
+      <char id="Col409826919" label="Protein" states="states837574"/>
+      <char id="Col409826920" label="Protein" states="states837574"/>
+      <char id="Col409826921" label="Protein" states="states837574"/>
+      <char id="Col409826922" label="Protein" states="states837574"/>
+      <char id="Col409826923" label="Protein" states="states837574"/>
+      <char id="Col409826924" label="Protein" states="states837574"/>
+      <char id="Col409826925" label="Protein" states="states837574"/>
+      <char id="Col409826926" label="Protein" states="states837574"/>
+      <char id="Col409826927" label="Protein" states="states837574"/>
+      <char id="Col409826928" label="Protein" states="states837574"/>
+      <char id="Col409826929" label="Protein" states="states837574"/>
+      <char id="Col409826930" label="Protein" states="states837574"/>
+      <char id="Col409826931" label="Protein" states="states837574"/>
+      <char id="Col409826932" label="Protein" states="states837574"/>
+      <char id="Col409826933" label="Protein" states="states837574"/>
+      <char id="Col409826934" label="Protein" states="states837574"/>
+      <char id="Col409826935" label="Protein" states="states837574"/>
+      <char id="Col409826936" label="Protein" states="states837574"/>
+      <char id="Col409826937" label="Protein" states="states837574"/>
+      <char id="Col409826938" label="Protein" states="states837574"/>
+      <char id="Col409826939" label="Protein" states="states837574"/>
+      <char id="Col409826940" label="Protein" states="states837574"/>
+      <char id="Col409826941" label="Protein" states="states837574"/>
+      <char id="Col409826942" label="Protein" states="states837574"/>
+      <char id="Col409826943" label="Protein" states="states837574"/>
+      <char id="Col409826944" label="Protein" states="states837574"/>
+      <char id="Col409826945" label="Protein" states="states837574"/>
+      <char id="Col409826946" label="Protein" states="states837574"/>
+      <char id="Col409826947" label="Protein" states="states837574"/>
+      <char id="Col409826948" label="Protein" states="states837574"/>
+      <char id="Col409826949" label="Protein" states="states837574"/>
+      <char id="Col409826950" label="Protein" states="states837574"/>
+      <char id="Col409826951" label="Protein" states="states837574"/>
+      <char id="Col409826952" label="Protein" states="states837574"/>
+      <char id="Col409826953" label="Protein" states="states837574"/>
+      <char id="Col409826954" label="Protein" states="states837574"/>
+      <char id="Col409826955" label="Protein" states="states837574"/>
+      <char id="Col409826956" label="Protein" states="states837574"/>
+      <char id="Col409826957" label="Protein" states="states837574"/>
+      <char id="Col409826958" label="Protein" states="states837574"/>
+      <char id="Col409826959" label="Protein" states="states837574"/>
+      <char id="Col409826960" label="Protein" states="states837574"/>
+      <char id="Col409826961" label="Protein" states="states837574"/>
+      <char id="Col409826962" label="Protein" states="states837574"/>
+      <char id="Col409826963" label="Protein" states="states837574"/>
+      <char id="Col409826964" label="Protein" states="states837574"/>
+      <char id="Col409826965" label="Protein" states="states837574"/>
+      <char id="Col409826966" label="Protein" states="states837574"/>
+      <char id="Col409826967" label="Protein" states="states837574"/>
+      <char id="Col409826968" label="Protein" states="states837574"/>
+      <char id="Col409826969" label="Protein" states="states837574"/>
+      <char id="Col409826970" label="Protein" states="states837574"/>
+      <char id="Col409826971" label="Protein" states="states837574"/>
+      <char id="Col409826972" label="Protein" states="states837574"/>
+      <char id="Col409826973" label="Protein" states="states837574"/>
+      <char id="Col409826974" label="Protein" states="states837574"/>
+      <char id="Col409826975" label="Protein" states="states837574"/>
+      <char id="Col409826976" label="Protein" states="states837574"/>
+      <char id="Col409826977" label="Protein" states="states837574"/>
+      <char id="Col409826978" label="Protein" states="states837574"/>
+      <char id="Col409826979" label="Protein" states="states837574"/>
+      <char id="Col409826980" label="Protein" states="states837574"/>
+      <char id="Col409826981" label="Protein" states="states837574"/>
+      <char id="Col409826982" label="Protein" states="states837574"/>
+      <char id="Col409826983" label="Protein" states="states837574"/>
+      <char id="Col409826984" label="Protein" states="states837574"/>
+      <char id="Col409826985" label="Protein" states="states837574"/>
+      <char id="Col409826986" label="Protein" states="states837574"/>
+      <char id="Col409826987" label="Protein" states="states837574"/>
+      <char id="Col409826988" label="Protein" states="states837574"/>
+      <char id="Col409826989" label="Protein" states="states837574"/>
+      <char id="Col409826990" label="Protein" states="states837574"/>
+      <char id="Col409826991" label="Protein" states="states837574"/>
+      <char id="Col409826992" label="Protein" states="states837574"/>
+      <char id="Col409826993" label="Protein" states="states837574"/>
+      <char id="Col409826994" label="Protein" states="states837574"/>
+      <char id="Col409826995" label="Protein" states="states837574"/>
+      <char id="Col409826996" label="Protein" states="states837574"/>
+    </format>
+    <matrix>
+      <row id="Row3906687" otu="Tl3284303">
+        <seq>QLKSAREDIKELLKNTFCHPILVRLGWHDAGTYNKN--IEEWPQRGGANG-SLRFEVELKHGANAGL-VNALKLLQPIKDKYANVTYADLFQLASATAIEEAGGPK--L--PMKYGRVDVS--APEEC--PEEGR--------LPDAGP---------PSPA--------------SHLRDVFY-RMGLNDKEIVALSGAHTLGRSRPERSGW-------GKPETKYTKDG--------------PGNP-GGQSWTVQWLKFDNSYF---KDIK-----------ERRDEDLLVLPTDAALFEDSSFKEYAEKYAVNQDVFFKDYAEAHAKLSNLGAKFDPPEGFSI</seq>
+      </row>
+      <row id="Row3906688" otu="Tl3284335">
+        <seq>QLKSAREDIKELLKNTFCHPILVRLGWHDAGTYNKN--IEEWPQRGGANG-SLRFEVELKHGANAGL-VNALKLLQPIKDKYANVTYADLFQLASATAIEEAGGPK--L--PMKYGRVDVS--APEEC--PEEGR--------LPDAGP---------PSPA--------------SHLRDVFY-RMGLNDKEIVALSGAHTLGRSRPERSGW-------GKPETKYTKDG--------------PGNP-GGQSWTVQWLKFDNSYF---KDIK-----------ERRDEDLLVLPTDAALFEDSSFKEYAEKYAVNQDVFFKDYAEAHAKLSNLGAKFDPPEGFSI</seq>
+      </row>
+      <row id="Row3906689" otu="Tl3284326">
+        <seq>QLKSAREDIKELLKNTFCHPILVRLGWHDAGTYNKN--IEEWPQRGGANG-SLRFEVELKHGANAGL-VNALKLLQPIKDKYANVTYADLFQLASATAIEEAGGPK--L--PMKYGRVDVS--APEEC--PEEGR--------LPDAGP---------PSPA--------------SHLRDVFY-RMGLNDKEIVALSGAHTLGRSRPERSGW-------GKPETKYTKDG--------------PGNP-GGQSWTVQWLKFDNSYF---KDIK-----------ERRDEDLLVLPTDAALFEDSSFKEYAEKYAVNQDVFFKDYAEAHAKLSNLGAKFDPPEGFSI</seq>
+      </row>
+      <row id="Row3906690" otu="Tl3284319">
+        <seq>QLKSAREDIKELLKNTFCHPILVRLGWHDAGTYNKN--IEEWPQRGGANG-SLRFEVELKHGANAGL-VNALKLLQPIKDKYANVTYADLFQLASATAIEEAGGPK--L--PMKYGRVDVS--APEEC--PEEGR--------LPDAGP---------PSPA--------------SHLRDVFY-RMGLNDKEIVALSGAHTLGRSRPERSGW-------GKPETRYTKDG--------------PGNP-GGQSWTVQWLKFDNSYF---KDIK-----------ERRDEDLLVLPTDAVLFEDSSFKEYAEKYAVNQDVFFKDYAEAHAKLSNLGAKFDPPEGSSI</seq>
+      </row>
+      <row id="Row3906691" otu="Tl3284336">
+        <seq>QLKSAREDIKELLKTKFCHPLLIRLGWHDAGTYNKN--IEEWPQRGGANG-SLRFEVELKHGANAGL-VNALKLLQPIKDKYSGVTYADLFQLASATAVEEAGGPK--I--PMKYGRVDVT--GPEQC--PEEGR--------LPDAGP---------PSPA--------------DHLRQVFY-RMGLNDKEIVALSGAHTLGRSRPDRSGW-------GKPETKYTKDG--------------PGAP-GGQSWTAQWLKFDNSYF---KDIK-----------EKKDEDLLVLPTDAALFDDPSFKVYAEKYAVDQEAFFKDYAEAHAKLSNLGAKFEPAEGVVV</seq>
+      </row>
+      <row id="Row3906692" otu="Tl3284345">
+        <seq>QLKSAREDIKELLKTKFCHPIMVRLGWHDAGTYNKN--IEEWPQRGGANG-SLRFDVELKHGANAGL-VNALNLLKPIKDKYSGVTYADLFQLASATAIEEAGGPK--I--PMKYGRVDVT--EPEQC--PEEGR--------LPDAGP---------PSPA--------------QHLRDVFY-RMGLNDKEIVALSGAHTLGRSRPDRSGW-------GKPETKYTKDG--------------PGAP-GGQSWTAQWLKFDNSYF---KDIK-----------ERRDEDLLVLPTDAALFEDPSFKVYAEKYAADPEAFFKDYAEAHAKLSNLGAKFGPAEGFSL</seq>
+      </row>
+      <row id="Row3906693" otu="Tl3284301">
+        <seq>QLKKAREDIRQLLKTTFCHPIMVRLGWHDAGTYNKN--IEEWPQRGGANG-SLRFEIELKHAANAGL-VNALKLLQPIKEKYSGVTYADLFQLASATAIEEAGGPK--I--PMKYGRVDAN--GPDQC--PEEGR--------LPDAGP---------PSPA--------------DHLRDVFY-RMGLNDKDIVALSGAHTLGRSRPERSGW-------GKPETKYTKDG--------------PGAP-GGQSWTVQWLKFDNSYF---KDIK-----------EKRDEDLLVLPTDAVLFEDPSFKEYAEKYASDQDAFFKDYAEAHAKLSNLGAKFDPPEGFSV</seq>
+      </row>
+      <row id="Row3906694" otu="Tl3284312">
+        <seq>QLKSAREDIKELLKSKSCHPILVRLGWHDAGTYNKN--IEEWPRRGGANG-SLRFDIELKHAANAGL-VNALKLIQPIKDKYSGVTYADLFQLASATAIEEAGGPK--I--PMKYGRVDVS--APEEC--PEEGR--------LPAAGP---------PKPA--------------DHLREVFY-RMGLNDKEIVALSGAHTLGRSRPERSGW-------GKPETKYTKNG--------------PGAP-GGQSWTAEWLKFDNSYF---KDIK-----------QRKDDDLLVLPTDAALFEDPSFKEYAEKYAEDQEAFFKDYAEAHAKLSNLGAKFDPKEGIVL</seq>
+      </row>
+      <row id="Row3906695" otu="Tl3284341">
+        <seq>QLKSAREDIKELLKSTFCHPILVRLGWHDAGTYNKN--IEEWPKRGGANG-SLRFEIELKHAANAGL-VNALKLLQPIKDKYSGVTYADLFQLASATAIEEAGGPK--L--PMKYGRVDVS--APEDC--PEEGR--------LPSAGP---------PSPA--------------DHLREVFY-RMGLNDKEIVALSGAHTLGRSRPDRSGW-------GKPETKYTKNG--------------PGAP-GGQSWTVEWLKFDNSYF---KDIK-----------AKKDEDLLVLPTDAVLFDDPSFRVYAEKYAEDKEAFFKDYAEAHAKLSNLGAKFDPPEGIVL</seq>
+      </row>
+      <row id="Row3906696" otu="Tl3284298">
+        <seq>QLKSAREDIRELLKTTFCHPILVRLGWHDAGTYDKN--IAEWPQRGGANG-SLRFEIELKHAANAGL-VNALKLLQPIKDKYSGVTFADLFQLASATAIEEAGGPK--I--PMKYGRVDVS--GPEQC--PPEGK--------LPAAGP---------PSPA--------------GHLRDVFY-RMGLSDKEIVALSGAHTLGRSRPERSGW-------GKSETKYTKDG--------------PGAP-GGQSWTVQWLKFDNSYF---KDIK-----------ERKDEDLLVLPTDAVLFEDPSFKVYAEKYAEDQDAFFKDYAEAHAKLSNVGAKFDPPEGISI</seq>
+      </row>
+      <row id="Row3906697" otu="Tl3284309">
+        <seq>QLKSAREDIRGLLNTSFCHPILVRLGWHDAGTYDKN--IAEWPQRGGANG-SLRFEIELKHAANAGL-VNALKLLQPIKDKYSGVTYADLFQLASATAIEEAGGPK--I--PMKYGRVDVS--GPEQC--PPEGK--------LPDAGP---------PSPA--------------GHLRDVFY-RMGLNDKEIVALSGAHTLGRSRPERSGW-------GKSETKYTMDG--------------PGAP-GGQSWTVQWLKFDNSYF---KDIK-----------ERRDEDLLVLPTDAVLFEDPSFKVYAEKYAEDQDAFFKDYAEAHAKLSNLGAKFDPPEGISI</seq>
+      </row>
+      <row id="Row3906698" otu="Tl3284294">
+        <seq>ELRGAREDVRQLLKDKHCHPILVRLGWHDSGTYDKN--ISEWPKCGGANG-SLRFEIELKHAANAGL-VNALKLVQTIKDKYAGVTYADLFQLASATAIEEAGGPK--I--PMIYGRVDVS--APEQC--PPEGR--------LPAAGP---------PSPA--------------EHLREVFY-RMGLNDKEIVALSGAHTLGRSRPERSGW-------GKPETKYTKNG--------------PGAT-GGQSWTSQWLKFDNSYF---KDVK-----------ERRDEDLLVLPTDAVLFEDPSFKIYAERYAEDQDTFFEDYAEAHAKLSNLGSKFDPPKGISL</seq>
+      </row>
+      <row id="Row3906699" otu="Tl3284315">
+        <seq>ELRGAREDVKQLLKTTSCHPILVRLGWHDAGTYDKN--IAEWPKCGGANG-SLRFEIELKHGANAGL-VNALKLIQPIKDKFSGVTYADLFQLASATAIEEAGGPK--I--PMIYGRVDIT--APEQC--PPEGR--------LPAAGP---------PSPA--------------EHLREVFY-RMGLNDKEIVALSGAHTLGRARPERSGW-------GKPETKYTKNG--------------PGAP-GGQSWTSQWLKFDNSYF---KDVK-----------ERRDEDLLVLPTDAVLFEDSSFKVYAEKYAEDQDAFFKDYAEAHAKLSNLGAKFDPPKGISL</seq>
+      </row>
+      <row id="Row3906700" otu="Tl3284323">
+        <seq>----------KIIDDTNANPVFVRLAWHDSGTFDVN-VEKEWPASGGAIG-SIRFDPEINHGANAGL-SGAVKLLEPVKESFPDVSFADIFQMASARSIELAGGPK--I--DMKYGRVDAS--GPENC--SAEGN--------LPDAEP---GPDGKYGGPG---GSASTEDKTPNGHLRKVFY-RMGLNDEEIVALSGAHSFGRAYKDRSGL-------GAEKTKFTDGS---KQMRADGKEAKYNP--GGSAWTKNWLVFDNSYF---TTIP----------DESADPELLKLSTDKTLFGDEDFKPFAEKFRDSQDEFFASYAKAHKKLSELGSKFEAVE----</seq>
+      </row>
+      <row id="Row3906701" otu="Tl3284325">
+        <seq>DLEGAQTMIDKIIDDTNANPVFVRLAWHDSGTFDVN-VEKEWPASGGAIG-SIRFDPEINHGANAGL-SGAVKLLEPVKESFPDVSFADIFQMASARSIELAGGPK--I--DMKYGRVDAS--GPENC--SAEGN--------LPDAEP---GPDGKYGGPG---GSASTEDKTPNGHLRKVFY-RMGLNDEEIVALSGAHSFGRAYKDRSGL-------GAEKTKFTDGS---KQIRADGKEAKYNP--GGSAWTKNWLVFDNSYF---TTIP----------DESADPELLKLSTDKTLFGDEDFKPFAEKFRDSQDEFFASYAKAHKKLSELGSKFEAVE----</seq>
+      </row>
+      <row id="Row3906702" otu="Tl3284338">
+        <seq>DLDGAQAAIDEIIKEKNCGPVFVRLAWHDSGTFDVN-INEAWPAAGGAIG-SIRFEPEINHGANAGL-AGAVKLLEPVKEAFPEVSYADIFQMASARSIELAAGPK--I--DMKYGRKDAT--SPEQC--SPEGN--------LPDAEA---GPEGKFGGTS---GTKPTEDTSVAWHLRKVFY-RMGLGDEEIVALSGAHTFGRAYEDRSGL-------GAWKTKFTDGS---KVKLADGSETDKYTP-GGSPWVENWLVFDNSYF---TTIP----------DASTDEELLKLTSDKILFEDHGFKPFAEKFRDDKDAFFASYAKAHKALSELGSEFE-------</seq>
+      </row>
+      <row id="Row3906703" otu="Tl3284332">
+        <seq>ALSSAKEMIDALILEKNCGPIMVRVGWHDSGTFDKN-VSGAWPSAGGAVG-SIRFDPEITHGANAGL-INAIKLLEPIKEANPDVSYADIFQMASARSIELAGGPR--I--DMKYGRIDSN--GPENC--SKEGN--------LPDAEP----------GSN----------GMYAGHLRKVFY-RMGLNDEEIVALSGAHTFGRAYKNRS---------------------------------------GGSSWTENFLIFDNSYY---KVIP----------DESADPELLKLSTDKVVFMDDGFRPFAEKFRDSQDAFFESYAKAHKKLSELGSNFDPSEGISM</seq>
+      </row>
+      <row id="Row3906704" otu="Tl3284340">
+        <seq>QLKGAKKMIEDLIDKTNANPIMVRLAWHDSGTFDAS-INADWPKAGGAIG-SIRFEPEIKHGANAGL-AGAVKMLEPVKKQFPAVSYADLFQMASACAIELAGGPK--I--DMKYGRVDAA--GPQDC--SPEGN--------LPDAEA---GPNGKYGGTS---GTKPTEDTTPNGHLRKVFY-RMGLNDEEIVALSGAHTLGRAFKDRSGL-------GAEKTKFTDGS---QVARADGKAG-IGRT-GGSSWTEKWLKFDNSYF---TTIP----------NKSADPELLKLSTDKTLFDDEGFRPFAEKFRDSQDEFFKSYANAHKKLSELGSKFEPADGIKI</seq>
+      </row>
+      <row id="Row3906705" otu="Tl3284317">
+        <seq>ELLKCRDALRDLIDETAAFGILIRAAWHDAGTYDAK-KEGEWPKKGGANG-SIRFPEETSHAANAGL-DNAIKLLQPIKDRFQSVSWADILQMASAVAIEMAGGPK--I--AMQYGRVDVD--SPEDC--PKEGN--------LPDGAA----PFG--DGAE-----------TPAQHLRNVFY-RMGLDDQEIVALSGAHTVGRAWKNRSGF-----GRGEEGTNYTTGE---HTDLRQDGKGYYGKE-GGMSWTPRWLLFDNSYF---TAVN-----------ADDDPELLKLQTDTCLFADEAFRPYALKYADSQEAFFADYSAAHKKLSELGSKFDPPEGITL</seq>
+      </row>
+      <row id="Row3906706" otu="Tl3284295">
+        <seq>-----RAELAKLINETNCHPIMVRLAWHDAGTYDCK------TAVGGANG-SIRFEPEINHGANAGL-KKGLELLQLIKDKFLDVSWADLIQMASATAIELAGGPR--I--PMKYGRLDVF--GGADC--PPEGN--------LPAGGA---------PWPAGAD--------GPQKHIRDIFY-RMGFGDKEIVALSGAHTLGRARTDRSGF-----GAGDEGSKYTAGD---VKPRGDGQEG-YGNP-GGKSWTPNWLKFDNSYF---TVLK-----------DKMNGDLLALDTDKCLFEDAAFKPFAEKYAADESAFFKDYAMAHKALSELGSKWEPADGMYI</seq>
+      </row>
+      <row id="Row3906707" otu="Tl3284339">
+        <seq>-----RAELAKLINETNCHPIMVRLAWHDAGTYDCK------TAVGGANG-SIRFEPEINHGANAGL-KKGLELLQLIKDKFLDVSWADLIQMASATAIELAGGPK--I--PMKYGRIDAV--SGRDC--TPEGT--------LPAGGA---------PWPGKAK-------SAP-EHLRDIFY-RMGLGDKEIVALSGAHTIGRARTDRSGF-----GAGDECTKFTKGG---AKPRGDGKPG-MGHA-GGQSWTEKWLAFDNSYF---KVVK-----------DKVDGDLLALDTDKCLFEDAAFKPFAEKYAASQDDFFKDYAMAHKALSELGSKFIPAEGISI</seq>
+      </row>
+      <row id="Row3906708" otu="Tl3284344">
+        <seq>RLRQCKEALSKLIDEKNCHPIMVRLGWHDAGTFTKAIGIEHWPRCGGANG-SIRFEPEIAHGCNAGL-AKALELLQPIKKEFFDVSWADLMQMASATAIEVAGGPK--I--PMRYGRLDAW--APKNC--PKEGN--------LPAGGA---------PWPGSA--------STPQQHLRDVFH-RMGLSDKDIVALSGAHTLGRAYKFRSGF-----GLDEKGCKYTTGK---CLVRKDGKEG-HGQTDGGQSWTPKWLSFDNSYF---TYCK-----------QKGGEDLLSLDTDQCLFEDAAFKPFAEKY---------------------------------</seq>
+      </row>
+      <row id="Row3906709" otu="Tl3284316">
+        <seq>RLQECQEVLKKMVDEVNCHPILIRLAWHDSGTYDAKMPMTDWPNCGGANG-SIRFEPEINHGANAGL-QNALNLLKPIKASFPEISWADLMQMASATAIEVAGGPK--I--PMRYGRLDAW--APKNC--PKEGN--------LPAGGA---------PWPGSA--------STPQQHLRDVFH-RMGLSDKDIVALSGAHTLGRAYKFRSGF-----GLDEKGCKYTTGK---CLVRKDGKEG-HGQTDGGQSWTPKWLSFDNSYF---TYCK-----------QKGGEDLLSLDTDQCLFEDAAFKPFAEKY---------------------------------</seq>
+      </row>
+      <row id="Row3906710" otu="Tl3284306">
+        <seq>ALVKAKGLCKELVESRSCAPILVRTAWHDAGTYDKANAGKPWPEAGGAIG-SIRTDHEINAGPNAGLKKAVAMYLQPIKSQVPEISWADLIQMAGATAVEVAGGPK--I--PMKYGRVDGV---PADPAPPPFG---------LPDAKP----PFGGPSPQ------------DPAAHLRYVFY-KYGMDDKDIVALSGAHTIGRAFKDRSGTVEEGYLGG---TAYTKRG---SPSLEKSETA------GGRSWTKNWLKFDNSYF---TDMA------------KNDPDCITFPTDAVLMTDAGFKPHFDLFQKDQAAFFAAYAQSHKKLSELGSKFEPAAGIVG</seq>
+      </row>
+      <row id="Row3906711" otu="Tl3284297">
+        <seq>----------ELVVSKSCAPILVRTAWHDSGTYDKANAEKPWPEAGGAIG-SIRTDHEINAGPNAGLKKAITMYLKPIKDQVPEISWADLFQMASATAIEVAGGPK--I--PMKYGRVDGI---PASPAPPPFG---------LPDAKP----PFGGPSPQ------------DPAAHLRYVFY-KYGMDDKDIVALSGAHTIGRAFKDRSGTVEEGYLGG---TAYTKRG---SPSLEKSETA------GGRSWTKNWLKFDNSYF---TDMA------------KNDPDCITFPTDAVLMTDAGFKPHFDLFQKDQAAFFAAYAQSHKKLSELGSKFEPAAGI--</seq>
+      </row>
+      <row id="Row3906712" otu="Tl3284324">
+        <seq>-----------LVKEKSCAPILVRLAWHDSGTYDKSLADKPWPNAGGAIG-SILTPHEMDAGPNAGLKKGYTAYLTPIKEAVPDISWADLIQLASVTGIEVEGGPK--I--PMKYGRVDGV---PTEKQPPPFG---------LPDAFP---------SDPV--------------AHLKFVFY-KYNMDDKDIVTLSGAHTLGRAFKDRSGTVAEGQFGPY--TEYTKRG---CPMMSNSVTA------GGRSWTKNWTKFDNSYF---TDMA------------KEDPACVAFPTDKCLMTAPEFKPYFDEFAKDQNAFFEAYKVSHKKLAELGCKFDPPEGIT-</seq>
+      </row>
+      <row id="Row3906713" otu="Tl3284327">
+        <seq>ALKKAEALIEALVKDISCAPILVRLAWHDSGTYDMANAGKPWPEAGGAIG-SIRTDHEINAGANAGLQKALTAYLKPIKDKVPSVSWADLIQLASATAIKVAGGPT--I--PMKYGRVDGE---PKEKQEPNFG---------LPDALP----PFGGPLKEK----------EDPAEHLRYVFY-KYGMDDKDIVTLSGAHTIGRAFADRSGTVQEGAGMKAG-TEYTKSG---CPFAGNSRTL------GGRSWTKNWLSFDNSYF---ADMT------------KADPSCIAFPTDKVLMTDPGFKPHFDLFAKDEKAFFEAYKQSHKKLSELGSKFSPPEGITL</seq>
+      </row>
+      <row id="Row3906714" otu="Tl3284328">
+        <seq>DLKKAKILLQDLIREKSCGPILLRTAWHDAGTYDKANAGKPWPNAGGAIG-SIRTPHEIGAPPNAGLQKAIMAYLQPIKNKVPGVSWADLIQLAGATAVQEMGGPK--I--PMRYGRVDGE---PTEKAPPPFG---------LPSAKP-------DKPGPE--------DSAWAAQHLREVFY-KYGMNDNDIVALSGAHTVGRAFKDRSGTVEESSQSG---TSYTRKG---APQAKKSNTF------GGRSWTKNWLEFDNSYF---SQMK------------HHDREVLVFPTDRVLYVDPGFKPHFELFAKDQAAFFAAYADAHQRLSELGSKFSPPCGIS-</seq>
+      </row>
+      <row id="Row3906715" otu="Tl3284313">
+        <seq>--------LVTLIKEKSCGPILLRTAWHDAGTYDMKNASKPWPNAGGAIG-SIRTDHEINAPPNAGLKKAITSYLQPIKDQVPGISWADLIQLGGATSVEVMGGPK--I--NMKYGRVDGV---PSELAPAPFG---------LPAAMP------DQSQGKD-------ADLKWAAQHLKDVFY-KYHMNDKDIVALSGAHTVGRAFKDRSGTVAEGSTDG---TKYTKRG---APELLKSLTA------GGRSWTKNWLVFDNSYF---TDMA------------KNDPEVITFPTDRCLSTDPCYKKFFDEFAKDEKAFFAAYADAHKRLSENGSKFEPASGIT-</seq>
+      </row>
+      <row id="Row3906716" otu="Tl3284334">
+        <seq>-LRHAKEEIKAMIDTKNCNPIMVRLAWHDSGTYDQR--IQEWPQRGGASG-GNWFPEQLDFEANAGL-EKARDFLKPILEKYPHVGQADLIQLASAVAIEHAGGPK--I--DMKYGRLWVA--AGDCC-VKSDSREGFSGNAGLPDAGP----PFG--CGAS-----------TAAEHLRNVFGKKMGFTDQEIVALSGGHTIGRIFKERSGACPFGYGNAAA-SKYTKED---CIARRDGGKG-IGMA-GGGAWTKNWLTFDNTYF--TQPKDER--GYP------LDKDLVWLETDACLWTDPIFKQYVETYTKDQDAFFRDYAKAHKKLSELGCKFDPPQGLKL</seq>
+      </row>
+      <row id="Row3906717" otu="Tl3284302">
+        <seq>SLRAAEKDLREFINTTNCNPILVRLAWHDSGTYDQR--IKEFPQRGGANG-TIRFDPELSFGANAGL-DRAIGYLEKIHKKYPDISWADLIQLGSATAVEMAGGPK--I--DMTYGRISAG--PNDAV--ASESREGFGGNAGLPDALPGDDGKFG--CGET-----------TAAAHLRNVFGKKMGFTDQEIVAISGAHTIGRAFKERSGACPFGYTDSKA-SKYTKST---CIARADGKEG-VGIP-GGAAWTKNWLKFDNSYY---NSYS------------TTDKDLLWFPTDAALHQDAAFKPYFEKYAKDQAAFFADYAKAHKKLSELGSKFDPPEGFKI</seq>
+      </row>
+      <row id="Row3906718" otu="Tl3284346">
+        <seq>QLRACKKELAAFIDSKNCHPIMVRLAWHDSGTYDQR--IKDFPARGGANG-AIRFDPEMNFGANAGL-DKARGFLEDFAKKYPLISWADLIQLASATAIECAGGPA--I--PMKYGRVAVT--SGSEC-VKGDSREGFGGNAGLPDAKP----PFG--CGAT-----------TAAQHLRNVFTKKMGFTDQEIVALSGAHTIGRAFKERSGTCPFGYGEQAA-SNFTKSA---CIARKDQKAG-VGMV-GGASWTKNWLTFDNSYF---KDYK------------QKDAHLLWFPTDEALHTDPAFKKYFDLYAADQAAFFKDYAQAHKKLSELGSKFEPEGGLMI</seq>
+      </row>
+      <row id="Row3906719" otu="Tl3284329">
+        <seq>EVRKAKAEIKELVDKINCGPILIRLAWHDSGTFDQR--IAEWPQKGGANG-GIRFAPEMSMGANAGL-TKAKGYLEKVNSKYPSISWADLIQLASATAVEAMGGPK--I--PMKYGRVAID--SPDQCAPPKSRQ-GFGDNAGLPDAKP----PFG--CGAS-----------DAAGHLRNVFSKKMGFDDKEIVALSGAHTIGRAFKSRSGTCPFGEGPQSA-SKYTTEG---VVARFDGKPG-VGMV-GGAAWTKNWLTFDNSYYAKHSEAA-------------SDEDLLWFPTDEALFTDPAFKVFAEKYAKDQATFFKDYAQAHKKLSELGVKWQPEG----</seq>
+      </row>
+      <row id="Row3906720" otu="Tl3284320">
+        <seq>QLRACQKELKELINKLNCNPILVRLAWHDSGTFDQR--IADFPQRGGANG-AIRFDPEMNMGANAGL-AKARGYLEKVKAKYPKVTWADLIQMASATAIECAGGPK--I--PMKYGRVDVT--GPEQC-VGPTSREGFGGNAGLPDAKP----PFG--CGAS-----------SAAQHLRNVFTKKMGFTDQEIVALSGAHTIGRAFKDRSGTCPFGYG-GASASKYTKAD---CIVRCDGKAG-IGME-GGAGWTKNWLTFDNSYY---SAYK----------EAMSDDQLLWFPTDEALHTDEAFKVHFYKYAQDKQAFFDDYAKAHKKLSELGCKFEPAEGITL</seq>
+      </row>
+      <row id="Row3906721" otu="Tl3284342">
+        <seq>-----KKDLLAFIDKENCGPILVRLAWHDSGTYDQR--ISDFPQRGGANG-AIIHEPEMSMGANNGL-RKGFGYLKQFKEKYPTISWADLIQLASACSIEAMGGPK--I--NMRYGRVDVA--GPQDC-VGPKSREGFGGNAGLPDAKP----PFG--CGAP-----------TASQHLRNVFTKKMGFTDQEIVALSGAHTIGRAFKERSGTCPFGYMDNGA-SKYTKST---SVARKDGKTG-IGMA-GGAAWTKNWLTFDNSYF---KDYK------------ANDGDLLWFDTDKALHTDPAFQPYFQKYAEDEKAFFADYAKAHKKLSELGSKF--------</seq>
+      </row>
+      <row id="Row3906722" otu="Tl3284304">
+        <seq>-----KKDLLAFADKENCGPIFVRLAWHDSGTYDQR--ISDFPQRGGANG-AIMHEPEMGMGANNGL-RKAITYLKPLKEKYPTISWADLIQLASACGIEAMGGPK--I--NMRYGRVDVA--GPQDC-VGPKSRAGFAGNAGLPDAKP----PYG--CGAS-----------TAAQHLRNVFTKKMGFTDQEIVALSGAHTIGRAFKDRSGTCPFGYSDNGA-SKYTKSS---CVARKDGKAG-VGMP-GGAAWTKNWLAFDNAYF---KDYK------------ANDGDLLWFETDKALHTDPGFQPFFQKYAEDEKAFFADYALAHKKLSELGSKF--------</seq>
+      </row>
+      <row id="Row3906723" otu="Tl3284305">
+        <seq>MLLALQGELTSFIDSINCAPILVRLAWHDSGTYDIR--IKTWPECGGANG-AIILAPELNMGANAGL-DKAVRYLKTFKQKYPAVSWADLIQMASATAIEWCGGPK--I--SMKYGRVSVT--EESQC-AGPQSRQGFGGNAGLPDAKP----PFG--CGAA-----------SPAEHLRNVFTKKMGFTDQEIVALSGAHTIGRAFKERSGTCPFGYTSP---SNYTSGT---CVARPDAKAG-AGMQ-GGCSWTKKWLTFDNSYF---KD------YQA------KDEHLLWFPTDDALVTDPIFKQTFDLYASDSAAFFRDYAAAHKKLSELGAKFEPSEGITL</seq>
+      </row>
+      <row id="Row3906724" otu="Tl3284296">
+        <seq>VLTALKAELTSFIDSINCGPILVRLAWHDSGTYDIR--IKSWPECGGANG-AIIFGPEISMGANAGL-DKAVRYLKNFKEKYPSVSWADIIQMASATAIEWCGGPK--I--NMKYGRVSVT--DESQC-AGPKSREGFGDNTGLPDAKP----PFG--CGAS-----------TAAEHLRNVFTKKMGFNDQEIVALSGAHTIGRAFKDRSGTCPFGYTSP---SNYTGGS---CSARFDGKAG-AGMP-GGCSWTKKWLKFDNSYF---ADYK------------AKDEHLLWFPTDEALHTDPIFKPTFDLYASDQAAFFRDYAAAHKKLSELGAKFEPAEGITL</seq>
+      </row>
+      <row id="Row3906725" otu="Tl3284337">
+        <seq>QLKALRKDLFEFVEKQNCNPIFVRLAWHDSGTYDKA--RTEFPDRGGANG-SIIYAPEINHGANNGL-NKAVRFLEPYKAEYPLVSWADLIQMASAVSIEHAGGPK--I--AMKYGRQDVS--GPEGC--PDTASRNTAANAGLPDAAM----PFG--CGAQ-----------DAPTHLRNVFH-RMGFNDQEIVALSGAHTIGRAFKERSGT--------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row3906726" otu="Tl3284318">
+        <seq>QLKALRKDLFAFVDKQNCNPILVRLAWHDSGTFDKN--RTEWPDMGGANG-SIIYAPEINHGANNGL-NKGVNFLKPFKTDYPLVSWADLIQMASAVSIEHAGGPK--I--PMKYGRVDVA--GPEAC--PEGTSRGTAGNAGLPDAAM----PFG--CGAT-----------DAATHLRNIFH-RMGFTDQEIVALSGAHTLGRAFKERSGTVDEGYGEANA-CPFTKSVGL-CPVRHDGKAG-VGMP-GGKSWTKAWLKFDNSYY---KEYA------------ENNKDLLWLPTDRALHEDPEFKKTFVLYKDDQAAFFEGYSAAHKKLSELGSKFEPSEGIFI</seq>
+      </row>
+      <row id="Row3906727" otu="Tl3284321">
+        <seq>QLKAARKDMFEFINDQNCNPIMVRLAWHDSGTYDKT--KTAFPDMGGANG-SIIYAPEINHGANNGL-NKAVNFLKPFKSDYPLISWADLIQMASAVAIEHAGGPR--I--DMIYGRADVD--GPEAC-PGRTSR-GTGDNAGLPDAEP----PYG--CKAV-----------DAATHLRNIFH-RMGFSDQEIVALSGAHTLGRAFKERSGTVPEGYGEANA-CPYTKAVGL-CPVRHDGAAG-VGMP-GGRSWTKQWLKFDNSYF---RD------YVA------KDPHLAWFSTDRALHEDPEFRKTFLIYKEDQAAFFKDYAAAHKKLSELGSKFSPDGGIKI</seq>
+      </row>
+      <row id="Row3906728" otu="Tl3284292">
+        <seq>QLKALREDLWKFVDKVNCNPIFLRLAWHDAGTYDKT--KSEFPDRGGANG-SIIYDPEINHGANNGL-FKAVGYLKPFKADYPLVSWADLIQMAGAVGIEHAGGPK--V--AMKYGRKDVS--GPEGC-PGRQSR-GTGDNAGLPDAFPGGDGKFG--CGAT-----------DPATHVRNIFY-RMGFDDKGIVALSGAHTIGRAFKERSGTVAEGYGEANG-CPYTKAVPRGCPIRHDGAGG-VGMP-GGKSWTTKWLKFDNEYF---QQHV----YEE------KDKDLFWADTDRCLHQDEGFKKYFMQYKDDQAAFFRDFAEAMKQLSEQGAEWSPTEGIAI</seq>
+      </row>
+      <row id="Row3906729" otu="Tl3284310">
+        <seq>QLTALWDDLWKFVDKMNCNPIFLRLAWHDAGTYDKS--KPDFGDRGGANG-SIRFSPEITMGANNGL-DKAVKFLEPFKADYPLVSYADLYQMAAAVGIEHAGGPK--I--AMKYGRKDAA--GPDAC-PAQTSR-GTAANAGLPDAEKGPSGTYG--CGAT-----------DPATHLRNIFY-RMGFDDKGIVALSGAHTIGRAFKERSGTVTQGYGENSG-CPYTRAMPVSCPIRHDGKMG-VGMP-GGKSWTSKWLKFDNEYF---QPAV----YEE------SDKNLLWLSTDRCLHQDESFKKYFMQYREDQAAFFKDFAEAYKQLSEQGAEFEPADGLSI</seq>
+      </row>
+      <row id="Row3906730" otu="Tl3284300">
+        <seq>QLKSLQADLLEFVDNINCAPILVRLAWHDSGTYHKG--ITSWPECGGANG-SIIYSPEIDHGANNGL-IKAVGYLRPFKEDYPLVSWADLIQMASAMAIKHTGGPM--I--SMRYGRKDA---GAEAC-PGRQSR-GTGDNAGLPDAEP----PFG--CGAN-----------TAAQHLRNIFY-RMGFDDKDIVALSGAHTLGRAFKERSGVVQEGYGEANG-CVYTKSS-AACPVRHDGKAG-LGMP-GGKPWTRKWLTFDNGYF---KDYV------------DKDPNLLWMSTDLATHTDDSFKPHFQLYKKDQNAFFKDYADAHRRLSELGSKFEPPEGIVI</seq>
+      </row>
+      <row id="Row3906731" otu="Tl3284343">
+        <seq>QLKALKSDLWEFVDKMNCNPILIRLAWHDSGTYHKD--ITTWPERGGANG-SIIYTPELNRGANAGL-NKAKRFLEPFKEDYPLVSWADLLQMASAVSVEHAGGPA--I--QMRYGRQDVG--GPEDC-PPETSR-GTGANAGLPDAEA----PFG--CGGK-----------TAADHLRNIFY-RMGFNDQQIVALSGVHTLGRAFKERTGLVPEGYGEAKA-NMFTKAAG-ACPIRYDGKPG-IGMP-GGRSWTKKWLKFDNSYF---------LEYKE------KNDKLLWFSTDAALHEDPGFVPHFRRYGADQDVFFVEYAEAHKMLSELGSKFEPAEGIKI</seq>
+      </row>
+      <row id="Row3906732" otu="Tl3284322">
+        <seq>---ACCQELKAFINENNCAPIMVRLAWHDSGNFDKR--ISSWPECGGANA-SIIHEPEISYGANAGL-SKAVGFLKPLKEKYPEVSWADLIQMASACAIEVAGGPA--I--PMKYGRVDVK--DGSAC-PGRTSR-GTADNAGLPDAKA----PFG--CGAS-----------DPATHLRNIFG-RMGFDDEGIVALSGAHTIGRAFKNRSGTVDNGYGDASA-SKYTRSE---CVVRPDGTSG-VGMS-GGKSWTSNWLTFDNSYF---QYLK-----------KGPDADLIWFPTDAALHEDAKFKVFYEKFADSKASFFEAYVRAHKQLSELGSKFEPAEGFTL</seq>
+      </row>
+      <row id="Row3906733" otu="Tl3284330">
+        <seq>EYVTCKEELLKFIDENNCAPIMVRLAWHDSGNFDKR--ISSWPECGGANA-SIIHEPEISFGANAGL-TKAVNFLKPFKAKFPAVSWADLIQMASACAIQAAGGPA--I--PMRYGRVDVK--DGSAC-PGRTSR-GTADNAGLPDAMA----PFG--CGAK-----------DPATHLRNIFN-RMGFEDEEIVALSGAHTLGRAFKERSGTVECGYGDAKA-STYTKSG---CPVRHDGKAG-VGMA-GGKSWTKNWLTFDNSYF---QFLK-----------NPKDDALLWLPTDRALHEDAKFKVFFDRFADSKEAFFEAYSKVHKKLSELGAKFEPAEGFAL</seq>
+      </row>
+      <row id="Row3906734" otu="Tl3284308">
+        <seq>---ACRSELLTFIDRQNCAPILIRLAWHDSGNYDKR--ISSWPECGGANA-SIRHDPEINYGANAGL-KKAVGYLEPFKQKYPSITWADLIQMASACAIEACGGPV--I--LMKYGRVDVA--DGSAC-PGRTSR-GTADNAGLPDAMP----PYG--CGAK-----------EPGDHLRNIFY-RMGFDDAGIVALSGAHTVGRAFKERSGTVENGYGDAGA-TKYTKSS---SVARYDGGGG-VGMS-GGKSWTRNWLTFDNSYF---QSVM-----------SATEEDLIRFPTDAVLAQDAAFREHCAKFAKSNPDFQDAYARAHKRLSELGSKFEPQEGFTL</seq>
+      </row>
+      <row id="Row3906735" otu="Tl3284307">
+        <seq>------------------------------------------------------------YGANAGL-NKAVDYLKPIKAKYPGVSWADLIQMASACAIEATGGPA--I--PMKYGRVDAK--DGSAC-PAPTSR-GTAGNAGLPDAMG----PFG--CGAP-----------DAATHLRNIFY-RMGFDDEGIVALSGAHTLGRAFKERSGTVENGYGDASA-TKYTKSM---CPVRHDGKPG-VGMA-GGKSWTPNWLTFDNSYF---QYLK-----------RGADEDLIWFPTDEALHKDPKFKPYFDKFADSQPAFFEAYARAHKKLSELGSQFEPAEGFAL</seq>
+      </row>
+      <row id="Row3906736" otu="Tl3284293">
+        <seq>---ACKKFLTDFINKNNCAPIMVRLAWHDSGNYDKR--ISEWPACGGANG-SIRFEPEINYGANAGL-AKGLKYLEPVKAKFPGVSWADLIQMASACAIEVTGGPK--I--PMKYGRVEAA--DSSAC-PAEKSR-GTDGNAGLPDAMP----PFG--CGAS-----------DAPTHLRNIFY-RMGFDDEGIVALSGAHT-------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row3906737" otu="Tl3284299">
+        <seq>-----KTELLKFIDETNCAPIMVRLAWHDSGNYDKS--VAAWPACGGANG-SIRFEPEIEYPANAGL-PKALNYLKQFKEKYPAVSWADLIQMASACAIEATGGPK--I--PMKYGRVDAA--DGSAC-PEPTSR-GTSHSAGLPDPAP----PFP--CGAQ-----------DAPTHLRNIFY-RMGFDDEGIVALSGAHTLGRAFKERSGATEHGYGDAKA-SKYTGSG---CPVRHDKKAG-VGMP-GGKAWTQNWLTFDNSYY---QYLQ-----------RGHDDDLLWFPTDAALHQDEKFKPYFEKFATSQDAFFEAYCRAHKKLSELGSKFEPAEGITL</seq>
+      </row>
+      <row id="Row3906738" otu="Tl3284314">
+        <seq>-LHDAREALRVFIDKINCAPILIRLAWHDSGTFDKE--IVSWPQCGGANG-SIRFDEELAHGANAGL-AKAVNYLQSFKKRFPALSWADLIQLASATAIEIISNSACRI--PMRYGRQDAG--TPA-----REGN--------LPASVA----PFPKTDPPT-----------SAAQHLRNVFY-RMSFNDQQIVALSGAHTIGRAFKNRSGVVDEEAGEGHG-TQYTSGE---FRARHDGKKG-VGMP-GGRSWAKKWLTFDNEYF---------------------KERDLDLPTDKCLQEDDHFRPHYVRYQKDNEAFLREYAQAHTKLSELGAKFVPAQGIYV</seq>
+      </row>
+      <row id="Row3906739" otu="Tl3284311">
+        <seq>DLHAMADDLTAMIDELNCDPIIVRFAWHDSGTYDKS---LPWPECGGANG-GIRFDAELKHEANAGL-AKGRRFLEPIKAKYPGVSWADTIQLASACALKHCGGPD--ILPNMKFGRKDIS--GPEEC--PPEGR--------LPSPDG-------------------------AADHLRKIFY-RMGFNDQEIVALSGGHTIGRAFKDRSGTVEEAAGRG---TQYTNGS---EVARLDGKEG-IGMK-GGRSWCRKWLKFDNEYF---INIM-----EDAKKDSDEDNGLLVLKTDNALVTDPFFREYVELYAEDNDKFLEDYEKAHIKLSELGSEFIVDGGIKM</seq>
+      </row>
+      <row id="Row3906740" otu="Tl3284333">
+        <seq>--------------------------------------------CGGASG-GIIYDVELSDAANAGL-PKALKFLQPIKAKYPGVSWADTIQLASACALKHCGGPD--IIPYMKFGRKDIS--GPEEC--PPAGR--------LPMPEG--------------------------ADHLRKIFY-RMGFNDQEIVALSGGHTIGRAFKDRSGTVEEAAGRG---TQYTNGS---EVARLDGKEG-IGMK-GGRSWCRKWLKFDNEYF---INIM-----EDAKSKSKVDNGLLVLKSDNCLVTDPSFRPYVEVYAKDNNKFLCDYAQAHIKLSELGCQYVVDGGIK-</seq>
+      </row>
+      <row id="Row3906741" otu="Tl3284331">
+        <seq>DIRAMADELTAMIDRLNCDPIIVRFAWHDSGTYDKS---LPWPQCGGASG-GIIYDVELSDAANAGL-PKALKFLQPIKAKYPGVSWADTIQLASACALKHCGGPD--IIPYMKFGRKDIS--GPEEC--PPAGR--------LPMPEG--------------------------ADHLRKIFY-RMGFNDQEIVALSGGHTIGRAFKDRSGTVEEAAGRG---TQYTNGS---EVARLDGKEG-IGMK-GGRSWCRKWLKFDNEYF---INIM-----EDAKSKSKVDNGLLVLKSDNCLVTDPSFRPYVEVYAKDNNKFLCDYAQAHIKLSELGCQYIVDGGIKV</seq>
+      </row>
+    </matrix>
+  </characters>
+  <trees about="#Tb47090" id="Tb47090" label="APX MLT" otus="Tls64670" xml:base="http://purl.org/phylo/treebase/phylows/tree/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlTreeBlockWriter@63d985e3 $Rev$" datatype="xsd:string" id="meta838008" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta href="S23146" id="meta838007" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    <tree about="#Tr113189" id="Tr113189" label="tree 1+" xsi:type="nex:FloatTree">
+      <meta content="55" datatype="xsd:integer" id="meta838014" property="tb:ntax.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Unrated" datatype="xsd:string" id="meta838013" property="tb:quality.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Single" datatype="xsd:string" id="meta838012" property="tb:type.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Species Tree" datatype="xsd:string" id="meta838011" property="tb:kind.tree" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S23146" id="meta838010" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+      <node id="Tn17693484"/>
+      <node id="Tn17693386"/>
+      <node id="Tn17693482"/>
+      <node id="Tn17693472"/>
+      <node id="Tn17693450"/>
+      <node id="Tn17693485"/>
+      <node id="Tn17693447"/>
+      <node id="Tn17693452"/>
+      <node id="Tn17693392"/>
+      <node id="Tn17693394"/>
+      <node id="Tn17693454"/>
+      <node id="Tn17693401"/>
+      <node id="Tn17693430"/>
+      <node id="Tn17693402"/>
+      <node id="Tn17693397" label=" Nicotiana tabacum BAA78553 stromal" otu="Tl3284303"/>
+      <node id="Tn17693467" label="Nicotiana tabacum XP 016469841 APX6 chloroplastic isoformX1 " otu="Tl3284335"/>
+      <node id="Tn17693407" label="Nicotiana tabacum BAA78552 thylakoid bound APX" otu="Tl3284326"/>
+      <node id="Tn17693475" label="Nicotiana tabacum XP 016437245 APX6 chloroplastic isoformX2 " otu="Tl3284319"/>
+      <node id="Tn17693439"/>
+      <node id="Tn17693440" label="Medicago truncatula XP 003602044 " otu="Tl3284336"/>
+      <node id="Tn17693481" label="Nicotiana tabacum pdb 1IYN BAC10691 stromal " otu="Tl3284345"/>
+      <node id="Tn17693429" label="Amborella trichopoda XP 006847188 " otu="Tl3284301"/>
+      <node id="Tn17693466"/>
+      <node id="Tn17693461" label="Populus euphratica XP 011027505 " otu="Tl3284312"/>
+      <node id="Tn17693414" label="Jatropha curcas XP 012078303 " otu="Tl3284341"/>
+      <node id="Tn17693400"/>
+      <node id="Tn17693383" label="Elaeis guineensis XP 010930723 " otu="Tl3284298"/>
+      <node id="Tn17693419" label="Phoenix dactylifera XP 017696878 " otu="Tl3284309"/>
+      <node id="Tn17693487"/>
+      <node id="Tn17693412" label="Brachypodium distachyon XP 003578843 " otu="Tl3284294"/>
+      <node id="Tn17693433" label="Setaria italica XP 004977222 " otu="Tl3284315"/>
+      <node id="Tn17693436"/>
+      <node id="Tn17693464"/>
+      <node id="Tn17693421"/>
+      <node id="Tn17693415"/>
+      <node id="Tn17693451"/>
+      <node id="Tn17693457"/>
+      <node id="Tn17693455" label="Unknown diatom Oxyrrhis marina LB1974 c35849 g1 i1" otu="Tl3284323"/>
+      <node id="Tn17693489" label="Phaeodactylum tricornutum CCAP 105 XP 002181744 5" otu="Tl3284325"/>
+      <node id="Tn17693427" label="Thalassiosira pseudonana CCMP1335 XP 002291359 " otu="Tl3284338"/>
+      <node id="Tn17693434" label="Phaeodactylum tricornutum CCAP 1055XP 002181742 " otu="Tl3284332"/>
+      <node id="Tn17693424" label="Guillardia theta 1 88361" otu="Tl3284340"/>
+      <node id="Tn17693431" label="Vitrella brassicaformis  c1399 g1 i1" otu="Tl3284317"/>
+      <node id="Tn17693473"/>
+      <node id="Tn17693459"/>
+      <node id="Tn17693478" label="Vitrella brassicaformis c15866 g1 i1 2" otu="Tl3284295"/>
+      <node id="Tn17693458" label="Vitrella brassicaformis c15866 g1 i3" otu="Tl3284339"/>
+      <node id="Tn17693399"/>
+      <node id="Tn17693474" label="Vitrella brassicaformis c15866 g1 i2" otu="Tl3284344"/>
+      <node id="Tn17693422" label="Vitrella brassicaformis c15866 g1 i1" otu="Tl3284316"/>
+      <node id="Tn17693456"/>
+      <node id="Tn17693453"/>
+      <node id="Tn17693410"/>
+      <node id="Tn17693443" label="Scrippsiella trochoidea comp104639 c0 seq1" otu="Tl3284306"/>
+      <node id="Tn17693480" label="Scrippsiella trochoidea comp104639 c0 seq2" otu="Tl3284297"/>
+      <node id="Tn17693411"/>
+      <node id="Tn17693416" label="Karenia brevis comp142743 c1 seq1" otu="Tl3284324"/>
+      <node id="Tn17693479" label="Karenia brevis comp115489 c0 seq1" otu="Tl3284327"/>
+      <node id="Tn17693448"/>
+      <node id="Tn17693413" label="Crypthecodinium cohnii comp45534 c0 seq1" otu="Tl3284328"/>
+      <node id="Tn17693438" label="Crypthecodinium cohnii comp39938 c0 seq1" otu="Tl3284313"/>
+      <node id="Tn17693470"/>
+      <node id="Tn17693445"/>
+      <node id="Tn17693409"/>
+      <node id="Tn17693465"/>
+      <node id="Tn17693387"/>
+      <node id="Tn17693460"/>
+      <node id="Tn17693388"/>
+      <node id="Tn17693385" label="Scrippsiella trochoidea comp94602 c0 seq1" otu="Tl3284334"/>
+      <node id="Tn17693441" label="Karlodinium veneficum  comp13947 c0 seq1" otu="Tl3284302"/>
+      <node id="Tn17693476" label="Symbiodinium sp. clc MMETSP1123 1 contig 2706" otu="Tl3284346"/>
+      <node id="Tn17693398"/>
+      <node id="Tn17693408" label="Amphidinium carterae comp657 c0 seq1" otu="Tl3284329"/>
+      <node id="Tn17693442" label="Karlodinium veneficum comp8423 c0 seq1" otu="Tl3284320"/>
+      <node id="Tn17693435"/>
+      <node id="Tn17693468" label="Oxyrrhis marina LB1974 c41711 g1 i1" otu="Tl3284342"/>
+      <node id="Tn17693425" label="Oxyrrhis marina unk c89384 g1 i1" otu="Tl3284304"/>
+      <node id="Tn17693384"/>
+      <node id="Tn17693437" label="Akashiwo sanguinea comp2849 c0 seq1" otu="Tl3284305"/>
+      <node id="Tn17693426" label="Akashiwo sanguinea comp20110 c0 seq1" otu="Tl3284296"/>
+      <node id="Tn17693444"/>
+      <node id="Tn17693471"/>
+      <node id="Tn17693490"/>
+      <node id="Tn17693428"/>
+      <node id="Tn17693390"/>
+      <node id="Tn17693488" label="Kryptoperidinium foliaceaum comp225609 c11 seq4" otu="Tl3284337"/>
+      <node id="Tn17693432" label="Crypthecodinium cohnii comp17987 c1 seq1" otu="Tl3284318"/>
+      <node id="Tn17693403" label="Scrippsiella trochoidea comp83567 c2 seq1" otu="Tl3284321"/>
+      <node id="Tn17693462"/>
+      <node id="Tn17693449" label="Amhidinium carterae comp7140 c0 seq1" otu="Tl3284292"/>
+      <node id="Tn17693420" label="Symbiodinium sp. clc MMETSP1123 1 contig 17332" otu="Tl3284310"/>
+      <node id="Tn17693483" label="Akashiwo sanguinea comp38740 c0 seq1" otu="Tl3284300"/>
+      <node id="Tn17693405" label="Kbrevis comp118584 c0 seq1" otu="Tl3284343"/>
+      <node id="Tn17693417"/>
+      <node id="Tn17693406"/>
+      <node id="Tn17693446"/>
+      <node id="Tn17693486"/>
+      <node id="Tn17693395" label="Akashiwo sanguinea comp16595 c0 seq1" otu="Tl3284322"/>
+      <node id="Tn17693396" label="Symbiodinium sp clc MMETSP1123 1 contig 26331" otu="Tl3284330"/>
+      <node id="Tn17693393" label="Amphidinium carterae comp6815 c0 seq1" otu="Tl3284308"/>
+      <node id="Tn17693389" label="Kryptoperidinium foliaceum comp223782 c2 seq28" otu="Tl3284307"/>
+      <node id="Tn17693423"/>
+      <node id="Tn17693391" label="Crypthecodinium cohnii comp40137 c0 seq13" otu="Tl3284293"/>
+      <node id="Tn17693404" label="Scrippsiella trochoidea comp114700 c0 seq1" otu="Tl3284299"/>
+      <node id="Tn17693463" label="Hematodinium EST63350" otu="Tl3284314"/>
+      <node id="Tn17693469" label="Perkinsus marinus ATCC 50983 XP 002767290 " otu="Tl3284311"/>
+      <node id="Tn17693477" label="Perkinsus marinus ATCC 50983 XP 002777381 " otu="Tl3284333"/>
+      <node id="Tn17693418" label="Perkinsus marinus ATCC 5098 XP 002767285 3" otu="Tl3284331"/>
+      <edge id="edge838017" length="0.097354" source="Tn17693484" target="Tn17693386"/>
+      <edge id="edge838019" length="0.409654" source="Tn17693386" target="Tn17693482"/>
+      <edge id="edge838021" length="0.136755" source="Tn17693482" target="Tn17693472"/>
+      <edge id="edge838023" length="0.036043" source="Tn17693472" target="Tn17693450"/>
+      <edge id="edge838025" length="0.083681" source="Tn17693450" target="Tn17693485"/>
+      <edge id="edge838027" length="0.273332" source="Tn17693485" target="Tn17693447"/>
+      <edge id="edge838029" length="0.023824" source="Tn17693447" target="Tn17693452"/>
+      <edge id="edge838031" length="0.014341" source="Tn17693452" target="Tn17693392"/>
+      <edge id="edge838033" length="0.009107" source="Tn17693392" target="Tn17693394"/>
+      <edge id="edge838035" length="0.013887" source="Tn17693394" target="Tn17693454"/>
+      <edge id="edge838037" length="0.047382" source="Tn17693454" target="Tn17693401"/>
+      <edge id="edge838039" length="1.0E-6" source="Tn17693401" target="Tn17693430"/>
+      <edge id="edge838041" length="1.0E-6" source="Tn17693430" target="Tn17693402"/>
+      <edge id="edge838043" length="1.0E-6" source="Tn17693402" target="Tn17693397"/>
+      <edge id="edge838045" length="1.0E-6" source="Tn17693402" target="Tn17693467"/>
+      <edge id="edge838047" length="1.0E-6" source="Tn17693430" target="Tn17693407"/>
+      <edge id="edge838049" length="0.010567" source="Tn17693401" target="Tn17693475"/>
+      <edge id="edge838051" length="0.025468" source="Tn17693454" target="Tn17693439"/>
+      <edge id="edge838053" length="0.039925" source="Tn17693439" target="Tn17693440"/>
+      <edge id="edge838055" length="0.036709" source="Tn17693439" target="Tn17693481"/>
+      <edge id="edge838057" length="0.045788" source="Tn17693394" target="Tn17693429"/>
+      <edge id="edge838059" length="0.044923" source="Tn17693392" target="Tn17693466"/>
+      <edge id="edge838061" length="0.045468" source="Tn17693466" target="Tn17693461"/>
+      <edge id="edge838063" length="0.033586" source="Tn17693466" target="Tn17693414"/>
+      <edge id="edge838065" length="0.012693" source="Tn17693452" target="Tn17693400"/>
+      <edge id="edge838067" length="0.016066" source="Tn17693400" target="Tn17693383"/>
+      <edge id="edge838069" length="0.016488" source="Tn17693400" target="Tn17693419"/>
+      <edge id="edge838071" length="0.048095" source="Tn17693447" target="Tn17693487"/>
+      <edge id="edge838073" length="0.05575" source="Tn17693487" target="Tn17693412"/>
+      <edge id="edge838075" length="0.024335" source="Tn17693487" target="Tn17693433"/>
+      <edge id="edge838077" length="0.090483" source="Tn17693485" target="Tn17693436"/>
+      <edge id="edge838079" length="0.069934" source="Tn17693436" target="Tn17693464"/>
+      <edge id="edge838081" length="0.2828" source="Tn17693464" target="Tn17693421"/>
+      <edge id="edge838083" length="0.069097" source="Tn17693421" target="Tn17693415"/>
+      <edge id="edge838085" length="0.040925" source="Tn17693415" target="Tn17693451"/>
+      <edge id="edge838087" length="0.11043" source="Tn17693451" target="Tn17693457"/>
+      <edge id="edge838089" length="1.0E-6" source="Tn17693457" target="Tn17693455"/>
+      <edge id="edge838091" length="0.003175" source="Tn17693457" target="Tn17693489"/>
+      <edge id="edge838093" length="0.174616" source="Tn17693451" target="Tn17693427"/>
+      <edge id="edge838095" length="0.226003" source="Tn17693415" target="Tn17693434"/>
+      <edge id="edge838097" length="0.08524" source="Tn17693421" target="Tn17693424"/>
+      <edge id="edge838099" length="0.410176" source="Tn17693464" target="Tn17693431"/>
+      <edge id="edge838101" length="0.077614" source="Tn17693436" target="Tn17693473"/>
+      <edge id="edge838103" length="0.151779" source="Tn17693473" target="Tn17693459"/>
+      <edge id="edge838105" length="0.107057" source="Tn17693459" target="Tn17693478"/>
+      <edge id="edge838107" length="0.082772" source="Tn17693459" target="Tn17693458"/>
+      <edge id="edge838109" length="0.190483" source="Tn17693473" target="Tn17693399"/>
+      <edge id="edge838111" length="0.076328" source="Tn17693399" target="Tn17693474"/>
+      <edge id="edge838113" length="0.07694" source="Tn17693399" target="Tn17693422"/>
+      <edge id="edge838115" length="0.44738" source="Tn17693450" target="Tn17693456"/>
+      <edge id="edge838117" length="0.072344" source="Tn17693456" target="Tn17693453"/>
+      <edge id="edge838119" length="0.10313" source="Tn17693453" target="Tn17693410"/>
+      <edge id="edge838121" length="0.029467" source="Tn17693410" target="Tn17693443"/>
+      <edge id="edge838123" length="0.020171" source="Tn17693410" target="Tn17693480"/>
+      <edge id="edge838125" length="0.070405" source="Tn17693453" target="Tn17693411"/>
+      <edge id="edge838127" length="0.214494" source="Tn17693411" target="Tn17693416"/>
+      <edge id="edge838129" length="0.181412" source="Tn17693411" target="Tn17693479"/>
+      <edge id="edge838131" length="0.090456" source="Tn17693456" target="Tn17693448"/>
+      <edge id="edge838133" length="0.206918" source="Tn17693448" target="Tn17693413"/>
+      <edge id="edge838135" length="0.180471" source="Tn17693448" target="Tn17693438"/>
+      <edge id="edge838137" length="0.123813" source="Tn17693472" target="Tn17693470"/>
+      <edge id="edge838139" length="0.021933" source="Tn17693470" target="Tn17693445"/>
+      <edge id="edge838141" length="0.106218" source="Tn17693445" target="Tn17693409"/>
+      <edge id="edge838143" length="0.064149" source="Tn17693409" target="Tn17693465"/>
+      <edge id="edge838145" length="0.021807" source="Tn17693465" target="Tn17693387"/>
+      <edge id="edge838147" length="0.052152" source="Tn17693387" target="Tn17693460"/>
+      <edge id="edge838149" length="0.078575" source="Tn17693460" target="Tn17693388"/>
+      <edge id="edge838151" length="0.339259" source="Tn17693388" target="Tn17693385"/>
+      <edge id="edge838153" length="0.221165" source="Tn17693388" target="Tn17693441"/>
+      <edge id="edge838155" length="0.135826" source="Tn17693460" target="Tn17693476"/>
+      <edge id="edge838157" length="0.067109" source="Tn17693387" target="Tn17693398"/>
+      <edge id="edge838159" length="0.314757" source="Tn17693398" target="Tn17693408"/>
+      <edge id="edge838161" length="0.103914" source="Tn17693398" target="Tn17693442"/>
+      <edge id="edge838163" length="0.149755" source="Tn17693465" target="Tn17693435"/>
+      <edge id="edge838165" length="0.035056" source="Tn17693435" target="Tn17693468"/>
+      <edge id="edge838167" length="0.070681" source="Tn17693435" target="Tn17693425"/>
+      <edge id="edge838169" length="0.187541" source="Tn17693409" target="Tn17693384"/>
+      <edge id="edge838171" length="0.094433" source="Tn17693384" target="Tn17693437"/>
+      <edge id="edge838173" length="0.043827" source="Tn17693384" target="Tn17693426"/>
+      <edge id="edge838175" length="0.121973" source="Tn17693445" target="Tn17693444"/>
+      <edge id="edge838177" length="0.027356" source="Tn17693444" target="Tn17693471"/>
+      <edge id="edge838179" length="0.067274" source="Tn17693471" target="Tn17693490"/>
+      <edge id="edge838181" length="0.037172" source="Tn17693490" target="Tn17693428"/>
+      <edge id="edge838183" length="0.065985" source="Tn17693428" target="Tn17693390"/>
+      <edge id="edge838185" length="0.107712" source="Tn17693390" target="Tn17693488"/>
+      <edge id="edge838187" length="0.072111" source="Tn17693390" target="Tn17693432"/>
+      <edge id="edge838189" length="0.134861" source="Tn17693428" target="Tn17693403"/>
+      <edge id="edge838191" length="0.147004" source="Tn17693490" target="Tn17693462"/>
+      <edge id="edge838193" length="0.101113" source="Tn17693462" target="Tn17693449"/>
+      <edge id="edge838195" length="0.167316" source="Tn17693462" target="Tn17693420"/>
+      <edge id="edge838197" length="0.223009" source="Tn17693471" target="Tn17693483"/>
+      <edge id="edge838199" length="0.231971" source="Tn17693444" target="Tn17693405"/>
+      <edge id="edge838201" length="0.192504" source="Tn17693470" target="Tn17693417"/>
+      <edge id="edge838203" length="0.03573" source="Tn17693417" target="Tn17693406"/>
+      <edge id="edge838205" length="0.040819" source="Tn17693406" target="Tn17693446"/>
+      <edge id="edge838207" length="0.037963" source="Tn17693446" target="Tn17693486"/>
+      <edge id="edge838209" length="0.105769" source="Tn17693486" target="Tn17693395"/>
+      <edge id="edge838211" length="0.119066" source="Tn17693486" target="Tn17693396"/>
+      <edge id="edge838213" length="0.24803" source="Tn17693446" target="Tn17693393"/>
+      <edge id="edge838215" length="0.070935" source="Tn17693406" target="Tn17693389"/>
+      <edge id="edge838217" length="0.021544" source="Tn17693417" target="Tn17693423"/>
+      <edge id="edge838219" length="0.144429" source="Tn17693423" target="Tn17693391"/>
+      <edge id="edge838221" length="0.13811" source="Tn17693423" target="Tn17693404"/>
+      <edge id="edge838223" length="0.403901" source="Tn17693482" target="Tn17693463"/>
+      <edge id="edge838225" length="0.060198" source="Tn17693386" target="Tn17693469"/>
+      <edge id="edge838227" length="0.003948" source="Tn17693484" target="Tn17693477"/>
+      <edge id="edge838229" length="1.0E-6" source="Tn17693484" target="Tn17693418"/>
+    </tree>
+  </trees>
+</nex:nexml>
