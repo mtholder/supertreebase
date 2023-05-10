@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nex:nexml xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009" xmlns:DwC="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tb="http://purl.org/phylo/treebase/2.0/terms#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#S26222" generator="org.nexml.model.impl.DocumentImpl" id="S26222" version="0.9" xml:base="http://purl.org/phylo/treebase/phylows/study/TB2:">
+  <meta content="Generated on Wed May 10 17:08:56 UTC 2023" datatype="xsd:string" id="meta477515" property="skos:changeNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlDocumentWriter@7fb79dcd $Rev$" datatype="xsd:string" id="meta477507" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+  <meta content="3" datatype="xsd:string" id="meta477506" property="prism:number" xsi:type="nex:LiteralMeta"/>
+  <meta content="5" datatype="xsd:string" id="meta477505" property="prism:volume" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mitochondrial DNA Part B" datatype="xsd:string" id="meta477504" property="dc:publisher" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mitochondrial DNA Part B" datatype="xsd:string" id="meta477503" property="prism:publicationName" xsi:type="nex:LiteralMeta"/>
+  <meta content="Diaphanosoma celebensis" datatype="xsd:string" id="meta477502" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="Mitochondria" datatype="xsd:string" id="meta477501" property="dc:subject" xsi:type="nex:LiteralMeta"/>
+  <meta content="2254-2255" datatype="xsd:string" id="meta477500" property="prism:pageRange" xsi:type="nex:LiteralMeta"/>
+  <meta content="2255" datatype="xsd:string" id="meta477499" property="prism:endingPage" xsi:type="nex:LiteralMeta"/>
+  <meta content="2254" datatype="xsd:string" id="meta477498" property="prism:startingPage" xsi:type="nex:LiteralMeta"/>
+  <meta content="10.1080/23802359.2020.1772138" datatype="xsd:string" id="meta477497" property="prism:doi" xsi:type="nex:LiteralMeta"/>
+  <meta content="2020" datatype="xsd:string" id="meta477496" property="prism:publicationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="Lee J." datatype="xsd:string" id="meta477495" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Hagiwara A." datatype="xsd:string" id="meta477494" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Kim H." datatype="xsd:string" id="meta477493" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Lee Y." datatype="xsd:string" id="meta477492" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Choi B." datatype="xsd:string" id="meta477491" property="dc:contributor" xsi:type="nex:LiteralMeta"/>
+  <meta content="Choi B., Lee Y., Kim H., Hagiwara A., &amp; Lee J." datatype="xsd:string" id="meta477490" property="dc:creator" xsi:type="nex:LiteralMeta"/>
+  <meta content="Complete mitochondrial DNA of the marine water flea Diaphanosoma celebensis (Cladocera, Sididae)" datatype="xsd:string" id="meta477489" property="dc:title" xsi:type="nex:LiteralMeta"/>
+  <meta content="Choi B., Lee Y., Kim H., Hagiwara A., &amp; Lee J. 2020. Complete mitochondrial DNA of the marine water flea Diaphanosoma celebensis (Cladocera, Sididae). Mitochondrial DNA Part B, 5(3): 2254-2255." datatype="xsd:string" id="meta477488" property="dcterms:bibliographicCitation" xsi:type="nex:LiteralMeta"/>
+  <meta content="2020-05-01" datatype="xsd:string" id="meta477487" property="prism:creationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2020-09-05" datatype="xsd:string" id="meta477486" property="prism:modificationDate" xsi:type="nex:LiteralMeta"/>
+  <meta content="2020-09-05" datatype="xsd:string" id="meta477485" property="dc:date" xsi:type="nex:LiteralMeta"/>
+  <meta content="Complete mitochondrial DNA of the marine water flea Diaphanosoma celebensis (Cladocera, Sididae). " datatype="xsd:string" id="meta477484" property="tb:title.study" xsi:type="nex:LiteralMeta"/>
+  <meta datatype="xsd:anySimpleType" id="meta477483" property="tb:identifier.study.tb1" xsi:type="nex:LiteralMeta"/>
+  <meta content="26222" datatype="xsd:string" id="meta477482" property="tb:identifier.study" xsi:type="nex:LiteralMeta"/>
+  <meta content="Study" datatype="xsd:string" id="meta477480" property="prism:section" xsi:type="nex:LiteralMeta"/>
+  <otus about="#Tls74628" id="Tls74628" label="Taxa" xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@639d3a60 $Rev$" datatype="xsd:string" id="meta477517" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <otu about="#Tl4074330" id="Tl4074330" label="Diaphanosoma celebensis">
+      <meta content="637707" datatype="xsd:long" id="meta477535" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="852719" datatype="xsd:long" id="meta477534" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2697825" id="meta477533" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S26222" id="meta477532" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl4074325" id="Tl4074325" label="Diaphanosoma dubium">
+      <meta content="637708" datatype="xsd:long" id="meta477540" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="852720" datatype="xsd:long" id="meta477539" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5687658" id="meta477538" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S26222" id="meta477537" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl4074328" id="Tl4074328" label="Diaphanosoma excisum">
+      <meta content="637709" datatype="xsd:long" id="meta477545" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="852721" datatype="xsd:long" id="meta477544" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2697823" id="meta477543" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S26222" id="meta477542" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl4074327" id="Tl4074327" label="Diaphanosoma lacustris">
+      <meta content="637712" datatype="xsd:long" id="meta477550" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="852724" datatype="xsd:long" id="meta477549" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5693785" id="meta477548" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S26222" id="meta477547" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl4074329" id="Tl4074329" label="Daphnia magna">
+      <meta content="8397" datatype="xsd:long" id="meta477557" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="20205" datatype="xsd:long" id="meta477556" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/35525" id="meta477555" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2697850" id="meta477554" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S26222" id="meta477553" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl4074326" id="Tl4074326" label="Diaphanosoma mongolianum">
+      <meta content="637710" datatype="xsd:long" id="meta477562" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="852722" datatype="xsd:long" id="meta477561" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2697828" id="meta477560" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S26222" id="meta477559" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl4074324" id="Tl4074324" label="Diaphanosoma orghidani">
+      <meta content="637711" datatype="xsd:long" id="meta477567" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="852723" datatype="xsd:long" id="meta477566" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:6453790" id="meta477565" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S26222" id="meta477564" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+  </otus>
+  <characters about="#M54389" id="M54389" label="Diaphanosoma celebensis" otus="Tls74628" xml:base="http://purl.org/phylo/treebase/phylows/matrix/TB2:" xsi:type="nex:ProteinSeqs">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlMatrixWriter@7925f004 $Rev$" datatype="xsd:string" id="meta477598" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta content="54389" datatype="xsd:long" id="meta477597" property="tb:identifier.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="515" datatype="xsd:integer" id="meta477596" property="tb:nchar.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="7" datatype="xsd:integer" id="meta477595" property="tb:ntax.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="Protein" datatype="xsd:string" id="meta477594" property="tb:type.matrix" xsi:type="nex:LiteralMeta"/>
+    <format>
+      <states id="states477569">
+        <state id="state477570" symbol="A"/>
+        <state id="state477571" symbol="B"/>
+        <state id="state477572" symbol="C"/>
+        <state id="state477573" symbol="D"/>
+        <state id="state477574" symbol="E"/>
+        <state id="state477575" symbol="F"/>
+        <state id="state477576" symbol="G"/>
+        <state id="state477577" symbol="H"/>
+        <state id="state477578" symbol="I"/>
+        <state id="state477579" symbol="K"/>
+        <state id="state477580" symbol="L"/>
+        <state id="state477581" symbol="M"/>
+        <state id="state477582" symbol="N"/>
+        <state id="state477583" symbol="P"/>
+        <state id="state477584" symbol="Q"/>
+        <state id="state477585" symbol="R"/>
+        <state id="state477586" symbol="S"/>
+        <state id="state477587" symbol="T"/>
+        <state id="state477588" symbol="U"/>
+        <state id="state477589" symbol="V"/>
+        <state id="state477590" symbol="W"/>
+        <state id="state477591" symbol="Y"/>
+        <state id="state477592" symbol="Z"/>
+        <uncertain_state_set id="uncertain_state_set477593" symbol="X">
+          <member state="state477574"/>
+          <member state="state477581"/>
+          <member state="state477572"/>
+          <member state="state477579"/>
+          <member state="state477590"/>
+          <member state="state477576"/>
+          <member state="state477578"/>
+          <member state="state477589"/>
+          <member state="state477573"/>
+          <member state="state477575"/>
+          <member state="state477583"/>
+          <member state="state477587"/>
+          <member state="state477584"/>
+          <member state="state477592"/>
+          <member state="state477570"/>
+          <member state="state477588"/>
+          <member state="state477577"/>
+          <member state="state477591"/>
+          <member state="state477580"/>
+          <member state="state477582"/>
+          <member state="state477571"/>
+          <member state="state477585"/>
+          <member state="state477586"/>
+        </uncertain_state_set>
+      </states>
+      <char id="Col470478671" label="Protein" states="states477569"/>
+      <char id="Col470478672" label="Protein" states="states477569"/>
+      <char id="Col470478673" label="Protein" states="states477569"/>
+      <char id="Col470478674" label="Protein" states="states477569"/>
+      <char id="Col470478675" label="Protein" states="states477569"/>
+      <char id="Col470478676" label="Protein" states="states477569"/>
+      <char id="Col470478677" label="Protein" states="states477569"/>
+      <char id="Col470478678" label="Protein" states="states477569"/>
+      <char id="Col470478679" label="Protein" states="states477569"/>
+      <char id="Col470478680" label="Protein" states="states477569"/>
+      <char id="Col470478681" label="Protein" states="states477569"/>
+      <char id="Col470478682" label="Protein" states="states477569"/>
+      <char id="Col470478683" label="Protein" states="states477569"/>
+      <char id="Col470478684" label="Protein" states="states477569"/>
+      <char id="Col470478685" label="Protein" states="states477569"/>
+      <char id="Col470478686" label="Protein" states="states477569"/>
+      <char id="Col470478687" label="Protein" states="states477569"/>
+      <char id="Col470478688" label="Protein" states="states477569"/>
+      <char id="Col470478689" label="Protein" states="states477569"/>
+      <char id="Col470478690" label="Protein" states="states477569"/>
+      <char id="Col470478691" label="Protein" states="states477569"/>
+      <char id="Col470478692" label="Protein" states="states477569"/>
+      <char id="Col470478693" label="Protein" states="states477569"/>
+      <char id="Col470478694" label="Protein" states="states477569"/>
+      <char id="Col470478695" label="Protein" states="states477569"/>
+      <char id="Col470478696" label="Protein" states="states477569"/>
+      <char id="Col470478697" label="Protein" states="states477569"/>
+      <char id="Col470478698" label="Protein" states="states477569"/>
+      <char id="Col470478699" label="Protein" states="states477569"/>
+      <char id="Col470478700" label="Protein" states="states477569"/>
+      <char id="Col470478701" label="Protein" states="states477569"/>
+      <char id="Col470478702" label="Protein" states="states477569"/>
+      <char id="Col470478703" label="Protein" states="states477569"/>
+      <char id="Col470478704" label="Protein" states="states477569"/>
+      <char id="Col470478705" label="Protein" states="states477569"/>
+      <char id="Col470478706" label="Protein" states="states477569"/>
+      <char id="Col470478707" label="Protein" states="states477569"/>
+      <char id="Col470478708" label="Protein" states="states477569"/>
+      <char id="Col470478709" label="Protein" states="states477569"/>
+      <char id="Col470478710" label="Protein" states="states477569"/>
+      <char id="Col470478711" label="Protein" states="states477569"/>
+      <char id="Col470478712" label="Protein" states="states477569"/>
+      <char id="Col470478713" label="Protein" states="states477569"/>
+      <char id="Col470478714" label="Protein" states="states477569"/>
+      <char id="Col470478715" label="Protein" states="states477569"/>
+      <char id="Col470478716" label="Protein" states="states477569"/>
+      <char id="Col470478717" label="Protein" states="states477569"/>
+      <char id="Col470478718" label="Protein" states="states477569"/>
+      <char id="Col470478719" label="Protein" states="states477569"/>
+      <char id="Col470478720" label="Protein" states="states477569"/>
+      <char id="Col470478721" label="Protein" states="states477569"/>
+      <char id="Col470478722" label="Protein" states="states477569"/>
+      <char id="Col470478723" label="Protein" states="states477569"/>
+      <char id="Col470478724" label="Protein" states="states477569"/>
+      <char id="Col470478725" label="Protein" states="states477569"/>
+      <char id="Col470478726" label="Protein" states="states477569"/>
+      <char id="Col470478727" label="Protein" states="states477569"/>
+      <char id="Col470478728" label="Protein" states="states477569"/>
+      <char id="Col470478729" label="Protein" states="states477569"/>
+      <char id="Col470478730" label="Protein" states="states477569"/>
+      <char id="Col470478731" label="Protein" states="states477569"/>
+      <char id="Col470478732" label="Protein" states="states477569"/>
+      <char id="Col470478733" label="Protein" states="states477569"/>
+      <char id="Col470478734" label="Protein" states="states477569"/>
+      <char id="Col470478735" label="Protein" states="states477569"/>
+      <char id="Col470478736" label="Protein" states="states477569"/>
+      <char id="Col470478737" label="Protein" states="states477569"/>
+      <char id="Col470478738" label="Protein" states="states477569"/>
+      <char id="Col470478739" label="Protein" states="states477569"/>
+      <char id="Col470478740" label="Protein" states="states477569"/>
+      <char id="Col470478741" label="Protein" states="states477569"/>
+      <char id="Col470478742" label="Protein" states="states477569"/>
+      <char id="Col470478743" label="Protein" states="states477569"/>
+      <char id="Col470478744" label="Protein" states="states477569"/>
+      <char id="Col470478745" label="Protein" states="states477569"/>
+      <char id="Col470478746" label="Protein" states="states477569"/>
+      <char id="Col470478747" label="Protein" states="states477569"/>
+      <char id="Col470478748" label="Protein" states="states477569"/>
+      <char id="Col470478749" label="Protein" states="states477569"/>
+      <char id="Col470478750" label="Protein" states="states477569"/>
+      <char id="Col470478751" label="Protein" states="states477569"/>
+      <char id="Col470478752" label="Protein" states="states477569"/>
+      <char id="Col470478753" label="Protein" states="states477569"/>
+      <char id="Col470478754" label="Protein" states="states477569"/>
+      <char id="Col470478755" label="Protein" states="states477569"/>
+      <char id="Col470478756" label="Protein" states="states477569"/>
+      <char id="Col470478757" label="Protein" states="states477569"/>
+      <char id="Col470478758" label="Protein" states="states477569"/>
+      <char id="Col470478759" label="Protein" states="states477569"/>
+      <char id="Col470478760" label="Protein" states="states477569"/>
+      <char id="Col470478761" label="Protein" states="states477569"/>
+      <char id="Col470478762" label="Protein" states="states477569"/>
+      <char id="Col470478763" label="Protein" states="states477569"/>
+      <char id="Col470478764" label="Protein" states="states477569"/>
+      <char id="Col470478765" label="Protein" states="states477569"/>
+      <char id="Col470478766" label="Protein" states="states477569"/>
+      <char id="Col470478767" label="Protein" states="states477569"/>
+      <char id="Col470478768" label="Protein" states="states477569"/>
+      <char id="Col470478769" label="Protein" states="states477569"/>
+      <char id="Col470478770" label="Protein" states="states477569"/>
+      <char id="Col470478771" label="Protein" states="states477569"/>
+      <char id="Col470478772" label="Protein" states="states477569"/>
+      <char id="Col470478773" label="Protein" states="states477569"/>
+      <char id="Col470478774" label="Protein" states="states477569"/>
+      <char id="Col470478775" label="Protein" states="states477569"/>
+      <char id="Col470478776" label="Protein" states="states477569"/>
+      <char id="Col470478777" label="Protein" states="states477569"/>
+      <char id="Col470478778" label="Protein" states="states477569"/>
+      <char id="Col470478779" label="Protein" states="states477569"/>
+      <char id="Col470478780" label="Protein" states="states477569"/>
+      <char id="Col470478781" label="Protein" states="states477569"/>
+      <char id="Col470478782" label="Protein" states="states477569"/>
+      <char id="Col470478783" label="Protein" states="states477569"/>
+      <char id="Col470478784" label="Protein" states="states477569"/>
+      <char id="Col470478785" label="Protein" states="states477569"/>
+      <char id="Col470478786" label="Protein" states="states477569"/>
+      <char id="Col470478787" label="Protein" states="states477569"/>
+      <char id="Col470478788" label="Protein" states="states477569"/>
+      <char id="Col470478789" label="Protein" states="states477569"/>
+      <char id="Col470478790" label="Protein" states="states477569"/>
+      <char id="Col470478791" label="Protein" states="states477569"/>
+      <char id="Col470478792" label="Protein" states="states477569"/>
+      <char id="Col470478793" label="Protein" states="states477569"/>
+      <char id="Col470478794" label="Protein" states="states477569"/>
+      <char id="Col470478795" label="Protein" states="states477569"/>
+      <char id="Col470478796" label="Protein" states="states477569"/>
+      <char id="Col470478797" label="Protein" states="states477569"/>
+      <char id="Col470478798" label="Protein" states="states477569"/>
+      <char id="Col470478799" label="Protein" states="states477569"/>
+      <char id="Col470478800" label="Protein" states="states477569"/>
+      <char id="Col470478801" label="Protein" states="states477569"/>
+      <char id="Col470478802" label="Protein" states="states477569"/>
+      <char id="Col470478803" label="Protein" states="states477569"/>
+      <char id="Col470478804" label="Protein" states="states477569"/>
+      <char id="Col470478805" label="Protein" states="states477569"/>
+      <char id="Col470478806" label="Protein" states="states477569"/>
+      <char id="Col470478807" label="Protein" states="states477569"/>
+      <char id="Col470478808" label="Protein" states="states477569"/>
+      <char id="Col470478809" label="Protein" states="states477569"/>
+      <char id="Col470478810" label="Protein" states="states477569"/>
+      <char id="Col470478811" label="Protein" states="states477569"/>
+      <char id="Col470478812" label="Protein" states="states477569"/>
+      <char id="Col470478813" label="Protein" states="states477569"/>
+      <char id="Col470478814" label="Protein" states="states477569"/>
+      <char id="Col470478815" label="Protein" states="states477569"/>
+      <char id="Col470478816" label="Protein" states="states477569"/>
+      <char id="Col470478817" label="Protein" states="states477569"/>
+      <char id="Col470478818" label="Protein" states="states477569"/>
+      <char id="Col470478819" label="Protein" states="states477569"/>
+      <char id="Col470478820" label="Protein" states="states477569"/>
+      <char id="Col470478821" label="Protein" states="states477569"/>
+      <char id="Col470478822" label="Protein" states="states477569"/>
+      <char id="Col470478823" label="Protein" states="states477569"/>
+      <char id="Col470478824" label="Protein" states="states477569"/>
+      <char id="Col470478825" label="Protein" states="states477569"/>
+      <char id="Col470478826" label="Protein" states="states477569"/>
+      <char id="Col470478827" label="Protein" states="states477569"/>
+      <char id="Col470478828" label="Protein" states="states477569"/>
+      <char id="Col470478829" label="Protein" states="states477569"/>
+      <char id="Col470478830" label="Protein" states="states477569"/>
+      <char id="Col470478831" label="Protein" states="states477569"/>
+      <char id="Col470478832" label="Protein" states="states477569"/>
+      <char id="Col470478833" label="Protein" states="states477569"/>
+      <char id="Col470478834" label="Protein" states="states477569"/>
+      <char id="Col470478835" label="Protein" states="states477569"/>
+      <char id="Col470478836" label="Protein" states="states477569"/>
+      <char id="Col470478837" label="Protein" states="states477569"/>
+      <char id="Col470478838" label="Protein" states="states477569"/>
+      <char id="Col470478839" label="Protein" states="states477569"/>
+      <char id="Col470478840" label="Protein" states="states477569"/>
+      <char id="Col470478841" label="Protein" states="states477569"/>
+      <char id="Col470478842" label="Protein" states="states477569"/>
+      <char id="Col470478843" label="Protein" states="states477569"/>
+      <char id="Col470478844" label="Protein" states="states477569"/>
+      <char id="Col470478845" label="Protein" states="states477569"/>
+      <char id="Col470478846" label="Protein" states="states477569"/>
+      <char id="Col470478847" label="Protein" states="states477569"/>
+      <char id="Col470478848" label="Protein" states="states477569"/>
+      <char id="Col470478849" label="Protein" states="states477569"/>
+      <char id="Col470478850" label="Protein" states="states477569"/>
+      <char id="Col470478851" label="Protein" states="states477569"/>
+      <char id="Col470478852" label="Protein" states="states477569"/>
+      <char id="Col470478853" label="Protein" states="states477569"/>
+      <char id="Col470478854" label="Protein" states="states477569"/>
+      <char id="Col470478855" label="Protein" states="states477569"/>
+      <char id="Col470478856" label="Protein" states="states477569"/>
+      <char id="Col470478857" label="Protein" states="states477569"/>
+      <char id="Col470478858" label="Protein" states="states477569"/>
+      <char id="Col470478859" label="Protein" states="states477569"/>
+      <char id="Col470478860" label="Protein" states="states477569"/>
+      <char id="Col470478861" label="Protein" states="states477569"/>
+      <char id="Col470478862" label="Protein" states="states477569"/>
+      <char id="Col470478863" label="Protein" states="states477569"/>
+      <char id="Col470478864" label="Protein" states="states477569"/>
+      <char id="Col470478865" label="Protein" states="states477569"/>
+      <char id="Col470478866" label="Protein" states="states477569"/>
+      <char id="Col470478867" label="Protein" states="states477569"/>
+      <char id="Col470478868" label="Protein" states="states477569"/>
+      <char id="Col470478869" label="Protein" states="states477569"/>
+      <char id="Col470478870" label="Protein" states="states477569"/>
+      <char id="Col470478871" label="Protein" states="states477569"/>
+      <char id="Col470478872" label="Protein" states="states477569"/>
+      <char id="Col470478873" label="Protein" states="states477569"/>
+      <char id="Col470478874" label="Protein" states="states477569"/>
+      <char id="Col470478875" label="Protein" states="states477569"/>
+      <char id="Col470478876" label="Protein" states="states477569"/>
+      <char id="Col470478877" label="Protein" states="states477569"/>
+      <char id="Col470478878" label="Protein" states="states477569"/>
+      <char id="Col470478879" label="Protein" states="states477569"/>
+      <char id="Col470478880" label="Protein" states="states477569"/>
+      <char id="Col470478881" label="Protein" states="states477569"/>
+      <char id="Col470478882" label="Protein" states="states477569"/>
+      <char id="Col470478883" label="Protein" states="states477569"/>
+      <char id="Col470478884" label="Protein" states="states477569"/>
+      <char id="Col470478885" label="Protein" states="states477569"/>
+      <char id="Col470478886" label="Protein" states="states477569"/>
+      <char id="Col470478887" label="Protein" states="states477569"/>
+      <char id="Col470478888" label="Protein" states="states477569"/>
+      <char id="Col470478889" label="Protein" states="states477569"/>
+      <char id="Col470478890" label="Protein" states="states477569"/>
+      <char id="Col470478891" label="Protein" states="states477569"/>
+      <char id="Col470478892" label="Protein" states="states477569"/>
+      <char id="Col470478893" label="Protein" states="states477569"/>
+      <char id="Col470478894" label="Protein" states="states477569"/>
+      <char id="Col470478895" label="Protein" states="states477569"/>
+      <char id="Col470478896" label="Protein" states="states477569"/>
+      <char id="Col470478897" label="Protein" states="states477569"/>
+      <char id="Col470478898" label="Protein" states="states477569"/>
+      <char id="Col470478899" label="Protein" states="states477569"/>
+      <char id="Col470478900" label="Protein" states="states477569"/>
+      <char id="Col470478901" label="Protein" states="states477569"/>
+      <char id="Col470478902" label="Protein" states="states477569"/>
+      <char id="Col470478903" label="Protein" states="states477569"/>
+      <char id="Col470478904" label="Protein" states="states477569"/>
+      <char id="Col470478905" label="Protein" states="states477569"/>
+      <char id="Col470478906" label="Protein" states="states477569"/>
+      <char id="Col470478907" label="Protein" states="states477569"/>
+      <char id="Col470478908" label="Protein" states="states477569"/>
+      <char id="Col470478909" label="Protein" states="states477569"/>
+      <char id="Col470478910" label="Protein" states="states477569"/>
+      <char id="Col470478911" label="Protein" states="states477569"/>
+      <char id="Col470478912" label="Protein" states="states477569"/>
+      <char id="Col470478913" label="Protein" states="states477569"/>
+      <char id="Col470478914" label="Protein" states="states477569"/>
+      <char id="Col470478915" label="Protein" states="states477569"/>
+      <char id="Col470478916" label="Protein" states="states477569"/>
+      <char id="Col470478917" label="Protein" states="states477569"/>
+      <char id="Col470478918" label="Protein" states="states477569"/>
+      <char id="Col470478919" label="Protein" states="states477569"/>
+      <char id="Col470478920" label="Protein" states="states477569"/>
+      <char id="Col470478921" label="Protein" states="states477569"/>
+      <char id="Col470478922" label="Protein" states="states477569"/>
+      <char id="Col470478923" label="Protein" states="states477569"/>
+      <char id="Col470478924" label="Protein" states="states477569"/>
+      <char id="Col470478925" label="Protein" states="states477569"/>
+      <char id="Col470478926" label="Protein" states="states477569"/>
+      <char id="Col470478927" label="Protein" states="states477569"/>
+      <char id="Col470478928" label="Protein" states="states477569"/>
+      <char id="Col470478929" label="Protein" states="states477569"/>
+      <char id="Col470478930" label="Protein" states="states477569"/>
+      <char id="Col470478931" label="Protein" states="states477569"/>
+      <char id="Col470478932" label="Protein" states="states477569"/>
+      <char id="Col470478933" label="Protein" states="states477569"/>
+      <char id="Col470478934" label="Protein" states="states477569"/>
+      <char id="Col470478935" label="Protein" states="states477569"/>
+      <char id="Col470478936" label="Protein" states="states477569"/>
+      <char id="Col470478937" label="Protein" states="states477569"/>
+      <char id="Col470478938" label="Protein" states="states477569"/>
+      <char id="Col470478939" label="Protein" states="states477569"/>
+      <char id="Col470478940" label="Protein" states="states477569"/>
+      <char id="Col470478941" label="Protein" states="states477569"/>
+      <char id="Col470478942" label="Protein" states="states477569"/>
+      <char id="Col470478943" label="Protein" states="states477569"/>
+      <char id="Col470478944" label="Protein" states="states477569"/>
+      <char id="Col470478945" label="Protein" states="states477569"/>
+      <char id="Col470478946" label="Protein" states="states477569"/>
+      <char id="Col470478947" label="Protein" states="states477569"/>
+      <char id="Col470478948" label="Protein" states="states477569"/>
+      <char id="Col470478949" label="Protein" states="states477569"/>
+      <char id="Col470478950" label="Protein" states="states477569"/>
+      <char id="Col470478951" label="Protein" states="states477569"/>
+      <char id="Col470478952" label="Protein" states="states477569"/>
+      <char id="Col470478953" label="Protein" states="states477569"/>
+      <char id="Col470478954" label="Protein" states="states477569"/>
+      <char id="Col470478955" label="Protein" states="states477569"/>
+      <char id="Col470478956" label="Protein" states="states477569"/>
+      <char id="Col470478957" label="Protein" states="states477569"/>
+      <char id="Col470478958" label="Protein" states="states477569"/>
+      <char id="Col470478959" label="Protein" states="states477569"/>
+      <char id="Col470478960" label="Protein" states="states477569"/>
+      <char id="Col470478961" label="Protein" states="states477569"/>
+      <char id="Col470478962" label="Protein" states="states477569"/>
+      <char id="Col470478963" label="Protein" states="states477569"/>
+      <char id="Col470478964" label="Protein" states="states477569"/>
+      <char id="Col470478965" label="Protein" states="states477569"/>
+      <char id="Col470478966" label="Protein" states="states477569"/>
+      <char id="Col470478967" label="Protein" states="states477569"/>
+      <char id="Col470478968" label="Protein" states="states477569"/>
+      <char id="Col470478969" label="Protein" states="states477569"/>
+      <char id="Col470478970" label="Protein" states="states477569"/>
+      <char id="Col470478971" label="Protein" states="states477569"/>
+      <char id="Col470478972" label="Protein" states="states477569"/>
+      <char id="Col470478973" label="Protein" states="states477569"/>
+      <char id="Col470478974" label="Protein" states="states477569"/>
+      <char id="Col470478975" label="Protein" states="states477569"/>
+      <char id="Col470478976" label="Protein" states="states477569"/>
+      <char id="Col470478977" label="Protein" states="states477569"/>
+      <char id="Col470478978" label="Protein" states="states477569"/>
+      <char id="Col470478979" label="Protein" states="states477569"/>
+      <char id="Col470478980" label="Protein" states="states477569"/>
+      <char id="Col470478981" label="Protein" states="states477569"/>
+      <char id="Col470478982" label="Protein" states="states477569"/>
+      <char id="Col470478983" label="Protein" states="states477569"/>
+      <char id="Col470478984" label="Protein" states="states477569"/>
+      <char id="Col470478985" label="Protein" states="states477569"/>
+      <char id="Col470478986" label="Protein" states="states477569"/>
+      <char id="Col470478987" label="Protein" states="states477569"/>
+      <char id="Col470478988" label="Protein" states="states477569"/>
+      <char id="Col470478989" label="Protein" states="states477569"/>
+      <char id="Col470478990" label="Protein" states="states477569"/>
+      <char id="Col470478991" label="Protein" states="states477569"/>
+      <char id="Col470478992" label="Protein" states="states477569"/>
+      <char id="Col470478993" label="Protein" states="states477569"/>
+      <char id="Col470478994" label="Protein" states="states477569"/>
+      <char id="Col470478995" label="Protein" states="states477569"/>
+      <char id="Col470478996" label="Protein" states="states477569"/>
+      <char id="Col470478997" label="Protein" states="states477569"/>
+      <char id="Col470478998" label="Protein" states="states477569"/>
+      <char id="Col470478999" label="Protein" states="states477569"/>
+      <char id="Col470479000" label="Protein" states="states477569"/>
+      <char id="Col470479001" label="Protein" states="states477569"/>
+      <char id="Col470479002" label="Protein" states="states477569"/>
+      <char id="Col470479003" label="Protein" states="states477569"/>
+      <char id="Col470479004" label="Protein" states="states477569"/>
+      <char id="Col470479005" label="Protein" states="states477569"/>
+      <char id="Col470479006" label="Protein" states="states477569"/>
+      <char id="Col470479007" label="Protein" states="states477569"/>
+      <char id="Col470479008" label="Protein" states="states477569"/>
+      <char id="Col470479009" label="Protein" states="states477569"/>
+      <char id="Col470479010" label="Protein" states="states477569"/>
+      <char id="Col470479011" label="Protein" states="states477569"/>
+      <char id="Col470479012" label="Protein" states="states477569"/>
+      <char id="Col470479013" label="Protein" states="states477569"/>
+      <char id="Col470479014" label="Protein" states="states477569"/>
+      <char id="Col470479015" label="Protein" states="states477569"/>
+      <char id="Col470479016" label="Protein" states="states477569"/>
+      <char id="Col470479017" label="Protein" states="states477569"/>
+      <char id="Col470479018" label="Protein" states="states477569"/>
+      <char id="Col470479019" label="Protein" states="states477569"/>
+      <char id="Col470479020" label="Protein" states="states477569"/>
+      <char id="Col470479021" label="Protein" states="states477569"/>
+      <char id="Col470479022" label="Protein" states="states477569"/>
+      <char id="Col470479023" label="Protein" states="states477569"/>
+      <char id="Col470479024" label="Protein" states="states477569"/>
+      <char id="Col470479025" label="Protein" states="states477569"/>
+      <char id="Col470479026" label="Protein" states="states477569"/>
+      <char id="Col470479027" label="Protein" states="states477569"/>
+      <char id="Col470479028" label="Protein" states="states477569"/>
+      <char id="Col470479029" label="Protein" states="states477569"/>
+      <char id="Col470479030" label="Protein" states="states477569"/>
+      <char id="Col470479031" label="Protein" states="states477569"/>
+      <char id="Col470479032" label="Protein" states="states477569"/>
+      <char id="Col470479033" label="Protein" states="states477569"/>
+      <char id="Col470479034" label="Protein" states="states477569"/>
+      <char id="Col470479035" label="Protein" states="states477569"/>
+      <char id="Col470479036" label="Protein" states="states477569"/>
+      <char id="Col470479037" label="Protein" states="states477569"/>
+      <char id="Col470479038" label="Protein" states="states477569"/>
+      <char id="Col470479039" label="Protein" states="states477569"/>
+      <char id="Col470479040" label="Protein" states="states477569"/>
+      <char id="Col470479041" label="Protein" states="states477569"/>
+      <char id="Col470479042" label="Protein" states="states477569"/>
+      <char id="Col470479043" label="Protein" states="states477569"/>
+      <char id="Col470479044" label="Protein" states="states477569"/>
+      <char id="Col470479045" label="Protein" states="states477569"/>
+      <char id="Col470479046" label="Protein" states="states477569"/>
+      <char id="Col470479047" label="Protein" states="states477569"/>
+      <char id="Col470479048" label="Protein" states="states477569"/>
+      <char id="Col470479049" label="Protein" states="states477569"/>
+      <char id="Col470479050" label="Protein" states="states477569"/>
+      <char id="Col470479051" label="Protein" states="states477569"/>
+      <char id="Col470479052" label="Protein" states="states477569"/>
+      <char id="Col470479053" label="Protein" states="states477569"/>
+      <char id="Col470479054" label="Protein" states="states477569"/>
+      <char id="Col470479055" label="Protein" states="states477569"/>
+      <char id="Col470479056" label="Protein" states="states477569"/>
+      <char id="Col470479057" label="Protein" states="states477569"/>
+      <char id="Col470479058" label="Protein" states="states477569"/>
+      <char id="Col470479059" label="Protein" states="states477569"/>
+      <char id="Col470479060" label="Protein" states="states477569"/>
+      <char id="Col470479061" label="Protein" states="states477569"/>
+      <char id="Col470479062" label="Protein" states="states477569"/>
+      <char id="Col470479063" label="Protein" states="states477569"/>
+      <char id="Col470479064" label="Protein" states="states477569"/>
+      <char id="Col470479065" label="Protein" states="states477569"/>
+      <char id="Col470479066" label="Protein" states="states477569"/>
+      <char id="Col470479067" label="Protein" states="states477569"/>
+      <char id="Col470479068" label="Protein" states="states477569"/>
+      <char id="Col470479069" label="Protein" states="states477569"/>
+      <char id="Col470479070" label="Protein" states="states477569"/>
+      <char id="Col470479071" label="Protein" states="states477569"/>
+      <char id="Col470479072" label="Protein" states="states477569"/>
+      <char id="Col470479073" label="Protein" states="states477569"/>
+      <char id="Col470479074" label="Protein" states="states477569"/>
+      <char id="Col470479075" label="Protein" states="states477569"/>
+      <char id="Col470479076" label="Protein" states="states477569"/>
+      <char id="Col470479077" label="Protein" states="states477569"/>
+      <char id="Col470479078" label="Protein" states="states477569"/>
+      <char id="Col470479079" label="Protein" states="states477569"/>
+      <char id="Col470479080" label="Protein" states="states477569"/>
+      <char id="Col470479081" label="Protein" states="states477569"/>
+      <char id="Col470479082" label="Protein" states="states477569"/>
+      <char id="Col470479083" label="Protein" states="states477569"/>
+      <char id="Col470479084" label="Protein" states="states477569"/>
+      <char id="Col470479085" label="Protein" states="states477569"/>
+      <char id="Col470479086" label="Protein" states="states477569"/>
+      <char id="Col470479087" label="Protein" states="states477569"/>
+      <char id="Col470479088" label="Protein" states="states477569"/>
+      <char id="Col470479089" label="Protein" states="states477569"/>
+      <char id="Col470479090" label="Protein" states="states477569"/>
+      <char id="Col470479091" label="Protein" states="states477569"/>
+      <char id="Col470479092" label="Protein" states="states477569"/>
+      <char id="Col470479093" label="Protein" states="states477569"/>
+      <char id="Col470479094" label="Protein" states="states477569"/>
+      <char id="Col470479095" label="Protein" states="states477569"/>
+      <char id="Col470479096" label="Protein" states="states477569"/>
+      <char id="Col470479097" label="Protein" states="states477569"/>
+      <char id="Col470479098" label="Protein" states="states477569"/>
+      <char id="Col470479099" label="Protein" states="states477569"/>
+      <char id="Col470479100" label="Protein" states="states477569"/>
+      <char id="Col470479101" label="Protein" states="states477569"/>
+      <char id="Col470479102" label="Protein" states="states477569"/>
+      <char id="Col470479103" label="Protein" states="states477569"/>
+      <char id="Col470479104" label="Protein" states="states477569"/>
+      <char id="Col470479105" label="Protein" states="states477569"/>
+      <char id="Col470479106" label="Protein" states="states477569"/>
+      <char id="Col470479107" label="Protein" states="states477569"/>
+      <char id="Col470479108" label="Protein" states="states477569"/>
+      <char id="Col470479109" label="Protein" states="states477569"/>
+      <char id="Col470479110" label="Protein" states="states477569"/>
+      <char id="Col470479111" label="Protein" states="states477569"/>
+      <char id="Col470479112" label="Protein" states="states477569"/>
+      <char id="Col470479113" label="Protein" states="states477569"/>
+      <char id="Col470479114" label="Protein" states="states477569"/>
+      <char id="Col470479115" label="Protein" states="states477569"/>
+      <char id="Col470479116" label="Protein" states="states477569"/>
+      <char id="Col470479117" label="Protein" states="states477569"/>
+      <char id="Col470479118" label="Protein" states="states477569"/>
+      <char id="Col470479119" label="Protein" states="states477569"/>
+      <char id="Col470479120" label="Protein" states="states477569"/>
+      <char id="Col470479121" label="Protein" states="states477569"/>
+      <char id="Col470479122" label="Protein" states="states477569"/>
+      <char id="Col470479123" label="Protein" states="states477569"/>
+      <char id="Col470479124" label="Protein" states="states477569"/>
+      <char id="Col470479125" label="Protein" states="states477569"/>
+      <char id="Col470479126" label="Protein" states="states477569"/>
+      <char id="Col470479127" label="Protein" states="states477569"/>
+      <char id="Col470479128" label="Protein" states="states477569"/>
+      <char id="Col470479129" label="Protein" states="states477569"/>
+      <char id="Col470479130" label="Protein" states="states477569"/>
+      <char id="Col470479131" label="Protein" states="states477569"/>
+      <char id="Col470479132" label="Protein" states="states477569"/>
+      <char id="Col470479133" label="Protein" states="states477569"/>
+      <char id="Col470479134" label="Protein" states="states477569"/>
+      <char id="Col470479135" label="Protein" states="states477569"/>
+      <char id="Col470479136" label="Protein" states="states477569"/>
+      <char id="Col470479137" label="Protein" states="states477569"/>
+      <char id="Col470479138" label="Protein" states="states477569"/>
+      <char id="Col470479139" label="Protein" states="states477569"/>
+      <char id="Col470479140" label="Protein" states="states477569"/>
+      <char id="Col470479141" label="Protein" states="states477569"/>
+      <char id="Col470479142" label="Protein" states="states477569"/>
+      <char id="Col470479143" label="Protein" states="states477569"/>
+      <char id="Col470479144" label="Protein" states="states477569"/>
+      <char id="Col470479145" label="Protein" states="states477569"/>
+      <char id="Col470479146" label="Protein" states="states477569"/>
+      <char id="Col470479147" label="Protein" states="states477569"/>
+      <char id="Col470479148" label="Protein" states="states477569"/>
+      <char id="Col470479149" label="Protein" states="states477569"/>
+      <char id="Col470479150" label="Protein" states="states477569"/>
+      <char id="Col470479151" label="Protein" states="states477569"/>
+      <char id="Col470479152" label="Protein" states="states477569"/>
+      <char id="Col470479153" label="Protein" states="states477569"/>
+      <char id="Col470479154" label="Protein" states="states477569"/>
+      <char id="Col470479155" label="Protein" states="states477569"/>
+      <char id="Col470479156" label="Protein" states="states477569"/>
+      <char id="Col470479157" label="Protein" states="states477569"/>
+      <char id="Col470479158" label="Protein" states="states477569"/>
+      <char id="Col470479159" label="Protein" states="states477569"/>
+      <char id="Col470479160" label="Protein" states="states477569"/>
+      <char id="Col470479161" label="Protein" states="states477569"/>
+      <char id="Col470479162" label="Protein" states="states477569"/>
+      <char id="Col470479163" label="Protein" states="states477569"/>
+      <char id="Col470479164" label="Protein" states="states477569"/>
+      <char id="Col470479165" label="Protein" states="states477569"/>
+      <char id="Col470479166" label="Protein" states="states477569"/>
+      <char id="Col470479167" label="Protein" states="states477569"/>
+      <char id="Col470479168" label="Protein" states="states477569"/>
+      <char id="Col470479169" label="Protein" states="states477569"/>
+      <char id="Col470479170" label="Protein" states="states477569"/>
+      <char id="Col470479171" label="Protein" states="states477569"/>
+      <char id="Col470479172" label="Protein" states="states477569"/>
+      <char id="Col470479173" label="Protein" states="states477569"/>
+      <char id="Col470479174" label="Protein" states="states477569"/>
+      <char id="Col470479175" label="Protein" states="states477569"/>
+      <char id="Col470479176" label="Protein" states="states477569"/>
+      <char id="Col470479177" label="Protein" states="states477569"/>
+      <char id="Col470479178" label="Protein" states="states477569"/>
+      <char id="Col470479179" label="Protein" states="states477569"/>
+      <char id="Col470479180" label="Protein" states="states477569"/>
+      <char id="Col470479181" label="Protein" states="states477569"/>
+      <char id="Col470479182" label="Protein" states="states477569"/>
+      <char id="Col470479183" label="Protein" states="states477569"/>
+      <char id="Col470479184" label="Protein" states="states477569"/>
+      <char id="Col470479185" label="Protein" states="states477569"/>
+    </format>
+    <matrix>
+      <row about="#Row4699195" id="Row4699195" otu="Tl4074330">
+        <meta id="meta478135" rel="tb:rowSegment" xsi:type="nex:ResourceMeta">
+          <meta content="Diaphanosoma celebensis" datatype="xsd:string" id="meta478138" property="DwC:scientificName" xsi:type="nex:LiteralMeta"/>
+          <meta content="515" datatype="xsd:integer" id="meta478137" property="tb:endIndex" xsi:type="nex:LiteralMeta"/>
+          <meta content="1" datatype="xsd:integer" id="meta478136" property="tb:startIndex" xsi:type="nex:LiteralMeta"/>
+        </meta>
+        <seq>MVLLRRWLYSTNHKDIGTLYFIFGVWSGMVGTALSMLIRAELGQCGSLIGDDQIYNVIVTAHAFVMIFFMVMPILIGGFGNWLVPLMLGAPDMAFPRLNNLSFWLLPPSLTLLLVGSAVEGGAGTGWTVYPPLSGPIAHAGAAVDLSIFSLHLAGISSILGAVNFITTIMNMRSQGMTLDRIPLFVWAVGITALLLLLSLPVLAGAITMLLTDRNLNTSFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMVSHIISHESGKKEAFGTLGMIYAMLAIGILGFVVWAHHMFTVGLDVDTRAYFTAATMIIAVPTGIKIFSWLGTLHGVQLTYTPSLIWAGGFVFLFTVGGLTGVVLANSSIDIMLHDTYYVVAHFHYVLSMGAVFAVFAGLVHWFPLFTGLTLNPSWLKIHFLVMFLGVNLTFFPQHFLGLSGMPRRYSDYPDALMTWNVISTIGSMISFIATLGFIFIVWEALVSSRQVLFSTHLPTSLEWQHSYPPAEHSYLEPLYISR-</seq>
+      </row>
+      <row id="Row4699196" otu="Tl4074325">
+        <seq>---MRRWLYSTNHKDIGTLYFIFGAWAGMVGTALSMLIRAELGQCGSLIGDDQIYNVIVTAHAFIMIFFMVMPILIGGFGNWLVPLMLGAPDMAFPRLNNLSFWFLPPSLTLLLVGSAVESGAGTGWTVYPPLSSTIAHAGASVDLSIFSLHLAGISSILGAVNFISTVMNMRTKGLTLDRAPLFVWAVGITALLLLLSLPVLAGAITMLLTDRNLNTSFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIISHESGKKESFGTLGMIYAMLAIGVLGFVVWAHHMFTVGMDVDTRAYFTAATMIIAVPTGIKIFSWLGTLHGVQLTYTPSLLWAAGFVFLFTVGGLTGVVLANSSIDIVLHDTYYVVAHFHYVLSMGAVFAIFAGLIHWFPLFTGLTFNPSWLKVHFVVMFFGVNLTFFPQHFLGLAGMPRRYSDYPDALMTWNVVSSIGSMISFIATLGFIVILWDAFVSYRPVLFTTHLNTSLEWQHPCPPAEHSYGELVYITA-</seq>
+      </row>
+      <row id="Row4699197" otu="Tl4074328">
+        <seq>---------------------------------LSMLIRAELGQCGSLIGDDQIYNTIVTAHAFVMIFFMVMPILIGGFGNWLVPLMLGAPDMAFPRLNNLSFWLLPPSLTLLLVGSAVEGGAGTGWTVYPPLFGPIAHAGAAVDLSIFSLHLAGISSILGAVNFITTIMNMRSQGMTLDRIPLFAWAVGITALLLLLSLPVLAGAITMLLTDRNLNTSFFDPAGGGDPILYQHL----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row4699198" otu="Tl4074327">
+        <seq>---------------------------------LSMLIRAELGQCGSLIGDEQIYNVIVTAHAFVMIFFMVMPILIGGFGNWLVPLMLGAPDMAFPRLNNLSFWFLPPSLTLLLVGSAVESGAGTGWTVYPPLSGTIAHAGASVDLSIFSLHLAGISSILGAVNFISTVMNMRTKGLSLDRVPLFVWSVGITALLLLLSLPVLAGAITMLLTDRNLNTSFFDPAGGGDPILYQHL----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row4699199" otu="Tl4074329">
+        <seq>---MRRWLFSTNHKDIGTLYFVFGVWSGMVGTALSMLIRAELGQSGSLIGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMLGAPDMAFPRLNNLSFWFLPPALTLLLVGGAVESGAGTGWTVYPPLSAGIAHAGASVDLSIFSLHLAGVSSILGAVNFITTIINMRSLGMTLDRTPLFVWAVGITALLLLLSLPVLAGAITMLLTDRNLNTSFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIISHESGKKEAFGTLGMIYAMLAIGVLGFVVWAHHMFTVGMDVDTRAYFTAATMIIAVPTGIKIFSWLGTLHGTQLIFSPSLLWAAGFVFLFTVGGLTGVVLANSSIDIILHDTYYVVAHFHYVLSMGAVFAIFAGVAHWYPLFTGLTLHSSWLKIHFLIMFIGVNLTFFPQHFLGLAGMPRRYSDYPDAYMSWNVVSSVGSMISFVATLGFIFIVWESLVSLRPVLFASHLATSIEWQHSFPPAEHSYNELVYISQ-</seq>
+      </row>
+      <row id="Row4699200" otu="Tl4074326">
+        <seq>---------------------------------LSMLIRAELGQCGSLIGDEQIYNVIVTAHAFVMIFFMVMPILIGGFGNWLVPLMLGAPDMAFPRLNNLSFWFLPPSLTLLLVGSAVESGAGTGWTVYPPLSGTIAHAGASVDLSIFSLHLAGISSILGAVNFISTVMNMRTKGLSLDRVPLFVWSVGITALLLLLSLPVLAGAITMLLTDRNLNTSFFDPAGGGDPILYQHL----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+      <row id="Row4699201" otu="Tl4074324">
+        <seq>---------------------------------LSMLIRAELGQCGSLIGDDQIYNVIVTAHAFIMIFFMVMPILIGGFGNWLVPLMLGAPDMAFPRLNNLSFWLLPPSLTLLLVGSAVESGAGTGWTVYPPLSGTIAHAGASVDLSIFSLHLAGISSILGAVNFISTVMNMRTKGLTLDRTPLFVWAVGITALLLLLSLPVLAGAITMLLTDRNLNTSFFDPAGGGDPILYQHL----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</seq>
+      </row>
+    </matrix>
+  </characters>
+  <trees about="#Tb52656" id="Tb52656" label="Diaphanosoma celebensis" otus="Tls74628" xml:base="http://purl.org/phylo/treebase/phylows/tree/TB2:">
+    <meta content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlTreeBlockWriter@6a1906e6 $Rev$" datatype="xsd:string" id="meta478166" property="skos:historyNote" xsi:type="nex:LiteralMeta"/>
+    <meta href="S26222" id="meta478165" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    <tree about="#Tr123491" id="Tr123491" label="Imported tree 1" xsi:type="nex:FloatTree">
+      <meta content="7" datatype="xsd:integer" id="meta478172" property="tb:ntax.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Unrated" datatype="xsd:string" id="meta478171" property="tb:quality.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Single" datatype="xsd:string" id="meta478170" property="tb:type.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Species Tree" datatype="xsd:string" id="meta478169" property="tb:kind.tree" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S26222" id="meta478168" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+      <node id="Tn19220651"/>
+      <node id="Tn19220662"/>
+      <node id="Tn19220655"/>
+      <node id="Tn19220657" label="Diaphanosoma dubium" otu="Tl4074325"/>
+      <node id="Tn19220658" label="Diaphanosoma orghidani" otu="Tl4074324"/>
+      <node id="Tn19220652"/>
+      <node id="Tn19220660" label="Diaphanosoma lacustris" otu="Tl4074327"/>
+      <node id="Tn19220659" label="Diaphanosoma mongolianum" otu="Tl4074326"/>
+      <node id="Tn19220654"/>
+      <node id="Tn19220661" label="Diaphanosoma celebensis" otu="Tl4074330"/>
+      <node id="Tn19220656" label="Diaphanosoma excisum" otu="Tl4074328"/>
+      <node id="Tn19220653" label="Daphnia magna" otu="Tl4074329"/>
+      <edge id="edge478213" length="0.04169422" source="Tn19220651" target="Tn19220662"/>
+      <edge id="edge478215" length="0.00705815" source="Tn19220662" target="Tn19220655"/>
+      <edge id="edge478217" length="0.01389896" source="Tn19220655" target="Tn19220657"/>
+      <edge id="edge478219" length="0.00673596" source="Tn19220655" target="Tn19220658"/>
+      <edge id="edge478221" length="0.02235255" source="Tn19220662" target="Tn19220652"/>
+      <edge id="edge478227" length="0.0" source="Tn19220652" target="Tn19220660"/>
+      <edge id="edge478229" length="0.0" source="Tn19220652" target="Tn19220659"/>
+      <edge id="edge478231" length="0.05227104" source="Tn19220651" target="Tn19220654"/>
+      <edge id="edge478233" length="1.0E-7" source="Tn19220654" target="Tn19220661"/>
+      <edge id="edge478235" length="0.01750951" source="Tn19220654" target="Tn19220656"/>
+      <edge id="edge478237" length="0.07777711" source="Tn19220651" target="Tn19220653"/>
+    </tree>
+  </trees>
+</nex:nexml>
